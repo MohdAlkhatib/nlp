@@ -1,0 +1,1135 @@
+article_id,pair_type,text_id_a,text_id_b,level_a,level_b,label,split,fold_grouped
+Amazon,ele-int,Amazon__ele,Amazon__int,ele,int,0,dev,1
+Amazon,ele-int,Amazon__int,Amazon__ele,int,ele,1,dev,1
+Amazon,int-adv,Amazon__int,Amazon__adv,int,adv,0,dev,1
+Amazon,int-adv,Amazon__adv,Amazon__int,adv,int,1,dev,1
+Amazon,ele-adv,Amazon__ele,Amazon__adv,ele,adv,0,dev,1
+Amazon,ele-adv,Amazon__adv,Amazon__ele,adv,ele,1,dev,1
+Amsterdam,ele-int,Amsterdam__ele,Amsterdam__int,ele,int,0,dev,4
+Amsterdam,ele-int,Amsterdam__int,Amsterdam__ele,int,ele,1,dev,4
+Amsterdam,int-adv,Amsterdam__int,Amsterdam__adv,int,adv,0,dev,4
+Amsterdam,int-adv,Amsterdam__adv,Amsterdam__int,adv,int,1,dev,4
+Amsterdam,ele-adv,Amsterdam__ele,Amsterdam__adv,ele,adv,0,dev,4
+Amsterdam,ele-adv,Amsterdam__adv,Amsterdam__ele,adv,ele,1,dev,4
+Anita,ele-int,Anita__ele,Anita__int,ele,int,0,dev,3
+Anita,ele-int,Anita__int,Anita__ele,int,ele,1,dev,3
+Anita,int-adv,Anita__int,Anita__adv,int,adv,0,dev,3
+Anita,int-adv,Anita__adv,Anita__int,adv,int,1,dev,3
+Anita,ele-adv,Anita__ele,Anita__adv,ele,adv,0,dev,3
+Anita,ele-adv,Anita__adv,Anita__ele,adv,ele,1,dev,3
+Arctic mapping,ele-int,Arctic mapping__ele,Arctic mapping__int,ele,int,0,test,-1
+Arctic mapping,ele-int,Arctic mapping__int,Arctic mapping__ele,int,ele,1,test,-1
+Arctic mapping,int-adv,Arctic mapping__int,Arctic mapping__adv,int,adv,0,test,-1
+Arctic mapping,int-adv,Arctic mapping__adv,Arctic mapping__int,adv,int,1,test,-1
+Arctic mapping,ele-adv,Arctic mapping__ele,Arctic mapping__adv,ele,adv,0,test,-1
+Arctic mapping,ele-adv,Arctic mapping__adv,Arctic mapping__ele,adv,ele,1,test,-1
+Banksy,ele-int,Banksy__ele,Banksy__int,ele,int,0,dev,3
+Banksy,ele-int,Banksy__int,Banksy__ele,int,ele,1,dev,3
+Banksy,int-adv,Banksy__int,Banksy__adv,int,adv,0,dev,3
+Banksy,int-adv,Banksy__adv,Banksy__int,adv,int,1,dev,3
+Banksy,ele-adv,Banksy__ele,Banksy__adv,ele,adv,0,dev,3
+Banksy,ele-adv,Banksy__adv,Banksy__ele,adv,ele,1,dev,3
+Billionaires,ele-int,Billionaires__ele,Billionaires__int,ele,int,0,dev,1
+Billionaires,ele-int,Billionaires__int,Billionaires__ele,int,ele,1,dev,1
+Billionaires,int-adv,Billionaires__int,Billionaires__adv,int,adv,0,dev,1
+Billionaires,int-adv,Billionaires__adv,Billionaires__int,adv,int,1,dev,1
+Billionaires,ele-adv,Billionaires__ele,Billionaires__adv,ele,adv,0,dev,1
+Billionaires,ele-adv,Billionaires__adv,Billionaires__ele,adv,ele,1,dev,1
+Blackberry,ele-int,Blackberry__ele,Blackberry__int,ele,int,0,dev,2
+Blackberry,ele-int,Blackberry__int,Blackberry__ele,int,ele,1,dev,2
+Blackberry,int-adv,Blackberry__int,Blackberry__adv,int,adv,0,dev,2
+Blackberry,int-adv,Blackberry__adv,Blackberry__int,adv,int,1,dev,2
+Blackberry,ele-adv,Blackberry__ele,Blackberry__adv,ele,adv,0,dev,2
+Blackberry,ele-adv,Blackberry__adv,Blackberry__ele,adv,ele,1,dev,2
+Bolivia,ele-int,Bolivia__ele,Bolivia__int,ele,int,0,test,-1
+Bolivia,ele-int,Bolivia__int,Bolivia__ele,int,ele,1,test,-1
+Bolivia,int-adv,Bolivia__int,Bolivia__adv,int,adv,0,test,-1
+Bolivia,int-adv,Bolivia__adv,Bolivia__int,adv,int,1,test,-1
+Bolivia,ele-adv,Bolivia__ele,Bolivia__adv,ele,adv,0,test,-1
+Bolivia,ele-adv,Bolivia__adv,Bolivia__ele,adv,ele,1,test,-1
+Bonus pay,ele-int,Bonus pay__ele,Bonus pay__int,ele,int,0,test,-1
+Bonus pay,ele-int,Bonus pay__int,Bonus pay__ele,int,ele,1,test,-1
+Bonus pay,int-adv,Bonus pay__int,Bonus pay__adv,int,adv,0,test,-1
+Bonus pay,int-adv,Bonus pay__adv,Bonus pay__int,adv,int,1,test,-1
+Bonus pay,ele-adv,Bonus pay__ele,Bonus pay__adv,ele,adv,0,test,-1
+Bonus pay,ele-adv,Bonus pay__adv,Bonus pay__ele,adv,ele,1,test,-1
+Brazil,ele-int,Brazil__ele,Brazil__int,ele,int,0,test,-1
+Brazil,ele-int,Brazil__int,Brazil__ele,int,ele,1,test,-1
+Brazil,int-adv,Brazil__int,Brazil__adv,int,adv,0,test,-1
+Brazil,int-adv,Brazil__adv,Brazil__int,adv,int,1,test,-1
+Brazil,ele-adv,Brazil__ele,Brazil__adv,ele,adv,0,test,-1
+Brazil,ele-adv,Brazil__adv,Brazil__ele,adv,ele,1,test,-1
+Cigarettes,ele-int,Cigarettes__ele,Cigarettes__int,ele,int,0,dev,3
+Cigarettes,ele-int,Cigarettes__int,Cigarettes__ele,int,ele,1,dev,3
+Cigarettes,int-adv,Cigarettes__int,Cigarettes__adv,int,adv,0,dev,3
+Cigarettes,int-adv,Cigarettes__adv,Cigarettes__int,adv,int,1,dev,3
+Cigarettes,ele-adv,Cigarettes__ele,Cigarettes__adv,ele,adv,0,dev,3
+Cigarettes,ele-adv,Cigarettes__adv,Cigarettes__ele,adv,ele,1,dev,3
+Coal to challenge oil,ele-int,Coal to challenge oil__ele,Coal to challenge oil__int,ele,int,0,dev,2
+Coal to challenge oil,ele-int,Coal to challenge oil__int,Coal to challenge oil__ele,int,ele,1,dev,2
+Coal to challenge oil,int-adv,Coal to challenge oil__int,Coal to challenge oil__adv,int,adv,0,dev,2
+Coal to challenge oil,int-adv,Coal to challenge oil__adv,Coal to challenge oil__int,adv,int,1,dev,2
+Coal to challenge oil,ele-adv,Coal to challenge oil__ele,Coal to challenge oil__adv,ele,adv,0,dev,2
+Coal to challenge oil,ele-adv,Coal to challenge oil__adv,Coal to challenge oil__ele,adv,ele,1,dev,2
+Copyright,ele-int,Copyright__ele,Copyright__int,ele,int,0,dev,3
+Copyright,ele-int,Copyright__int,Copyright__ele,int,ele,1,dev,3
+Copyright,int-adv,Copyright__int,Copyright__adv,int,adv,0,dev,3
+Copyright,int-adv,Copyright__adv,Copyright__int,adv,int,1,dev,3
+Copyright,ele-adv,Copyright__ele,Copyright__adv,ele,adv,0,dev,3
+Copyright,ele-adv,Copyright__adv,Copyright__ele,adv,ele,1,dev,3
+Crowdfunding,ele-int,Crowdfunding__ele,Crowdfunding__int,ele,int,0,dev,0
+Crowdfunding,ele-int,Crowdfunding__int,Crowdfunding__ele,int,ele,1,dev,0
+Crowdfunding,int-adv,Crowdfunding__int,Crowdfunding__adv,int,adv,0,dev,0
+Crowdfunding,int-adv,Crowdfunding__adv,Crowdfunding__int,adv,int,1,dev,0
+Crowdfunding,ele-adv,Crowdfunding__ele,Crowdfunding__adv,ele,adv,0,dev,0
+Crowdfunding,ele-adv,Crowdfunding__adv,Crowdfunding__ele,adv,ele,1,dev,0
+Denmark,ele-int,Denmark__ele,Denmark__int,ele,int,0,dev,1
+Denmark,ele-int,Denmark__int,Denmark__ele,int,ele,1,dev,1
+Denmark,int-adv,Denmark__int,Denmark__adv,int,adv,0,dev,1
+Denmark,int-adv,Denmark__adv,Denmark__int,adv,int,1,dev,1
+Denmark,ele-adv,Denmark__ele,Denmark__adv,ele,adv,0,dev,1
+Denmark,ele-adv,Denmark__adv,Denmark__ele,adv,ele,1,dev,1
+Everest,ele-int,Everest__ele,Everest__int,ele,int,0,dev,1
+Everest,ele-int,Everest__int,Everest__ele,int,ele,1,dev,1
+Everest,int-adv,Everest__int,Everest__adv,int,adv,0,dev,1
+Everest,int-adv,Everest__adv,Everest__int,adv,int,1,dev,1
+Everest,ele-adv,Everest__ele,Everest__adv,ele,adv,0,dev,1
+Everest,ele-adv,Everest__adv,Everest__ele,adv,ele,1,dev,1
+Exercise,ele-int,Exercise__ele,Exercise__int,ele,int,0,dev,0
+Exercise,ele-int,Exercise__int,Exercise__ele,int,ele,1,dev,0
+Exercise,int-adv,Exercise__int,Exercise__adv,int,adv,0,dev,0
+Exercise,int-adv,Exercise__adv,Exercise__int,adv,int,1,dev,0
+Exercise,ele-adv,Exercise__ele,Exercise__adv,ele,adv,0,dev,0
+Exercise,ele-adv,Exercise__adv,Exercise__ele,adv,ele,1,dev,0
+Facebook deserted by millions of users,ele-int,Facebook deserted by millions of users__ele,Facebook deserted by millions of users__int,ele,int,0,dev,3
+Facebook deserted by millions of users,ele-int,Facebook deserted by millions of users__int,Facebook deserted by millions of users__ele,int,ele,1,dev,3
+Facebook deserted by millions of users,int-adv,Facebook deserted by millions of users__int,Facebook deserted by millions of users__adv,int,adv,0,dev,3
+Facebook deserted by millions of users,int-adv,Facebook deserted by millions of users__adv,Facebook deserted by millions of users__int,adv,int,1,dev,3
+Facebook deserted by millions of users,ele-adv,Facebook deserted by millions of users__ele,Facebook deserted by millions of users__adv,ele,adv,0,dev,3
+Facebook deserted by millions of users,ele-adv,Facebook deserted by millions of users__adv,Facebook deserted by millions of users__ele,adv,ele,1,dev,3
+False memory,ele-int,False memory__ele,False memory__int,ele,int,0,dev,4
+False memory,ele-int,False memory__int,False memory__ele,int,ele,1,dev,4
+False memory,int-adv,False memory__int,False memory__adv,int,adv,0,dev,4
+False memory,int-adv,False memory__adv,False memory__int,adv,int,1,dev,4
+False memory,ele-adv,False memory__ele,False memory__adv,ele,adv,0,dev,4
+False memory,ele-adv,False memory__adv,False memory__ele,adv,ele,1,dev,4
+Ferguson,ele-int,Ferguson__ele,Ferguson__int,ele,int,0,dev,1
+Ferguson,ele-int,Ferguson__int,Ferguson__ele,int,ele,1,dev,1
+Ferguson,int-adv,Ferguson__int,Ferguson__adv,int,adv,0,dev,1
+Ferguson,int-adv,Ferguson__adv,Ferguson__int,adv,int,1,dev,1
+Ferguson,ele-adv,Ferguson__ele,Ferguson__adv,ele,adv,0,dev,1
+Ferguson,ele-adv,Ferguson__adv,Ferguson__ele,adv,ele,1,dev,1
+Fitness,ele-int,Fitness__ele,Fitness__int,ele,int,0,test,-1
+Fitness,ele-int,Fitness__int,Fitness__ele,int,ele,1,test,-1
+Fitness,int-adv,Fitness__int,Fitness__adv,int,adv,0,test,-1
+Fitness,int-adv,Fitness__adv,Fitness__int,adv,int,1,test,-1
+Fitness,ele-adv,Fitness__ele,Fitness__adv,ele,adv,0,test,-1
+Fitness,ele-adv,Fitness__adv,Fitness__ele,adv,ele,1,test,-1
+Food shortages,ele-int,Food shortages__ele,Food shortages__int,ele,int,0,dev,1
+Food shortages,ele-int,Food shortages__int,Food shortages__ele,int,ele,1,dev,1
+Food shortages,int-adv,Food shortages__int,Food shortages__adv,int,adv,0,dev,1
+Food shortages,int-adv,Food shortages__adv,Food shortages__int,adv,int,1,dev,1
+Food shortages,ele-adv,Food shortages__ele,Food shortages__adv,ele,adv,0,dev,1
+Food shortages,ele-adv,Food shortages__adv,Food shortages__ele,adv,ele,1,dev,1
+Gangs,ele-int,Gangs__ele,Gangs__int,ele,int,0,dev,3
+Gangs,ele-int,Gangs__int,Gangs__ele,int,ele,1,dev,3
+Gangs,int-adv,Gangs__int,Gangs__adv,int,adv,0,dev,3
+Gangs,int-adv,Gangs__adv,Gangs__int,adv,int,1,dev,3
+Gangs,ele-adv,Gangs__ele,Gangs__adv,ele,adv,0,dev,3
+Gangs,ele-adv,Gangs__adv,Gangs__ele,adv,ele,1,dev,3
+Gorillas and oil,ele-int,Gorillas and oil__ele,Gorillas and oil__int,ele,int,0,dev,0
+Gorillas and oil,ele-int,Gorillas and oil__int,Gorillas and oil__ele,int,ele,1,dev,0
+Gorillas and oil,int-adv,Gorillas and oil__int,Gorillas and oil__adv,int,adv,0,dev,0
+Gorillas and oil,int-adv,Gorillas and oil__adv,Gorillas and oil__int,adv,int,1,dev,0
+Gorillas and oil,ele-adv,Gorillas and oil__ele,Gorillas and oil__adv,ele,adv,0,dev,0
+Gorillas and oil,ele-adv,Gorillas and oil__adv,Gorillas and oil__ele,adv,ele,1,dev,0
+Greeks and drugs,ele-int,Greeks and drugs__ele,Greeks and drugs__int,ele,int,0,test,-1
+Greeks and drugs,ele-int,Greeks and drugs__int,Greeks and drugs__ele,int,ele,1,test,-1
+Greeks and drugs,int-adv,Greeks and drugs__int,Greeks and drugs__adv,int,adv,0,test,-1
+Greeks and drugs,int-adv,Greeks and drugs__adv,Greeks and drugs__int,adv,int,1,test,-1
+Greeks and drugs,ele-adv,Greeks and drugs__ele,Greeks and drugs__adv,ele,adv,0,test,-1
+Greeks and drugs,ele-adv,Greeks and drugs__adv,Greeks and drugs__ele,adv,ele,1,test,-1
+Hillsborough,ele-int,Hillsborough__ele,Hillsborough__int,ele,int,0,test,-1
+Hillsborough,ele-int,Hillsborough__int,Hillsborough__ele,int,ele,1,test,-1
+Hillsborough,int-adv,Hillsborough__int,Hillsborough__adv,int,adv,0,test,-1
+Hillsborough,int-adv,Hillsborough__adv,Hillsborough__int,adv,int,1,test,-1
+Hillsborough,ele-adv,Hillsborough__ele,Hillsborough__adv,ele,adv,0,test,-1
+Hillsborough,ele-adv,Hillsborough__adv,Hillsborough__ele,adv,ele,1,test,-1
+Insects,ele-int,Insects__ele,Insects__int,ele,int,0,dev,0
+Insects,ele-int,Insects__int,Insects__ele,int,ele,1,dev,0
+Insects,int-adv,Insects__int,Insects__adv,int,adv,0,dev,0
+Insects,int-adv,Insects__adv,Insects__int,adv,int,1,dev,0
+Insects,ele-adv,Insects__ele,Insects__adv,ele,adv,0,dev,0
+Insects,ele-adv,Insects__adv,Insects__ele,adv,ele,1,dev,0
+Japan,ele-int,Japan__ele,Japan__int,ele,int,0,dev,4
+Japan,ele-int,Japan__int,Japan__ele,int,ele,1,dev,4
+Japan,int-adv,Japan__int,Japan__adv,int,adv,0,dev,4
+Japan,int-adv,Japan__adv,Japan__int,adv,int,1,dev,4
+Japan,ele-adv,Japan__ele,Japan__adv,ele,adv,0,dev,4
+Japan,ele-adv,Japan__adv,Japan__ele,adv,ele,1,dev,4
+Japan menu,ele-int,Japan menu__ele,Japan menu__int,ele,int,0,dev,4
+Japan menu,ele-int,Japan menu__int,Japan menu__ele,int,ele,1,dev,4
+Japan menu,int-adv,Japan menu__int,Japan menu__adv,int,adv,0,dev,4
+Japan menu,int-adv,Japan menu__adv,Japan menu__int,adv,int,1,dev,4
+Japan menu,ele-adv,Japan menu__ele,Japan menu__adv,ele,adv,0,dev,4
+Japan menu,ele-adv,Japan menu__adv,Japan menu__ele,adv,ele,1,dev,4
+Kashmir,ele-int,Kashmir__ele,Kashmir__int,ele,int,0,test,-1
+Kashmir,ele-int,Kashmir__int,Kashmir__ele,int,ele,1,test,-1
+Kashmir,int-adv,Kashmir__int,Kashmir__adv,int,adv,0,test,-1
+Kashmir,int-adv,Kashmir__adv,Kashmir__int,adv,int,1,test,-1
+Kashmir,ele-adv,Kashmir__ele,Kashmir__adv,ele,adv,0,test,-1
+Kashmir,ele-adv,Kashmir__adv,Kashmir__ele,adv,ele,1,test,-1
+Kate and William,ele-int,Kate and William__ele,Kate and William__int,ele,int,0,dev,0
+Kate and William,ele-int,Kate and William__int,Kate and William__ele,int,ele,1,dev,0
+Kate and William,int-adv,Kate and William__int,Kate and William__adv,int,adv,0,dev,0
+Kate and William,int-adv,Kate and William__adv,Kate and William__int,adv,int,1,dev,0
+Kate and William,ele-adv,Kate and William__ele,Kate and William__adv,ele,adv,0,dev,0
+Kate and William,ele-adv,Kate and William__adv,Kate and William__ele,adv,ele,1,dev,0
+Kenya,ele-int,Kenya__ele,Kenya__int,ele,int,0,dev,2
+Kenya,ele-int,Kenya__int,Kenya__ele,int,ele,1,dev,2
+Kenya,int-adv,Kenya__int,Kenya__adv,int,adv,0,dev,2
+Kenya,int-adv,Kenya__adv,Kenya__int,adv,int,1,dev,2
+Kenya,ele-adv,Kenya__ele,Kenya__adv,ele,adv,0,dev,2
+Kenya,ele-adv,Kenya__adv,Kenya__ele,adv,ele,1,dev,2
+Liberia,ele-int,Liberia__ele,Liberia__int,ele,int,0,dev,2
+Liberia,ele-int,Liberia__int,Liberia__ele,int,ele,1,dev,2
+Liberia,int-adv,Liberia__int,Liberia__adv,int,adv,0,dev,2
+Liberia,int-adv,Liberia__adv,Liberia__int,adv,int,1,dev,2
+Liberia,ele-adv,Liberia__ele,Liberia__adv,ele,adv,0,dev,2
+Liberia,ele-adv,Liberia__adv,Liberia__ele,adv,ele,1,dev,2
+Lie detector,ele-int,Lie detector__ele,Lie detector__int,ele,int,0,test,-1
+Lie detector,ele-int,Lie detector__int,Lie detector__ele,int,ele,1,test,-1
+Lie detector,int-adv,Lie detector__int,Lie detector__adv,int,adv,0,test,-1
+Lie detector,int-adv,Lie detector__adv,Lie detector__int,adv,int,1,test,-1
+Lie detector,ele-adv,Lie detector__ele,Lie detector__adv,ele,adv,0,test,-1
+Lie detector,ele-adv,Lie detector__adv,Lie detector__ele,adv,ele,1,test,-1
+Life expectancy,ele-int,Life expectancy__ele,Life expectancy__int,ele,int,0,dev,2
+Life expectancy,ele-int,Life expectancy__int,Life expectancy__ele,int,ele,1,dev,2
+Life expectancy,int-adv,Life expectancy__int,Life expectancy__adv,int,adv,0,dev,2
+Life expectancy,int-adv,Life expectancy__adv,Life expectancy__int,adv,int,1,dev,2
+Life expectancy,ele-adv,Life expectancy__ele,Life expectancy__adv,ele,adv,0,dev,2
+Life expectancy,ele-adv,Life expectancy__adv,Life expectancy__ele,adv,ele,1,dev,2
+Life on Mars,ele-int,Life on Mars__ele,Life on Mars__int,ele,int,0,dev,0
+Life on Mars,ele-int,Life on Mars__int,Life on Mars__ele,int,ele,1,dev,0
+Life on Mars,int-adv,Life on Mars__int,Life on Mars__adv,int,adv,0,dev,0
+Life on Mars,int-adv,Life on Mars__adv,Life on Mars__int,adv,int,1,dev,0
+Life on Mars,ele-adv,Life on Mars__ele,Life on Mars__adv,ele,adv,0,dev,0
+Life on Mars,ele-adv,Life on Mars__adv,Life on Mars__ele,adv,ele,1,dev,0
+Loterry,ele-int,Loterry__ele,Loterry__int,ele,int,0,dev,1
+Loterry,ele-int,Loterry__int,Loterry__ele,int,ele,1,dev,1
+Loterry,int-adv,Loterry__int,Loterry__adv,int,adv,0,dev,1
+Loterry,int-adv,Loterry__adv,Loterry__int,adv,int,1,dev,1
+Loterry,ele-adv,Loterry__ele,Loterry__adv,ele,adv,0,dev,1
+Loterry,ele-adv,Loterry__adv,Loterry__ele,adv,ele,1,dev,1
+Malala,ele-int,Malala__ele,Malala__int,ele,int,0,test,-1
+Malala,ele-int,Malala__int,Malala__ele,int,ele,1,test,-1
+Malala,int-adv,Malala__int,Malala__adv,int,adv,0,test,-1
+Malala,int-adv,Malala__adv,Malala__int,adv,int,1,test,-1
+Malala,ele-adv,Malala__ele,Malala__adv,ele,adv,0,test,-1
+Malala,ele-adv,Malala__adv,Malala__ele,adv,ele,1,test,-1
+Meteorite,ele-int,Meteorite__ele,Meteorite__int,ele,int,0,test,-1
+Meteorite,ele-int,Meteorite__int,Meteorite__ele,int,ele,1,test,-1
+Meteorite,int-adv,Meteorite__int,Meteorite__adv,int,adv,0,test,-1
+Meteorite,int-adv,Meteorite__adv,Meteorite__int,adv,int,1,test,-1
+Meteorite,ele-adv,Meteorite__ele,Meteorite__adv,ele,adv,0,test,-1
+Meteorite,ele-adv,Meteorite__adv,Meteorite__ele,adv,ele,1,test,-1
+Midlife crisis,ele-int,Midlife crisis__ele,Midlife crisis__int,ele,int,0,dev,1
+Midlife crisis,ele-int,Midlife crisis__int,Midlife crisis__ele,int,ele,1,dev,1
+Midlife crisis,int-adv,Midlife crisis__int,Midlife crisis__adv,int,adv,0,dev,1
+Midlife crisis,int-adv,Midlife crisis__adv,Midlife crisis__int,adv,int,1,dev,1
+Midlife crisis,ele-adv,Midlife crisis__ele,Midlife crisis__adv,ele,adv,0,dev,1
+Midlife crisis,ele-adv,Midlife crisis__adv,Midlife crisis__ele,adv,ele,1,dev,1
+Murderers beware,ele-int,Murderers beware__ele,Murderers beware__int,ele,int,0,dev,0
+Murderers beware,ele-int,Murderers beware__int,Murderers beware__ele,int,ele,1,dev,0
+Murderers beware,int-adv,Murderers beware__int,Murderers beware__adv,int,adv,0,dev,0
+Murderers beware,int-adv,Murderers beware__adv,Murderers beware__int,adv,int,1,dev,0
+Murderers beware,ele-adv,Murderers beware__ele,Murderers beware__adv,ele,adv,0,dev,0
+Murderers beware,ele-adv,Murderers beware__adv,Murderers beware__ele,adv,ele,1,dev,0
+NSA 2,ele-int,NSA 2__ele,NSA 2__int,ele,int,0,dev,0
+NSA 2,ele-int,NSA 2__int,NSA 2__ele,int,ele,1,dev,0
+NSA 2,int-adv,NSA 2__int,NSA 2__adv,int,adv,0,dev,0
+NSA 2,int-adv,NSA 2__adv,NSA 2__int,adv,int,1,dev,0
+NSA 2,ele-adv,NSA 2__ele,NSA 2__adv,ele,adv,0,dev,0
+NSA 2,ele-adv,NSA 2__adv,NSA 2__ele,adv,ele,1,dev,0
+NSA scandal,ele-int,NSA scandal__ele,NSA scandal__int,ele,int,0,dev,0
+NSA scandal,ele-int,NSA scandal__int,NSA scandal__ele,int,ele,1,dev,0
+NSA scandal,int-adv,NSA scandal__int,NSA scandal__adv,int,adv,0,dev,0
+NSA scandal,int-adv,NSA scandal__adv,NSA scandal__int,adv,int,1,dev,0
+NSA scandal,ele-adv,NSA scandal__ele,NSA scandal__adv,ele,adv,0,dev,0
+NSA scandal,ele-adv,NSA scandal__adv,NSA scandal__ele,adv,ele,1,dev,0
+Nelson Mandela,ele-int,Nelson Mandela__ele,Nelson Mandela__int,ele,int,0,dev,1
+Nelson Mandela,ele-int,Nelson Mandela__int,Nelson Mandela__ele,int,ele,1,dev,1
+Nelson Mandela,int-adv,Nelson Mandela__int,Nelson Mandela__adv,int,adv,0,dev,1
+Nelson Mandela,int-adv,Nelson Mandela__adv,Nelson Mandela__int,adv,int,1,dev,1
+Nelson Mandela,ele-adv,Nelson Mandela__ele,Nelson Mandela__adv,ele,adv,0,dev,1
+Nelson Mandela,ele-adv,Nelson Mandela__adv,Nelson Mandela__ele,adv,ele,1,dev,1
+Nepal,ele-int,Nepal__ele,Nepal__int,ele,int,0,dev,2
+Nepal,ele-int,Nepal__int,Nepal__ele,int,ele,1,dev,2
+Nepal,int-adv,Nepal__int,Nepal__adv,int,adv,0,dev,2
+Nepal,int-adv,Nepal__adv,Nepal__int,adv,int,1,dev,2
+Nepal,ele-adv,Nepal__ele,Nepal__adv,ele,adv,0,dev,2
+Nepal,ele-adv,Nepal__adv,Nepal__ele,adv,ele,1,dev,2
+Norwegian sun,ele-int,Norwegian sun__ele,Norwegian sun__int,ele,int,0,dev,2
+Norwegian sun,ele-int,Norwegian sun__int,Norwegian sun__ele,int,ele,1,dev,2
+Norwegian sun,int-adv,Norwegian sun__int,Norwegian sun__adv,int,adv,0,dev,2
+Norwegian sun,int-adv,Norwegian sun__adv,Norwegian sun__int,adv,int,1,dev,2
+Norwegian sun,ele-adv,Norwegian sun__ele,Norwegian sun__adv,ele,adv,0,dev,2
+Norwegian sun,ele-adv,Norwegian sun__adv,Norwegian sun__ele,adv,ele,1,dev,2
+Obama,ele-int,Obama__ele,Obama__int,ele,int,0,test,-1
+Obama,ele-int,Obama__int,Obama__ele,int,ele,1,test,-1
+Obama,int-adv,Obama__int,Obama__adv,int,adv,0,test,-1
+Obama,int-adv,Obama__adv,Obama__int,adv,int,1,test,-1
+Obama,ele-adv,Obama__ele,Obama__adv,ele,adv,0,test,-1
+Obama,ele-adv,Obama__adv,Obama__ele,adv,ele,1,test,-1
+Old age,ele-int,Old age__ele,Old age__int,ele,int,0,dev,2
+Old age,ele-int,Old age__int,Old age__ele,int,ele,1,dev,2
+Old age,int-adv,Old age__int,Old age__adv,int,adv,0,dev,2
+Old age,int-adv,Old age__adv,Old age__int,adv,int,1,dev,2
+Old age,ele-adv,Old age__ele,Old age__adv,ele,adv,0,dev,2
+Old age,ele-adv,Old age__adv,Old age__ele,adv,ele,1,dev,2
+Organs,ele-int,Organs__ele,Organs__int,ele,int,0,dev,0
+Organs,ele-int,Organs__int,Organs__ele,int,ele,1,dev,0
+Organs,int-adv,Organs__int,Organs__adv,int,adv,0,dev,0
+Organs,int-adv,Organs__adv,Organs__int,adv,int,1,dev,0
+Organs,ele-adv,Organs__ele,Organs__adv,ele,adv,0,dev,0
+Organs,ele-adv,Organs__adv,Organs__ele,adv,ele,1,dev,0
+Pope,ele-int,Pope__ele,Pope__int,ele,int,0,dev,4
+Pope,ele-int,Pope__int,Pope__ele,int,ele,1,dev,4
+Pope,int-adv,Pope__int,Pope__adv,int,adv,0,dev,4
+Pope,int-adv,Pope__adv,Pope__int,adv,int,1,dev,4
+Pope,ele-adv,Pope__ele,Pope__adv,ele,adv,0,dev,4
+Pope,ele-adv,Pope__adv,Pope__ele,adv,ele,1,dev,4
+Prince Harry,ele-int,Prince Harry__ele,Prince Harry__int,ele,int,0,dev,3
+Prince Harry,ele-int,Prince Harry__int,Prince Harry__ele,int,ele,1,dev,3
+Prince Harry,int-adv,Prince Harry__int,Prince Harry__adv,int,adv,0,dev,3
+Prince Harry,int-adv,Prince Harry__adv,Prince Harry__int,adv,int,1,dev,3
+Prince Harry,ele-adv,Prince Harry__ele,Prince Harry__adv,ele,adv,0,dev,3
+Prince Harry,ele-adv,Prince Harry__adv,Prince Harry__ele,adv,ele,1,dev,3
+Rats,ele-int,Rats__ele,Rats__int,ele,int,0,dev,2
+Rats,ele-int,Rats__int,Rats__ele,int,ele,1,dev,2
+Rats,int-adv,Rats__int,Rats__adv,int,adv,0,dev,2
+Rats,int-adv,Rats__adv,Rats__int,adv,int,1,dev,2
+Rats,ele-adv,Rats__ele,Rats__adv,ele,adv,0,dev,2
+Rats,ele-adv,Rats__adv,Rats__ele,adv,ele,1,dev,2
+Richard III,ele-int,Richard III__ele,Richard III__int,ele,int,0,dev,1
+Richard III,ele-int,Richard III__int,Richard III__ele,int,ele,1,dev,1
+Richard III,int-adv,Richard III__int,Richard III__adv,int,adv,0,dev,1
+Richard III,int-adv,Richard III__adv,Richard III__int,adv,int,1,dev,1
+Richard III,ele-adv,Richard III__ele,Richard III__adv,ele,adv,0,dev,1
+Richard III,ele-adv,Richard III__adv,Richard III__ele,adv,ele,1,dev,1
+Royal Baby,ele-int,Royal Baby__ele,Royal Baby__int,ele,int,0,dev,4
+Royal Baby,ele-int,Royal Baby__int,Royal Baby__ele,int,ele,1,dev,4
+Royal Baby,int-adv,Royal Baby__int,Royal Baby__adv,int,adv,0,dev,4
+Royal Baby,int-adv,Royal Baby__adv,Royal Baby__int,adv,int,1,dev,4
+Royal Baby,ele-adv,Royal Baby__ele,Royal Baby__adv,ele,adv,0,dev,4
+Royal Baby,ele-adv,Royal Baby__adv,Royal Baby__ele,adv,ele,1,dev,4
+Skydiver,ele-int,Skydiver__ele,Skydiver__int,ele,int,0,dev,1
+Skydiver,ele-int,Skydiver__int,Skydiver__ele,int,ele,1,dev,1
+Skydiver,int-adv,Skydiver__int,Skydiver__adv,int,adv,0,dev,1
+Skydiver,int-adv,Skydiver__adv,Skydiver__int,adv,int,1,dev,1
+Skydiver,ele-adv,Skydiver__ele,Skydiver__adv,ele,adv,0,dev,1
+Skydiver,ele-adv,Skydiver__adv,Skydiver__ele,adv,ele,1,dev,1
+Spain,ele-int,Spain__ele,Spain__int,ele,int,0,test,-1
+Spain,ele-int,Spain__int,Spain__ele,int,ele,1,test,-1
+Spain,int-adv,Spain__int,Spain__adv,int,adv,0,test,-1
+Spain,int-adv,Spain__adv,Spain__int,adv,int,1,test,-1
+Spain,ele-adv,Spain__ele,Spain__adv,ele,adv,0,test,-1
+Spain,ele-adv,Spain__adv,Spain__ele,adv,ele,1,test,-1
+Starbucks,ele-int,Starbucks__ele,Starbucks__int,ele,int,0,dev,3
+Starbucks,ele-int,Starbucks__int,Starbucks__ele,int,ele,1,dev,3
+Starbucks,int-adv,Starbucks__int,Starbucks__adv,int,adv,0,dev,3
+Starbucks,int-adv,Starbucks__adv,Starbucks__int,adv,int,1,dev,3
+Starbucks,ele-adv,Starbucks__ele,Starbucks__adv,ele,adv,0,dev,3
+Starbucks,ele-adv,Starbucks__adv,Starbucks__ele,adv,ele,1,dev,3
+Superbugs,ele-int,Superbugs__ele,Superbugs__int,ele,int,0,dev,1
+Superbugs,ele-int,Superbugs__int,Superbugs__ele,int,ele,1,dev,1
+Superbugs,int-adv,Superbugs__int,Superbugs__adv,int,adv,0,dev,1
+Superbugs,int-adv,Superbugs__adv,Superbugs__int,adv,int,1,dev,1
+Superbugs,ele-adv,Superbugs__ele,Superbugs__adv,ele,adv,0,dev,1
+Superbugs,ele-adv,Superbugs__adv,Superbugs__ele,adv,ele,1,dev,1
+Swedish prisons,ele-int,Swedish prisons__ele,Swedish prisons__int,ele,int,0,dev,0
+Swedish prisons,ele-int,Swedish prisons__int,Swedish prisons__ele,int,ele,1,dev,0
+Swedish prisons,int-adv,Swedish prisons__int,Swedish prisons__adv,int,adv,0,dev,0
+Swedish prisons,int-adv,Swedish prisons__adv,Swedish prisons__int,adv,int,1,dev,0
+Swedish prisons,ele-adv,Swedish prisons__ele,Swedish prisons__adv,ele,adv,0,dev,0
+Swedish prisons,ele-adv,Swedish prisons__adv,Swedish prisons__ele,adv,ele,1,dev,0
+Syria,ele-int,Syria__ele,Syria__int,ele,int,0,dev,3
+Syria,ele-int,Syria__int,Syria__ele,int,ele,1,dev,3
+Syria,int-adv,Syria__int,Syria__adv,int,adv,0,dev,3
+Syria,int-adv,Syria__adv,Syria__int,adv,int,1,dev,3
+Syria,ele-adv,Syria__ele,Syria__adv,ele,adv,0,dev,3
+Syria,ele-adv,Syria__adv,Syria__ele,adv,ele,1,dev,3
+Teff,ele-int,Teff__ele,Teff__int,ele,int,0,dev,2
+Teff,ele-int,Teff__int,Teff__ele,int,ele,1,dev,2
+Teff,int-adv,Teff__int,Teff__adv,int,adv,0,dev,2
+Teff,int-adv,Teff__adv,Teff__int,adv,int,1,dev,2
+Teff,ele-adv,Teff__ele,Teff__adv,ele,adv,0,dev,2
+Teff,ele-adv,Teff__adv,Teff__ele,adv,ele,1,dev,2
+Thatcher,ele-int,Thatcher__ele,Thatcher__int,ele,int,0,dev,4
+Thatcher,ele-int,Thatcher__int,Thatcher__ele,int,ele,1,dev,4
+Thatcher,int-adv,Thatcher__int,Thatcher__adv,int,adv,0,dev,4
+Thatcher,int-adv,Thatcher__adv,Thatcher__int,adv,int,1,dev,4
+Thatcher,ele-adv,Thatcher__ele,Thatcher__adv,ele,adv,0,dev,4
+Thatcher,ele-adv,Thatcher__adv,Thatcher__ele,adv,ele,1,dev,4
+US shutdown,ele-int,US shutdown__ele,US shutdown__int,ele,int,0,dev,2
+US shutdown,ele-int,US shutdown__int,US shutdown__ele,int,ele,1,dev,2
+US shutdown,int-adv,US shutdown__int,US shutdown__adv,int,adv,0,dev,2
+US shutdown,int-adv,US shutdown__adv,US shutdown__int,adv,int,1,dev,2
+US shutdown,ele-adv,US shutdown__ele,US shutdown__adv,ele,adv,0,dev,2
+US shutdown,ele-adv,US shutdown__adv,US shutdown__ele,adv,ele,1,dev,2
+Violence,ele-int,Violence__ele,Violence__int,ele,int,0,dev,3
+Violence,ele-int,Violence__int,Violence__ele,int,ele,1,dev,3
+Violence,int-adv,Violence__int,Violence__adv,int,adv,0,dev,3
+Violence,int-adv,Violence__adv,Violence__int,adv,int,1,dev,3
+Violence,ele-adv,Violence__ele,Violence__adv,ele,adv,0,dev,3
+Violence,ele-adv,Violence__adv,Violence__ele,adv,ele,1,dev,3
+WNL 101 year old bottle message,ele-int,WNL 101 year old bottle message__ele,WNL 101 year old bottle message__int,ele,int,0,dev,1
+WNL 101 year old bottle message,ele-int,WNL 101 year old bottle message__int,WNL 101 year old bottle message__ele,int,ele,1,dev,1
+WNL 101 year old bottle message,int-adv,WNL 101 year old bottle message__int,WNL 101 year old bottle message__adv,int,adv,0,dev,1
+WNL 101 year old bottle message,int-adv,WNL 101 year old bottle message__adv,WNL 101 year old bottle message__int,adv,int,1,dev,1
+WNL 101 year old bottle message,ele-adv,WNL 101 year old bottle message__ele,WNL 101 year old bottle message__adv,ele,adv,0,dev,1
+WNL 101 year old bottle message,ele-adv,WNL 101 year old bottle message__adv,WNL 101 year old bottle message__ele,adv,ele,1,dev,1
+WNL A good night sleep,ele-int,WNL A good night sleep__ele,WNL A good night sleep__int,ele,int,0,dev,4
+WNL A good night sleep,ele-int,WNL A good night sleep__int,WNL A good night sleep__ele,int,ele,1,dev,4
+WNL A good night sleep,int-adv,WNL A good night sleep__int,WNL A good night sleep__adv,int,adv,0,dev,4
+WNL A good night sleep,int-adv,WNL A good night sleep__adv,WNL A good night sleep__int,adv,int,1,dev,4
+WNL A good night sleep,ele-adv,WNL A good night sleep__ele,WNL A good night sleep__adv,ele,adv,0,dev,4
+WNL A good night sleep,ele-adv,WNL A good night sleep__adv,WNL A good night sleep__ele,adv,ele,1,dev,4
+WNL Apple,ele-int,WNL Apple__ele,WNL Apple__int,ele,int,0,test,-1
+WNL Apple,ele-int,WNL Apple__int,WNL Apple__ele,int,ele,1,test,-1
+WNL Apple,int-adv,WNL Apple__int,WNL Apple__adv,int,adv,0,test,-1
+WNL Apple,int-adv,WNL Apple__adv,WNL Apple__int,adv,int,1,test,-1
+WNL Apple,ele-adv,WNL Apple__ele,WNL Apple__adv,ele,adv,0,test,-1
+WNL Apple,ele-adv,WNL Apple__adv,WNL Apple__ele,adv,ele,1,test,-1
+WNL Arctic Ramadan,ele-int,WNL Arctic Ramadan__ele,WNL Arctic Ramadan__int,ele,int,0,dev,2
+WNL Arctic Ramadan,ele-int,WNL Arctic Ramadan__int,WNL Arctic Ramadan__ele,int,ele,1,dev,2
+WNL Arctic Ramadan,int-adv,WNL Arctic Ramadan__int,WNL Arctic Ramadan__adv,int,adv,0,dev,2
+WNL Arctic Ramadan,int-adv,WNL Arctic Ramadan__adv,WNL Arctic Ramadan__int,adv,int,1,dev,2
+WNL Arctic Ramadan,ele-adv,WNL Arctic Ramadan__ele,WNL Arctic Ramadan__adv,ele,adv,0,dev,2
+WNL Arctic Ramadan,ele-adv,WNL Arctic Ramadan__adv,WNL Arctic Ramadan__ele,adv,ele,1,dev,2
+WNL Are MOOCs the future,ele-int,WNL Are MOOCs the future__ele,WNL Are MOOCs the future__int,ele,int,0,dev,3
+WNL Are MOOCs the future,ele-int,WNL Are MOOCs the future__int,WNL Are MOOCs the future__ele,int,ele,1,dev,3
+WNL Are MOOCs the future,int-adv,WNL Are MOOCs the future__int,WNL Are MOOCs the future__adv,int,adv,0,dev,3
+WNL Are MOOCs the future,int-adv,WNL Are MOOCs the future__adv,WNL Are MOOCs the future__int,adv,int,1,dev,3
+WNL Are MOOCs the future,ele-adv,WNL Are MOOCs the future__ele,WNL Are MOOCs the future__adv,ele,adv,0,dev,3
+WNL Are MOOCs the future,ele-adv,WNL Are MOOCs the future__adv,WNL Are MOOCs the future__ele,adv,ele,1,dev,3
+WNL Bangladesh factory owners,ele-int,WNL Bangladesh factory owners__ele,WNL Bangladesh factory owners__int,ele,int,0,dev,0
+WNL Bangladesh factory owners,ele-int,WNL Bangladesh factory owners__int,WNL Bangladesh factory owners__ele,int,ele,1,dev,0
+WNL Bangladesh factory owners,int-adv,WNL Bangladesh factory owners__int,WNL Bangladesh factory owners__adv,int,adv,0,dev,0
+WNL Bangladesh factory owners,int-adv,WNL Bangladesh factory owners__adv,WNL Bangladesh factory owners__int,adv,int,1,dev,0
+WNL Bangladesh factory owners,ele-adv,WNL Bangladesh factory owners__ele,WNL Bangladesh factory owners__adv,ele,adv,0,dev,0
+WNL Bangladesh factory owners,ele-adv,WNL Bangladesh factory owners__adv,WNL Bangladesh factory owners__ele,adv,ele,1,dev,0
+WNL Bangladeshi organization,ele-int,WNL Bangladeshi organization__ele,WNL Bangladeshi organization__int,ele,int,0,test,-1
+WNL Bangladeshi organization,ele-int,WNL Bangladeshi organization__int,WNL Bangladeshi organization__ele,int,ele,1,test,-1
+WNL Bangladeshi organization,int-adv,WNL Bangladeshi organization__int,WNL Bangladeshi organization__adv,int,adv,0,test,-1
+WNL Bangladeshi organization,int-adv,WNL Bangladeshi organization__adv,WNL Bangladeshi organization__int,adv,int,1,test,-1
+WNL Bangladeshi organization,ele-adv,WNL Bangladeshi organization__ele,WNL Bangladeshi organization__adv,ele,adv,0,test,-1
+WNL Bangladeshi organization,ele-adv,WNL Bangladeshi organization__adv,WNL Bangladeshi organization__ele,adv,ele,1,test,-1
+WNL Barack Obama,ele-int,WNL Barack Obama__ele,WNL Barack Obama__int,ele,int,0,dev,0
+WNL Barack Obama,ele-int,WNL Barack Obama__int,WNL Barack Obama__ele,int,ele,1,dev,0
+WNL Barack Obama,int-adv,WNL Barack Obama__int,WNL Barack Obama__adv,int,adv,0,dev,0
+WNL Barack Obama,int-adv,WNL Barack Obama__adv,WNL Barack Obama__int,adv,int,1,dev,0
+WNL Barack Obama,ele-adv,WNL Barack Obama__ele,WNL Barack Obama__adv,ele,adv,0,dev,0
+WNL Barack Obama,ele-adv,WNL Barack Obama__adv,WNL Barack Obama__ele,adv,ele,1,dev,0
+WNL Basic phone logs,ele-int,WNL Basic phone logs__ele,WNL Basic phone logs__int,ele,int,0,dev,4
+WNL Basic phone logs,ele-int,WNL Basic phone logs__int,WNL Basic phone logs__ele,int,ele,1,dev,4
+WNL Basic phone logs,int-adv,WNL Basic phone logs__int,WNL Basic phone logs__adv,int,adv,0,dev,4
+WNL Basic phone logs,int-adv,WNL Basic phone logs__adv,WNL Basic phone logs__int,adv,int,1,dev,4
+WNL Basic phone logs,ele-adv,WNL Basic phone logs__ele,WNL Basic phone logs__adv,ele,adv,0,dev,4
+WNL Basic phone logs,ele-adv,WNL Basic phone logs__adv,WNL Basic phone logs__ele,adv,ele,1,dev,4
+WNL Billionaires,ele-int,WNL Billionaires__ele,WNL Billionaires__int,ele,int,0,dev,4
+WNL Billionaires,ele-int,WNL Billionaires__int,WNL Billionaires__ele,int,ele,1,dev,4
+WNL Billionaires,int-adv,WNL Billionaires__int,WNL Billionaires__adv,int,adv,0,dev,4
+WNL Billionaires,int-adv,WNL Billionaires__adv,WNL Billionaires__int,adv,int,1,dev,4
+WNL Billionaires,ele-adv,WNL Billionaires__ele,WNL Billionaires__adv,ele,adv,0,dev,4
+WNL Billionaires,ele-adv,WNL Billionaires__adv,WNL Billionaires__ele,adv,ele,1,dev,4
+WNL Black Friday,ele-int,WNL Black Friday__ele,WNL Black Friday__int,ele,int,0,dev,4
+WNL Black Friday,ele-int,WNL Black Friday__int,WNL Black Friday__ele,int,ele,1,dev,4
+WNL Black Friday,int-adv,WNL Black Friday__int,WNL Black Friday__adv,int,adv,0,dev,4
+WNL Black Friday,int-adv,WNL Black Friday__adv,WNL Black Friday__int,adv,int,1,dev,4
+WNL Black Friday,ele-adv,WNL Black Friday__ele,WNL Black Friday__adv,ele,adv,0,dev,4
+WNL Black Friday,ele-adv,WNL Black Friday__adv,WNL Black Friday__ele,adv,ele,1,dev,4
+WNL Bogus Allergy,ele-int,WNL Bogus Allergy__ele,WNL Bogus Allergy__int,ele,int,0,dev,1
+WNL Bogus Allergy,ele-int,WNL Bogus Allergy__int,WNL Bogus Allergy__ele,int,ele,1,dev,1
+WNL Bogus Allergy,int-adv,WNL Bogus Allergy__int,WNL Bogus Allergy__adv,int,adv,0,dev,1
+WNL Bogus Allergy,int-adv,WNL Bogus Allergy__adv,WNL Bogus Allergy__int,adv,int,1,dev,1
+WNL Bogus Allergy,ele-adv,WNL Bogus Allergy__ele,WNL Bogus Allergy__adv,ele,adv,0,dev,1
+WNL Bogus Allergy,ele-adv,WNL Bogus Allergy__adv,WNL Bogus Allergy__ele,adv,ele,1,dev,1
+WNL Bright Future,ele-int,WNL Bright Future__ele,WNL Bright Future__int,ele,int,0,dev,3
+WNL Bright Future,ele-int,WNL Bright Future__int,WNL Bright Future__ele,int,ele,1,dev,3
+WNL Bright Future,int-adv,WNL Bright Future__int,WNL Bright Future__adv,int,adv,0,dev,3
+WNL Bright Future,int-adv,WNL Bright Future__adv,WNL Bright Future__int,adv,int,1,dev,3
+WNL Bright Future,ele-adv,WNL Bright Future__ele,WNL Bright Future__adv,ele,adv,0,dev,3
+WNL Bright Future,ele-adv,WNL Bright Future__adv,WNL Bright Future__ele,adv,ele,1,dev,3
+WNL Brown bears,ele-int,WNL Brown bears__ele,WNL Brown bears__int,ele,int,0,dev,2
+WNL Brown bears,ele-int,WNL Brown bears__int,WNL Brown bears__ele,int,ele,1,dev,2
+WNL Brown bears,int-adv,WNL Brown bears__int,WNL Brown bears__adv,int,adv,0,dev,2
+WNL Brown bears,int-adv,WNL Brown bears__adv,WNL Brown bears__int,adv,int,1,dev,2
+WNL Brown bears,ele-adv,WNL Brown bears__ele,WNL Brown bears__adv,ele,adv,0,dev,2
+WNL Brown bears,ele-adv,WNL Brown bears__adv,WNL Brown bears__ele,adv,ele,1,dev,2
+WNL Calais Migrants,ele-int,WNL Calais Migrants__ele,WNL Calais Migrants__int,ele,int,0,dev,3
+WNL Calais Migrants,ele-int,WNL Calais Migrants__int,WNL Calais Migrants__ele,int,ele,1,dev,3
+WNL Calais Migrants,int-adv,WNL Calais Migrants__int,WNL Calais Migrants__adv,int,adv,0,dev,3
+WNL Calais Migrants,int-adv,WNL Calais Migrants__adv,WNL Calais Migrants__int,adv,int,1,dev,3
+WNL Calais Migrants,ele-adv,WNL Calais Migrants__ele,WNL Calais Migrants__adv,ele,adv,0,dev,3
+WNL Calais Migrants,ele-adv,WNL Calais Migrants__adv,WNL Calais Migrants__ele,adv,ele,1,dev,3
+WNL Can the US,ele-int,WNL Can the US__ele,WNL Can the US__int,ele,int,0,dev,0
+WNL Can the US,ele-int,WNL Can the US__int,WNL Can the US__ele,int,ele,1,dev,0
+WNL Can the US,int-adv,WNL Can the US__int,WNL Can the US__adv,int,adv,0,dev,0
+WNL Can the US,int-adv,WNL Can the US__adv,WNL Can the US__int,adv,int,1,dev,0
+WNL Can the US,ele-adv,WNL Can the US__ele,WNL Can the US__adv,ele,adv,0,dev,0
+WNL Can the US,ele-adv,WNL Can the US__adv,WNL Can the US__ele,adv,ele,1,dev,0
+WNL Canadian Pair,ele-int,WNL Canadian Pair__ele,WNL Canadian Pair__int,ele,int,0,dev,1
+WNL Canadian Pair,ele-int,WNL Canadian Pair__int,WNL Canadian Pair__ele,int,ele,1,dev,1
+WNL Canadian Pair,int-adv,WNL Canadian Pair__int,WNL Canadian Pair__adv,int,adv,0,dev,1
+WNL Canadian Pair,int-adv,WNL Canadian Pair__adv,WNL Canadian Pair__int,adv,int,1,dev,1
+WNL Canadian Pair,ele-adv,WNL Canadian Pair__ele,WNL Canadian Pair__adv,ele,adv,0,dev,1
+WNL Canadian Pair,ele-adv,WNL Canadian Pair__adv,WNL Canadian Pair__ele,adv,ele,1,dev,1
+WNL Castaway,ele-int,WNL Castaway__ele,WNL Castaway__int,ele,int,0,test,-1
+WNL Castaway,ele-int,WNL Castaway__int,WNL Castaway__ele,int,ele,1,test,-1
+WNL Castaway,int-adv,WNL Castaway__int,WNL Castaway__adv,int,adv,0,test,-1
+WNL Castaway,int-adv,WNL Castaway__adv,WNL Castaway__int,adv,int,1,test,-1
+WNL Castaway,ele-adv,WNL Castaway__ele,WNL Castaway__adv,ele,adv,0,test,-1
+WNL Castaway,ele-adv,WNL Castaway__adv,WNL Castaway__ele,adv,ele,1,test,-1
+WNL Changing India,ele-int,WNL Changing India__ele,WNL Changing India__int,ele,int,0,dev,1
+WNL Changing India,ele-int,WNL Changing India__int,WNL Changing India__ele,int,ele,1,dev,1
+WNL Changing India,int-adv,WNL Changing India__int,WNL Changing India__adv,int,adv,0,dev,1
+WNL Changing India,int-adv,WNL Changing India__adv,WNL Changing India__int,adv,int,1,dev,1
+WNL Changing India,ele-adv,WNL Changing India__ele,WNL Changing India__adv,ele,adv,0,dev,1
+WNL Changing India,ele-adv,WNL Changing India__adv,WNL Changing India__ele,adv,ele,1,dev,1
+WNL Coloring Books,ele-int,WNL Coloring Books__ele,WNL Coloring Books__int,ele,int,0,dev,0
+WNL Coloring Books,ele-int,WNL Coloring Books__int,WNL Coloring Books__ele,int,ele,1,dev,0
+WNL Coloring Books,int-adv,WNL Coloring Books__int,WNL Coloring Books__adv,int,adv,0,dev,0
+WNL Coloring Books,int-adv,WNL Coloring Books__adv,WNL Coloring Books__int,adv,int,1,dev,0
+WNL Coloring Books,ele-adv,WNL Coloring Books__ele,WNL Coloring Books__adv,ele,adv,0,dev,0
+WNL Coloring Books,ele-adv,WNL Coloring Books__adv,WNL Coloring Books__ele,adv,ele,1,dev,0
+WNL Criminal Links,ele-int,WNL Criminal Links__ele,WNL Criminal Links__int,ele,int,0,dev,1
+WNL Criminal Links,ele-int,WNL Criminal Links__int,WNL Criminal Links__ele,int,ele,1,dev,1
+WNL Criminal Links,int-adv,WNL Criminal Links__int,WNL Criminal Links__adv,int,adv,0,dev,1
+WNL Criminal Links,int-adv,WNL Criminal Links__adv,WNL Criminal Links__int,adv,int,1,dev,1
+WNL Criminal Links,ele-adv,WNL Criminal Links__ele,WNL Criminal Links__adv,ele,adv,0,dev,1
+WNL Criminal Links,ele-adv,WNL Criminal Links__adv,WNL Criminal Links__ele,adv,ele,1,dev,1
+WNL Cuba,ele-int,WNL Cuba__ele,WNL Cuba__int,ele,int,0,test,-1
+WNL Cuba,ele-int,WNL Cuba__int,WNL Cuba__ele,int,ele,1,test,-1
+WNL Cuba,int-adv,WNL Cuba__int,WNL Cuba__adv,int,adv,0,test,-1
+WNL Cuba,int-adv,WNL Cuba__adv,WNL Cuba__int,adv,int,1,test,-1
+WNL Cuba,ele-adv,WNL Cuba__ele,WNL Cuba__adv,ele,adv,0,test,-1
+WNL Cuba,ele-adv,WNL Cuba__adv,WNL Cuba__ele,adv,ele,1,test,-1
+WNL David Bowie,ele-int,WNL David Bowie__ele,WNL David Bowie__int,ele,int,0,test,-1
+WNL David Bowie,ele-int,WNL David Bowie__int,WNL David Bowie__ele,int,ele,1,test,-1
+WNL David Bowie,int-adv,WNL David Bowie__int,WNL David Bowie__adv,int,adv,0,test,-1
+WNL David Bowie,int-adv,WNL David Bowie__adv,WNL David Bowie__int,adv,int,1,test,-1
+WNL David Bowie,ele-adv,WNL David Bowie__ele,WNL David Bowie__adv,ele,adv,0,test,-1
+WNL David Bowie,ele-adv,WNL David Bowie__adv,WNL David Bowie__ele,adv,ele,1,test,-1
+WNL David Mitchell,ele-int,WNL David Mitchell__ele,WNL David Mitchell__int,ele,int,0,dev,1
+WNL David Mitchell,ele-int,WNL David Mitchell__int,WNL David Mitchell__ele,int,ele,1,dev,1
+WNL David Mitchell,int-adv,WNL David Mitchell__int,WNL David Mitchell__adv,int,adv,0,dev,1
+WNL David Mitchell,int-adv,WNL David Mitchell__adv,WNL David Mitchell__int,adv,int,1,dev,1
+WNL David Mitchell,ele-adv,WNL David Mitchell__ele,WNL David Mitchell__adv,ele,adv,0,dev,1
+WNL David Mitchell,ele-adv,WNL David Mitchell__adv,WNL David Mitchell__ele,adv,ele,1,dev,1
+WNL Drowning in rubbish,ele-int,WNL Drowning in rubbish__ele,WNL Drowning in rubbish__int,ele,int,0,dev,3
+WNL Drowning in rubbish,ele-int,WNL Drowning in rubbish__int,WNL Drowning in rubbish__ele,int,ele,1,dev,3
+WNL Drowning in rubbish,int-adv,WNL Drowning in rubbish__int,WNL Drowning in rubbish__adv,int,adv,0,dev,3
+WNL Drowning in rubbish,int-adv,WNL Drowning in rubbish__adv,WNL Drowning in rubbish__int,adv,int,1,dev,3
+WNL Drowning in rubbish,ele-adv,WNL Drowning in rubbish__ele,WNL Drowning in rubbish__adv,ele,adv,0,dev,3
+WNL Drowning in rubbish,ele-adv,WNL Drowning in rubbish__adv,WNL Drowning in rubbish__ele,adv,ele,1,dev,3
+WNL EU Pollution,ele-int,WNL EU Pollution__ele,WNL EU Pollution__int,ele,int,0,dev,4
+WNL EU Pollution,ele-int,WNL EU Pollution__int,WNL EU Pollution__ele,int,ele,1,dev,4
+WNL EU Pollution,int-adv,WNL EU Pollution__int,WNL EU Pollution__adv,int,adv,0,dev,4
+WNL EU Pollution,int-adv,WNL EU Pollution__adv,WNL EU Pollution__int,adv,int,1,dev,4
+WNL EU Pollution,ele-adv,WNL EU Pollution__ele,WNL EU Pollution__adv,ele,adv,0,dev,4
+WNL EU Pollution,ele-adv,WNL EU Pollution__adv,WNL EU Pollution__ele,adv,ele,1,dev,4
+WNL Experience,ele-int,WNL Experience__ele,WNL Experience__int,ele,int,0,dev,3
+WNL Experience,ele-int,WNL Experience__int,WNL Experience__ele,int,ele,1,dev,3
+WNL Experience,int-adv,WNL Experience__int,WNL Experience__adv,int,adv,0,dev,3
+WNL Experience,int-adv,WNL Experience__adv,WNL Experience__int,adv,int,1,dev,3
+WNL Experience,ele-adv,WNL Experience__ele,WNL Experience__adv,ele,adv,0,dev,3
+WNL Experience,ele-adv,WNL Experience__adv,WNL Experience__ele,adv,ele,1,dev,3
+WNL Extinction,ele-int,WNL Extinction__ele,WNL Extinction__int,ele,int,0,dev,2
+WNL Extinction,ele-int,WNL Extinction__int,WNL Extinction__ele,int,ele,1,dev,2
+WNL Extinction,int-adv,WNL Extinction__int,WNL Extinction__adv,int,adv,0,dev,2
+WNL Extinction,int-adv,WNL Extinction__adv,WNL Extinction__int,adv,int,1,dev,2
+WNL Extinction,ele-adv,WNL Extinction__ele,WNL Extinction__adv,ele,adv,0,dev,2
+WNL Extinction,ele-adv,WNL Extinction__adv,WNL Extinction__ele,adv,ele,1,dev,2
+WNL Extreme heat,ele-int,WNL Extreme heat__ele,WNL Extreme heat__int,ele,int,0,dev,4
+WNL Extreme heat,ele-int,WNL Extreme heat__int,WNL Extreme heat__ele,int,ele,1,dev,4
+WNL Extreme heat,int-adv,WNL Extreme heat__int,WNL Extreme heat__adv,int,adv,0,dev,4
+WNL Extreme heat,int-adv,WNL Extreme heat__adv,WNL Extreme heat__int,adv,int,1,dev,4
+WNL Extreme heat,ele-adv,WNL Extreme heat__ele,WNL Extreme heat__adv,ele,adv,0,dev,4
+WNL Extreme heat,ele-adv,WNL Extreme heat__adv,WNL Extreme heat__ele,adv,ele,1,dev,4
+WNL FIFA,ele-int,WNL FIFA__ele,WNL FIFA__int,ele,int,0,dev,1
+WNL FIFA,ele-int,WNL FIFA__int,WNL FIFA__ele,int,ele,1,dev,1
+WNL FIFA,int-adv,WNL FIFA__int,WNL FIFA__adv,int,adv,0,dev,1
+WNL FIFA,int-adv,WNL FIFA__adv,WNL FIFA__int,adv,int,1,dev,1
+WNL FIFA,ele-adv,WNL FIFA__ele,WNL FIFA__adv,ele,adv,0,dev,1
+WNL FIFA,ele-adv,WNL FIFA__adv,WNL FIFA__ele,adv,ele,1,dev,1
+WNL Fifth of young adults,ele-int,WNL Fifth of young adults__ele,WNL Fifth of young adults__int,ele,int,0,dev,0
+WNL Fifth of young adults,ele-int,WNL Fifth of young adults__int,WNL Fifth of young adults__ele,int,ele,1,dev,0
+WNL Fifth of young adults,int-adv,WNL Fifth of young adults__int,WNL Fifth of young adults__adv,int,adv,0,dev,0
+WNL Fifth of young adults,int-adv,WNL Fifth of young adults__adv,WNL Fifth of young adults__int,adv,int,1,dev,0
+WNL Fifth of young adults,ele-adv,WNL Fifth of young adults__ele,WNL Fifth of young adults__adv,ele,adv,0,dev,0
+WNL Fifth of young adults,ele-adv,WNL Fifth of young adults__adv,WNL Fifth of young adults__ele,adv,ele,1,dev,0
+WNL First female coach,ele-int,WNL First female coach__ele,WNL First female coach__int,ele,int,0,dev,2
+WNL First female coach,ele-int,WNL First female coach__int,WNL First female coach__ele,int,ele,1,dev,2
+WNL First female coach,int-adv,WNL First female coach__int,WNL First female coach__adv,int,adv,0,dev,2
+WNL First female coach,int-adv,WNL First female coach__adv,WNL First female coach__int,adv,int,1,dev,2
+WNL First female coach,ele-adv,WNL First female coach__ele,WNL First female coach__adv,ele,adv,0,dev,2
+WNL First female coach,ele-adv,WNL First female coach__adv,WNL First female coach__ele,adv,ele,1,dev,2
+WNL First high resolution images,ele-int,WNL First high resolution images__ele,WNL First high resolution images__int,ele,int,0,dev,0
+WNL First high resolution images,ele-int,WNL First high resolution images__int,WNL First high resolution images__ele,int,ele,1,dev,0
+WNL First high resolution images,int-adv,WNL First high resolution images__int,WNL First high resolution images__adv,int,adv,0,dev,0
+WNL First high resolution images,int-adv,WNL First high resolution images__adv,WNL First high resolution images__int,adv,int,1,dev,0
+WNL First high resolution images,ele-adv,WNL First high resolution images__ele,WNL First high resolution images__adv,ele,adv,0,dev,0
+WNL First high resolution images,ele-adv,WNL First high resolution images__adv,WNL First high resolution images__ele,adv,ele,1,dev,0
+WNL Five jobs,ele-int,WNL Five jobs__ele,WNL Five jobs__int,ele,int,0,dev,4
+WNL Five jobs,ele-int,WNL Five jobs__int,WNL Five jobs__ele,int,ele,1,dev,4
+WNL Five jobs,int-adv,WNL Five jobs__int,WNL Five jobs__adv,int,adv,0,dev,4
+WNL Five jobs,int-adv,WNL Five jobs__adv,WNL Five jobs__int,adv,int,1,dev,4
+WNL Five jobs,ele-adv,WNL Five jobs__ele,WNL Five jobs__adv,ele,adv,0,dev,4
+WNL Five jobs,ele-adv,WNL Five jobs__adv,WNL Five jobs__ele,adv,ele,1,dev,4
+WNL Four new elements,ele-int,WNL Four new elements__ele,WNL Four new elements__int,ele,int,0,dev,2
+WNL Four new elements,ele-int,WNL Four new elements__int,WNL Four new elements__ele,int,ele,1,dev,2
+WNL Four new elements,int-adv,WNL Four new elements__int,WNL Four new elements__adv,int,adv,0,dev,2
+WNL Four new elements,int-adv,WNL Four new elements__adv,WNL Four new elements__int,adv,int,1,dev,2
+WNL Four new elements,ele-adv,WNL Four new elements__ele,WNL Four new elements__adv,ele,adv,0,dev,2
+WNL Four new elements,ele-adv,WNL Four new elements__adv,WNL Four new elements__ele,adv,ele,1,dev,2
+WNL Glastonbury,ele-int,WNL Glastonbury__ele,WNL Glastonbury__int,ele,int,0,dev,0
+WNL Glastonbury,ele-int,WNL Glastonbury__int,WNL Glastonbury__ele,int,ele,1,dev,0
+WNL Glastonbury,int-adv,WNL Glastonbury__int,WNL Glastonbury__adv,int,adv,0,dev,0
+WNL Glastonbury,int-adv,WNL Glastonbury__adv,WNL Glastonbury__int,adv,int,1,dev,0
+WNL Glastonbury,ele-adv,WNL Glastonbury__ele,WNL Glastonbury__adv,ele,adv,0,dev,0
+WNL Glastonbury,ele-adv,WNL Glastonbury__adv,WNL Glastonbury__ele,adv,ele,1,dev,0
+WNL Goodbye fish and chips,ele-int,WNL Goodbye fish and chips__ele,WNL Goodbye fish and chips__int,ele,int,0,dev,0
+WNL Goodbye fish and chips,ele-int,WNL Goodbye fish and chips__int,WNL Goodbye fish and chips__ele,int,ele,1,dev,0
+WNL Goodbye fish and chips,int-adv,WNL Goodbye fish and chips__int,WNL Goodbye fish and chips__adv,int,adv,0,dev,0
+WNL Goodbye fish and chips,int-adv,WNL Goodbye fish and chips__adv,WNL Goodbye fish and chips__int,adv,int,1,dev,0
+WNL Goodbye fish and chips,ele-adv,WNL Goodbye fish and chips__ele,WNL Goodbye fish and chips__adv,ele,adv,0,dev,0
+WNL Goodbye fish and chips,ele-adv,WNL Goodbye fish and chips__adv,WNL Goodbye fish and chips__ele,adv,ele,1,dev,0
+WNL Google boss,ele-int,WNL Google boss__ele,WNL Google boss__int,ele,int,0,test,-1
+WNL Google boss,ele-int,WNL Google boss__int,WNL Google boss__ele,int,ele,1,test,-1
+WNL Google boss,int-adv,WNL Google boss__int,WNL Google boss__adv,int,adv,0,test,-1
+WNL Google boss,int-adv,WNL Google boss__adv,WNL Google boss__int,adv,int,1,test,-1
+WNL Google boss,ele-adv,WNL Google boss__ele,WNL Google boss__adv,ele,adv,0,test,-1
+WNL Google boss,ele-adv,WNL Google boss__adv,WNL Google boss__ele,adv,ele,1,test,-1
+WNL Google car,ele-int,WNL Google car__ele,WNL Google car__int,ele,int,0,dev,3
+WNL Google car,ele-int,WNL Google car__int,WNL Google car__ele,int,ele,1,dev,3
+WNL Google car,int-adv,WNL Google car__int,WNL Google car__adv,int,adv,0,dev,3
+WNL Google car,int-adv,WNL Google car__adv,WNL Google car__int,adv,int,1,dev,3
+WNL Google car,ele-adv,WNL Google car__ele,WNL Google car__adv,ele,adv,0,dev,3
+WNL Google car,ele-adv,WNL Google car__adv,WNL Google car__ele,adv,ele,1,dev,3
+WNL How downtown Abbey,ele-int,WNL How downtown Abbey__ele,WNL How downtown Abbey__int,ele,int,0,dev,0
+WNL How downtown Abbey,ele-int,WNL How downtown Abbey__int,WNL How downtown Abbey__ele,int,ele,1,dev,0
+WNL How downtown Abbey,int-adv,WNL How downtown Abbey__int,WNL How downtown Abbey__adv,int,adv,0,dev,0
+WNL How downtown Abbey,int-adv,WNL How downtown Abbey__adv,WNL How downtown Abbey__int,adv,int,1,dev,0
+WNL How downtown Abbey,ele-adv,WNL How downtown Abbey__ele,WNL How downtown Abbey__adv,ele,adv,0,dev,0
+WNL How downtown Abbey,ele-adv,WNL How downtown Abbey__adv,WNL How downtown Abbey__ele,adv,ele,1,dev,0
+WNL I confused my numbers,ele-int,WNL I confused my numbers__ele,WNL I confused my numbers__int,ele,int,0,dev,0
+WNL I confused my numbers,ele-int,WNL I confused my numbers__int,WNL I confused my numbers__ele,int,ele,1,dev,0
+WNL I confused my numbers,int-adv,WNL I confused my numbers__int,WNL I confused my numbers__adv,int,adv,0,dev,0
+WNL I confused my numbers,int-adv,WNL I confused my numbers__adv,WNL I confused my numbers__int,adv,int,1,dev,0
+WNL I confused my numbers,ele-adv,WNL I confused my numbers__ele,WNL I confused my numbers__adv,ele,adv,0,dev,0
+WNL I confused my numbers,ele-adv,WNL I confused my numbers__adv,WNL I confused my numbers__ele,adv,ele,1,dev,0
+WNL Icebucket challenge,ele-int,WNL Icebucket challenge__ele,WNL Icebucket challenge__int,ele,int,0,dev,2
+WNL Icebucket challenge,ele-int,WNL Icebucket challenge__int,WNL Icebucket challenge__ele,int,ele,1,dev,2
+WNL Icebucket challenge,int-adv,WNL Icebucket challenge__int,WNL Icebucket challenge__adv,int,adv,0,dev,2
+WNL Icebucket challenge,int-adv,WNL Icebucket challenge__adv,WNL Icebucket challenge__int,adv,int,1,dev,2
+WNL Icebucket challenge,ele-adv,WNL Icebucket challenge__ele,WNL Icebucket challenge__adv,ele,adv,0,dev,2
+WNL Icebucket challenge,ele-adv,WNL Icebucket challenge__adv,WNL Icebucket challenge__ele,adv,ele,1,dev,2
+WNL Icelandic names,ele-int,WNL Icelandic names__ele,WNL Icelandic names__int,ele,int,0,test,-1
+WNL Icelandic names,ele-int,WNL Icelandic names__int,WNL Icelandic names__ele,int,ele,1,test,-1
+WNL Icelandic names,int-adv,WNL Icelandic names__int,WNL Icelandic names__adv,int,adv,0,test,-1
+WNL Icelandic names,int-adv,WNL Icelandic names__adv,WNL Icelandic names__int,adv,int,1,test,-1
+WNL Icelandic names,ele-adv,WNL Icelandic names__ele,WNL Icelandic names__adv,ele,adv,0,test,-1
+WNL Icelandic names,ele-adv,WNL Icelandic names__adv,WNL Icelandic names__ele,adv,ele,1,test,-1
+WNL In flight,ele-int,WNL In flight__ele,WNL In flight__int,ele,int,0,dev,4
+WNL In flight,ele-int,WNL In flight__int,WNL In flight__ele,int,ele,1,dev,4
+WNL In flight,int-adv,WNL In flight__int,WNL In flight__adv,int,adv,0,dev,4
+WNL In flight,int-adv,WNL In flight__adv,WNL In flight__int,adv,int,1,dev,4
+WNL In flight,ele-adv,WNL In flight__ele,WNL In flight__adv,ele,adv,0,dev,4
+WNL In flight,ele-adv,WNL In flight__adv,WNL In flight__ele,adv,ele,1,dev,4
+WNL India's rich,ele-int,WNL India's rich__ele,WNL India's rich__int,ele,int,0,dev,4
+WNL India's rich,ele-int,WNL India's rich__int,WNL India's rich__ele,int,ele,1,dev,4
+WNL India's rich,int-adv,WNL India's rich__int,WNL India's rich__adv,int,adv,0,dev,4
+WNL India's rich,int-adv,WNL India's rich__adv,WNL India's rich__int,adv,int,1,dev,4
+WNL India's rich,ele-adv,WNL India's rich__ele,WNL India's rich__adv,ele,adv,0,dev,4
+WNL India's rich,ele-adv,WNL India's rich__adv,WNL India's rich__ele,adv,ele,1,dev,4
+WNL Inky the octopus,ele-int,WNL Inky the octopus__ele,WNL Inky the octopus__int,ele,int,0,dev,3
+WNL Inky the octopus,ele-int,WNL Inky the octopus__int,WNL Inky the octopus__ele,int,ele,1,dev,3
+WNL Inky the octopus,int-adv,WNL Inky the octopus__int,WNL Inky the octopus__adv,int,adv,0,dev,3
+WNL Inky the octopus,int-adv,WNL Inky the octopus__adv,WNL Inky the octopus__int,adv,int,1,dev,3
+WNL Inky the octopus,ele-adv,WNL Inky the octopus__ele,WNL Inky the octopus__adv,ele,adv,0,dev,3
+WNL Inky the octopus,ele-adv,WNL Inky the octopus__adv,WNL Inky the octopus__ele,adv,ele,1,dev,3
+WNL Inventions,ele-int,WNL Inventions__ele,WNL Inventions__int,ele,int,0,dev,4
+WNL Inventions,ele-int,WNL Inventions__int,WNL Inventions__ele,int,ele,1,dev,4
+WNL Inventions,int-adv,WNL Inventions__int,WNL Inventions__adv,int,adv,0,dev,4
+WNL Inventions,int-adv,WNL Inventions__adv,WNL Inventions__int,adv,int,1,dev,4
+WNL Inventions,ele-adv,WNL Inventions__ele,WNL Inventions__adv,ele,adv,0,dev,4
+WNL Inventions,ele-adv,WNL Inventions__adv,WNL Inventions__ele,adv,ele,1,dev,4
+WNL JMW Turner,ele-int,WNL JMW Turner__ele,WNL JMW Turner__int,ele,int,0,dev,4
+WNL JMW Turner,ele-int,WNL JMW Turner__int,WNL JMW Turner__ele,int,ele,1,dev,4
+WNL JMW Turner,int-adv,WNL JMW Turner__int,WNL JMW Turner__adv,int,adv,0,dev,4
+WNL JMW Turner,int-adv,WNL JMW Turner__adv,WNL JMW Turner__int,adv,int,1,dev,4
+WNL JMW Turner,ele-adv,WNL JMW Turner__ele,WNL JMW Turner__adv,ele,adv,0,dev,4
+WNL JMW Turner,ele-adv,WNL JMW Turner__adv,WNL JMW Turner__ele,adv,ele,1,dev,4
+WNL Japan,ele-int,WNL Japan__ele,WNL Japan__int,ele,int,0,dev,4
+WNL Japan,ele-int,WNL Japan__int,WNL Japan__ele,int,ele,1,dev,4
+WNL Japan,int-adv,WNL Japan__int,WNL Japan__adv,int,adv,0,dev,4
+WNL Japan,int-adv,WNL Japan__adv,WNL Japan__int,adv,int,1,dev,4
+WNL Japan,ele-adv,WNL Japan__ele,WNL Japan__adv,ele,adv,0,dev,4
+WNL Japan,ele-adv,WNL Japan__adv,WNL Japan__ele,adv,ele,1,dev,4
+WNL John Lewis,ele-int,WNL John Lewis__ele,WNL John Lewis__int,ele,int,0,dev,2
+WNL John Lewis,ele-int,WNL John Lewis__int,WNL John Lewis__ele,int,ele,1,dev,2
+WNL John Lewis,int-adv,WNL John Lewis__int,WNL John Lewis__adv,int,adv,0,dev,2
+WNL John Lewis,int-adv,WNL John Lewis__adv,WNL John Lewis__int,adv,int,1,dev,2
+WNL John Lewis,ele-adv,WNL John Lewis__ele,WNL John Lewis__adv,ele,adv,0,dev,2
+WNL John Lewis,ele-adv,WNL John Lewis__adv,WNL John Lewis__ele,adv,ele,1,dev,2
+WNL Kate Bush,ele-int,WNL Kate Bush__ele,WNL Kate Bush__int,ele,int,0,dev,2
+WNL Kate Bush,ele-int,WNL Kate Bush__int,WNL Kate Bush__ele,int,ele,1,dev,2
+WNL Kate Bush,int-adv,WNL Kate Bush__int,WNL Kate Bush__adv,int,adv,0,dev,2
+WNL Kate Bush,int-adv,WNL Kate Bush__adv,WNL Kate Bush__int,adv,int,1,dev,2
+WNL Kate Bush,ele-adv,WNL Kate Bush__ele,WNL Kate Bush__adv,ele,adv,0,dev,2
+WNL Kate Bush,ele-adv,WNL Kate Bush__adv,WNL Kate Bush__ele,adv,ele,1,dev,2
+WNL Kiruna,ele-int,WNL Kiruna__ele,WNL Kiruna__int,ele,int,0,dev,2
+WNL Kiruna,ele-int,WNL Kiruna__int,WNL Kiruna__ele,int,ele,1,dev,2
+WNL Kiruna,int-adv,WNL Kiruna__int,WNL Kiruna__adv,int,adv,0,dev,2
+WNL Kiruna,int-adv,WNL Kiruna__adv,WNL Kiruna__int,adv,int,1,dev,2
+WNL Kiruna,ele-adv,WNL Kiruna__ele,WNL Kiruna__adv,ele,adv,0,dev,2
+WNL Kiruna,ele-adv,WNL Kiruna__adv,WNL Kiruna__ele,adv,ele,1,dev,2
+WNL Lego movie,ele-int,WNL Lego movie__ele,WNL Lego movie__int,ele,int,0,dev,2
+WNL Lego movie,ele-int,WNL Lego movie__int,WNL Lego movie__ele,int,ele,1,dev,2
+WNL Lego movie,int-adv,WNL Lego movie__int,WNL Lego movie__adv,int,adv,0,dev,2
+WNL Lego movie,int-adv,WNL Lego movie__adv,WNL Lego movie__int,adv,int,1,dev,2
+WNL Lego movie,ele-adv,WNL Lego movie__ele,WNL Lego movie__adv,ele,adv,0,dev,2
+WNL Lego movie,ele-adv,WNL Lego movie__adv,WNL Lego movie__ele,adv,ele,1,dev,2
+WNL Loneliness,ele-int,WNL Loneliness__ele,WNL Loneliness__int,ele,int,0,dev,2
+WNL Loneliness,ele-int,WNL Loneliness__int,WNL Loneliness__ele,int,ele,1,dev,2
+WNL Loneliness,int-adv,WNL Loneliness__int,WNL Loneliness__adv,int,adv,0,dev,2
+WNL Loneliness,int-adv,WNL Loneliness__adv,WNL Loneliness__int,adv,int,1,dev,2
+WNL Loneliness,ele-adv,WNL Loneliness__ele,WNL Loneliness__adv,ele,adv,0,dev,2
+WNL Loneliness,ele-adv,WNL Loneliness__adv,WNL Loneliness__ele,adv,ele,1,dev,2
+WNL Love hormonw,ele-int,WNL Love hormonw__ele,WNL Love hormonw__int,ele,int,0,dev,0
+WNL Love hormonw,ele-int,WNL Love hormonw__int,WNL Love hormonw__ele,int,ele,1,dev,0
+WNL Love hormonw,int-adv,WNL Love hormonw__int,WNL Love hormonw__adv,int,adv,0,dev,0
+WNL Love hormonw,int-adv,WNL Love hormonw__adv,WNL Love hormonw__int,adv,int,1,dev,0
+WNL Love hormonw,ele-adv,WNL Love hormonw__ele,WNL Love hormonw__adv,ele,adv,0,dev,0
+WNL Love hormonw,ele-adv,WNL Love hormonw__adv,WNL Love hormonw__ele,adv,ele,1,dev,0
+WNL Making a killing,ele-int,WNL Making a killing__ele,WNL Making a killing__int,ele,int,0,test,-1
+WNL Making a killing,ele-int,WNL Making a killing__int,WNL Making a killing__ele,int,ele,1,test,-1
+WNL Making a killing,int-adv,WNL Making a killing__int,WNL Making a killing__adv,int,adv,0,test,-1
+WNL Making a killing,int-adv,WNL Making a killing__adv,WNL Making a killing__int,adv,int,1,test,-1
+WNL Making a killing,ele-adv,WNL Making a killing__ele,WNL Making a killing__adv,ele,adv,0,test,-1
+WNL Making a killing,ele-adv,WNL Making a killing__adv,WNL Making a killing__ele,adv,ele,1,test,-1
+WNL Man falls,ele-int,WNL Man falls__ele,WNL Man falls__int,ele,int,0,test,-1
+WNL Man falls,ele-int,WNL Man falls__int,WNL Man falls__ele,int,ele,1,test,-1
+WNL Man falls,int-adv,WNL Man falls__int,WNL Man falls__adv,int,adv,0,test,-1
+WNL Man falls,int-adv,WNL Man falls__adv,WNL Man falls__int,adv,int,1,test,-1
+WNL Man falls,ele-adv,WNL Man falls__ele,WNL Man falls__adv,ele,adv,0,test,-1
+WNL Man falls,ele-adv,WNL Man falls__adv,WNL Man falls__ele,adv,ele,1,test,-1
+WNL Mars,ele-int,WNL Mars__ele,WNL Mars__int,ele,int,0,dev,4
+WNL Mars,ele-int,WNL Mars__int,WNL Mars__ele,int,ele,1,dev,4
+WNL Mars,int-adv,WNL Mars__int,WNL Mars__adv,int,adv,0,dev,4
+WNL Mars,int-adv,WNL Mars__adv,WNL Mars__int,adv,int,1,dev,4
+WNL Mars,ele-adv,WNL Mars__ele,WNL Mars__adv,ele,adv,0,dev,4
+WNL Mars,ele-adv,WNL Mars__adv,WNL Mars__ele,adv,ele,1,dev,4
+WNL Men in black,ele-int,WNL Men in black__ele,WNL Men in black__int,ele,int,0,dev,3
+WNL Men in black,ele-int,WNL Men in black__int,WNL Men in black__ele,int,ele,1,dev,3
+WNL Men in black,int-adv,WNL Men in black__int,WNL Men in black__adv,int,adv,0,dev,3
+WNL Men in black,int-adv,WNL Men in black__adv,WNL Men in black__int,adv,int,1,dev,3
+WNL Men in black,ele-adv,WNL Men in black__ele,WNL Men in black__adv,ele,adv,0,dev,3
+WNL Men in black,ele-adv,WNL Men in black__adv,WNL Men in black__ele,adv,ele,1,dev,3
+WNL Mirrors,ele-int,WNL Mirrors__ele,WNL Mirrors__int,ele,int,0,test,-1
+WNL Mirrors,ele-int,WNL Mirrors__int,WNL Mirrors__ele,int,ele,1,test,-1
+WNL Mirrors,int-adv,WNL Mirrors__int,WNL Mirrors__adv,int,adv,0,test,-1
+WNL Mirrors,int-adv,WNL Mirrors__adv,WNL Mirrors__int,adv,int,1,test,-1
+WNL Mirrors,ele-adv,WNL Mirrors__ele,WNL Mirrors__adv,ele,adv,0,test,-1
+WNL Mirrors,ele-adv,WNL Mirrors__adv,WNL Mirrors__ele,adv,ele,1,test,-1
+WNL Morocco,ele-int,WNL Morocco__ele,WNL Morocco__int,ele,int,0,dev,3
+WNL Morocco,ele-int,WNL Morocco__int,WNL Morocco__ele,int,ele,1,dev,3
+WNL Morocco,int-adv,WNL Morocco__int,WNL Morocco__adv,int,adv,0,dev,3
+WNL Morocco,int-adv,WNL Morocco__adv,WNL Morocco__int,adv,int,1,dev,3
+WNL Morocco,ele-adv,WNL Morocco__ele,WNL Morocco__adv,ele,adv,0,dev,3
+WNL Morocco,ele-adv,WNL Morocco__adv,WNL Morocco__ele,adv,ele,1,dev,3
+WNL Music,ele-int,WNL Music__ele,WNL Music__int,ele,int,0,dev,4
+WNL Music,ele-int,WNL Music__int,WNL Music__ele,int,ele,1,dev,4
+WNL Music,int-adv,WNL Music__int,WNL Music__adv,int,adv,0,dev,4
+WNL Music,int-adv,WNL Music__adv,WNL Music__int,adv,int,1,dev,4
+WNL Music,ele-adv,WNL Music__ele,WNL Music__adv,ele,adv,0,dev,4
+WNL Music,ele-adv,WNL Music__adv,WNL Music__ele,adv,ele,1,dev,4
+WNL Mystery Shopper,ele-int,WNL Mystery Shopper__ele,WNL Mystery Shopper__int,ele,int,0,test,-1
+WNL Mystery Shopper,ele-int,WNL Mystery Shopper__int,WNL Mystery Shopper__ele,int,ele,1,test,-1
+WNL Mystery Shopper,int-adv,WNL Mystery Shopper__int,WNL Mystery Shopper__adv,int,adv,0,test,-1
+WNL Mystery Shopper,int-adv,WNL Mystery Shopper__adv,WNL Mystery Shopper__int,adv,int,1,test,-1
+WNL Mystery Shopper,ele-adv,WNL Mystery Shopper__ele,WNL Mystery Shopper__adv,ele,adv,0,test,-1
+WNL Mystery Shopper,ele-adv,WNL Mystery Shopper__adv,WNL Mystery Shopper__ele,adv,ele,1,test,-1
+WNL NASA Astronaut,ele-int,WNL NASA Astronaut__ele,WNL NASA Astronaut__int,ele,int,0,test,-1
+WNL NASA Astronaut,ele-int,WNL NASA Astronaut__int,WNL NASA Astronaut__ele,int,ele,1,test,-1
+WNL NASA Astronaut,int-adv,WNL NASA Astronaut__int,WNL NASA Astronaut__adv,int,adv,0,test,-1
+WNL NASA Astronaut,int-adv,WNL NASA Astronaut__adv,WNL NASA Astronaut__int,adv,int,1,test,-1
+WNL NASA Astronaut,ele-adv,WNL NASA Astronaut__ele,WNL NASA Astronaut__adv,ele,adv,0,test,-1
+WNL NASA Astronaut,ele-adv,WNL NASA Astronaut__adv,WNL NASA Astronaut__ele,adv,ele,1,test,-1
+WNL Neuroscientists,ele-int,WNL Neuroscientists__ele,WNL Neuroscientists__int,ele,int,0,dev,4
+WNL Neuroscientists,ele-int,WNL Neuroscientists__int,WNL Neuroscientists__ele,int,ele,1,dev,4
+WNL Neuroscientists,int-adv,WNL Neuroscientists__int,WNL Neuroscientists__adv,int,adv,0,dev,4
+WNL Neuroscientists,int-adv,WNL Neuroscientists__adv,WNL Neuroscientists__int,adv,int,1,dev,4
+WNL Neuroscientists,ele-adv,WNL Neuroscientists__ele,WNL Neuroscientists__adv,ele,adv,0,dev,4
+WNL Neuroscientists,ele-adv,WNL Neuroscientists__adv,WNL Neuroscientists__ele,adv,ele,1,dev,4
+WNL New Orleans,ele-int,WNL New Orleans__ele,WNL New Orleans__int,ele,int,0,dev,2
+WNL New Orleans,ele-int,WNL New Orleans__int,WNL New Orleans__ele,int,ele,1,dev,2
+WNL New Orleans,int-adv,WNL New Orleans__int,WNL New Orleans__adv,int,adv,0,dev,2
+WNL New Orleans,int-adv,WNL New Orleans__adv,WNL New Orleans__int,adv,int,1,dev,2
+WNL New Orleans,ele-adv,WNL New Orleans__ele,WNL New Orleans__adv,ele,adv,0,dev,2
+WNL New Orleans,ele-adv,WNL New Orleans__adv,WNL New Orleans__ele,adv,ele,1,dev,2
+WNL Nigerian low tech,ele-int,WNL Nigerian low tech__ele,WNL Nigerian low tech__int,ele,int,0,test,-1
+WNL Nigerian low tech,ele-int,WNL Nigerian low tech__int,WNL Nigerian low tech__ele,int,ele,1,test,-1
+WNL Nigerian low tech,int-adv,WNL Nigerian low tech__int,WNL Nigerian low tech__adv,int,adv,0,test,-1
+WNL Nigerian low tech,int-adv,WNL Nigerian low tech__adv,WNL Nigerian low tech__int,adv,int,1,test,-1
+WNL Nigerian low tech,ele-adv,WNL Nigerian low tech__ele,WNL Nigerian low tech__adv,ele,adv,0,test,-1
+WNL Nigerian low tech,ele-adv,WNL Nigerian low tech__adv,WNL Nigerian low tech__ele,adv,ele,1,test,-1
+WNL Noise pollution,ele-int,WNL Noise pollution__ele,WNL Noise pollution__int,ele,int,0,dev,1
+WNL Noise pollution,ele-int,WNL Noise pollution__int,WNL Noise pollution__ele,int,ele,1,dev,1
+WNL Noise pollution,int-adv,WNL Noise pollution__int,WNL Noise pollution__adv,int,adv,0,dev,1
+WNL Noise pollution,int-adv,WNL Noise pollution__adv,WNL Noise pollution__int,adv,int,1,dev,1
+WNL Noise pollution,ele-adv,WNL Noise pollution__ele,WNL Noise pollution__adv,ele,adv,0,dev,1
+WNL Noise pollution,ele-adv,WNL Noise pollution__adv,WNL Noise pollution__ele,adv,ele,1,dev,1
+WNL Novel way,ele-int,WNL Novel way__ele,WNL Novel way__int,ele,int,0,dev,4
+WNL Novel way,ele-int,WNL Novel way__int,WNL Novel way__ele,int,ele,1,dev,4
+WNL Novel way,int-adv,WNL Novel way__int,WNL Novel way__adv,int,adv,0,dev,4
+WNL Novel way,int-adv,WNL Novel way__adv,WNL Novel way__int,adv,int,1,dev,4
+WNL Novel way,ele-adv,WNL Novel way__ele,WNL Novel way__adv,ele,adv,0,dev,4
+WNL Novel way,ele-adv,WNL Novel way__adv,WNL Novel way__ele,adv,ele,1,dev,4
+WNL On the trail,ele-int,WNL On the trail__ele,WNL On the trail__int,ele,int,0,dev,3
+WNL On the trail,ele-int,WNL On the trail__int,WNL On the trail__ele,int,ele,1,dev,3
+WNL On the trail,int-adv,WNL On the trail__int,WNL On the trail__adv,int,adv,0,dev,3
+WNL On the trail,int-adv,WNL On the trail__adv,WNL On the trail__int,adv,int,1,dev,3
+WNL On the trail,ele-adv,WNL On the trail__ele,WNL On the trail__adv,ele,adv,0,dev,3
+WNL On the trail,ele-adv,WNL On the trail__adv,WNL On the trail__ele,adv,ele,1,dev,3
+WNL Organic Food,ele-int,WNL Organic Food__ele,WNL Organic Food__int,ele,int,0,dev,1
+WNL Organic Food,ele-int,WNL Organic Food__int,WNL Organic Food__ele,int,ele,1,dev,1
+WNL Organic Food,int-adv,WNL Organic Food__int,WNL Organic Food__adv,int,adv,0,dev,1
+WNL Organic Food,int-adv,WNL Organic Food__adv,WNL Organic Food__int,adv,int,1,dev,1
+WNL Organic Food,ele-adv,WNL Organic Food__ele,WNL Organic Food__adv,ele,adv,0,dev,1
+WNL Organic Food,ele-adv,WNL Organic Food__adv,WNL Organic Food__ele,adv,ele,1,dev,1
+WNL Pacific Islanders,ele-int,WNL Pacific Islanders__ele,WNL Pacific Islanders__int,ele,int,0,dev,1
+WNL Pacific Islanders,ele-int,WNL Pacific Islanders__int,WNL Pacific Islanders__ele,int,ele,1,dev,1
+WNL Pacific Islanders,int-adv,WNL Pacific Islanders__int,WNL Pacific Islanders__adv,int,adv,0,dev,1
+WNL Pacific Islanders,int-adv,WNL Pacific Islanders__adv,WNL Pacific Islanders__int,adv,int,1,dev,1
+WNL Pacific Islanders,ele-adv,WNL Pacific Islanders__ele,WNL Pacific Islanders__adv,ele,adv,0,dev,1
+WNL Pacific Islanders,ele-adv,WNL Pacific Islanders__adv,WNL Pacific Islanders__ele,adv,ele,1,dev,1
+WNL Pizza chain,ele-int,WNL Pizza chain__ele,WNL Pizza chain__int,ele,int,0,dev,2
+WNL Pizza chain,ele-int,WNL Pizza chain__int,WNL Pizza chain__ele,int,ele,1,dev,2
+WNL Pizza chain,int-adv,WNL Pizza chain__int,WNL Pizza chain__adv,int,adv,0,dev,2
+WNL Pizza chain,int-adv,WNL Pizza chain__adv,WNL Pizza chain__int,adv,int,1,dev,2
+WNL Pizza chain,ele-adv,WNL Pizza chain__ele,WNL Pizza chain__adv,ele,adv,0,dev,2
+WNL Pizza chain,ele-adv,WNL Pizza chain__adv,WNL Pizza chain__ele,adv,ele,1,dev,2
+WNL Planet,ele-int,WNL Planet__ele,WNL Planet__int,ele,int,0,dev,0
+WNL Planet,ele-int,WNL Planet__int,WNL Planet__ele,int,ele,1,dev,0
+WNL Planet,int-adv,WNL Planet__int,WNL Planet__adv,int,adv,0,dev,0
+WNL Planet,int-adv,WNL Planet__adv,WNL Planet__int,adv,int,1,dev,0
+WNL Planet,ele-adv,WNL Planet__ele,WNL Planet__adv,ele,adv,0,dev,0
+WNL Planet,ele-adv,WNL Planet__adv,WNL Planet__ele,adv,ele,1,dev,0
+WNL Poverty,ele-int,WNL Poverty__ele,WNL Poverty__int,ele,int,0,dev,1
+WNL Poverty,ele-int,WNL Poverty__int,WNL Poverty__ele,int,ele,1,dev,1
+WNL Poverty,int-adv,WNL Poverty__int,WNL Poverty__adv,int,adv,0,dev,1
+WNL Poverty,int-adv,WNL Poverty__adv,WNL Poverty__int,adv,int,1,dev,1
+WNL Poverty,ele-adv,WNL Poverty__ele,WNL Poverty__adv,ele,adv,0,dev,1
+WNL Poverty,ele-adv,WNL Poverty__adv,WNL Poverty__ele,adv,ele,1,dev,1
+WNL Revolution,ele-int,WNL Revolution__ele,WNL Revolution__int,ele,int,0,dev,1
+WNL Revolution,ele-int,WNL Revolution__int,WNL Revolution__ele,int,ele,1,dev,1
+WNL Revolution,int-adv,WNL Revolution__int,WNL Revolution__adv,int,adv,0,dev,1
+WNL Revolution,int-adv,WNL Revolution__adv,WNL Revolution__int,adv,int,1,dev,1
+WNL Revolution,ele-adv,WNL Revolution__ele,WNL Revolution__adv,ele,adv,0,dev,1
+WNL Revolution,ele-adv,WNL Revolution__adv,WNL Revolution__ele,adv,ele,1,dev,1
+WNL Rwanda,ele-int,WNL Rwanda__ele,WNL Rwanda__int,ele,int,0,dev,0
+WNL Rwanda,ele-int,WNL Rwanda__int,WNL Rwanda__ele,int,ele,1,dev,0
+WNL Rwanda,int-adv,WNL Rwanda__int,WNL Rwanda__adv,int,adv,0,dev,0
+WNL Rwanda,int-adv,WNL Rwanda__adv,WNL Rwanda__int,adv,int,1,dev,0
+WNL Rwanda,ele-adv,WNL Rwanda__ele,WNL Rwanda__adv,ele,adv,0,dev,0
+WNL Rwanda,ele-adv,WNL Rwanda__adv,WNL Rwanda__ele,adv,ele,1,dev,0
+WNL Satnav,ele-int,WNL Satnav__ele,WNL Satnav__int,ele,int,0,dev,3
+WNL Satnav,ele-int,WNL Satnav__int,WNL Satnav__ele,int,ele,1,dev,3
+WNL Satnav,int-adv,WNL Satnav__int,WNL Satnav__adv,int,adv,0,dev,3
+WNL Satnav,int-adv,WNL Satnav__adv,WNL Satnav__int,adv,int,1,dev,3
+WNL Satnav,ele-adv,WNL Satnav__ele,WNL Satnav__adv,ele,adv,0,dev,3
+WNL Satnav,ele-adv,WNL Satnav__adv,WNL Satnav__ele,adv,ele,1,dev,3
+WNL Scarlett,ele-int,WNL Scarlett__ele,WNL Scarlett__int,ele,int,0,dev,4
+WNL Scarlett,ele-int,WNL Scarlett__int,WNL Scarlett__ele,int,ele,1,dev,4
+WNL Scarlett,int-adv,WNL Scarlett__int,WNL Scarlett__adv,int,adv,0,dev,4
+WNL Scarlett,int-adv,WNL Scarlett__adv,WNL Scarlett__int,adv,int,1,dev,4
+WNL Scarlett,ele-adv,WNL Scarlett__ele,WNL Scarlett__adv,ele,adv,0,dev,4
+WNL Scarlett,ele-adv,WNL Scarlett__adv,WNL Scarlett__ele,adv,ele,1,dev,4
+WNL School,ele-int,WNL School__ele,WNL School__int,ele,int,0,dev,2
+WNL School,ele-int,WNL School__int,WNL School__ele,int,ele,1,dev,2
+WNL School,int-adv,WNL School__int,WNL School__adv,int,adv,0,dev,2
+WNL School,int-adv,WNL School__adv,WNL School__int,adv,int,1,dev,2
+WNL School,ele-adv,WNL School__ele,WNL School__adv,ele,adv,0,dev,2
+WNL School,ele-adv,WNL School__adv,WNL School__ele,adv,ele,1,dev,2
+WNL School Sports,ele-int,WNL School Sports__ele,WNL School Sports__int,ele,int,0,test,-1
+WNL School Sports,ele-int,WNL School Sports__int,WNL School Sports__ele,int,ele,1,test,-1
+WNL School Sports,int-adv,WNL School Sports__int,WNL School Sports__adv,int,adv,0,test,-1
+WNL School Sports,int-adv,WNL School Sports__adv,WNL School Sports__int,adv,int,1,test,-1
+WNL School Sports,ele-adv,WNL School Sports__ele,WNL School Sports__adv,ele,adv,0,test,-1
+WNL School Sports,ele-adv,WNL School Sports__adv,WNL School Sports__ele,adv,ele,1,test,-1
+WNL Scientist,ele-int,WNL Scientist__ele,WNL Scientist__int,ele,int,0,dev,3
+WNL Scientist,ele-int,WNL Scientist__int,WNL Scientist__ele,int,ele,1,dev,3
+WNL Scientist,int-adv,WNL Scientist__int,WNL Scientist__adv,int,adv,0,dev,3
+WNL Scientist,int-adv,WNL Scientist__adv,WNL Scientist__int,adv,int,1,dev,3
+WNL Scientist,ele-adv,WNL Scientist__ele,WNL Scientist__adv,ele,adv,0,dev,3
+WNL Scientist,ele-adv,WNL Scientist__adv,WNL Scientist__ele,adv,ele,1,dev,3
+WNL Scottish referendum,ele-int,WNL Scottish referendum__ele,WNL Scottish referendum__int,ele,int,0,dev,3
+WNL Scottish referendum,ele-int,WNL Scottish referendum__int,WNL Scottish referendum__ele,int,ele,1,dev,3
+WNL Scottish referendum,int-adv,WNL Scottish referendum__int,WNL Scottish referendum__adv,int,adv,0,dev,3
+WNL Scottish referendum,int-adv,WNL Scottish referendum__adv,WNL Scottish referendum__int,adv,int,1,dev,3
+WNL Scottish referendum,ele-adv,WNL Scottish referendum__ele,WNL Scottish referendum__adv,ele,adv,0,dev,3
+WNL Scottish referendum,ele-adv,WNL Scottish referendum__adv,WNL Scottish referendum__ele,adv,ele,1,dev,3
+WNL SeaWorld,ele-int,WNL SeaWorld__ele,WNL SeaWorld__int,ele,int,0,dev,2
+WNL SeaWorld,ele-int,WNL SeaWorld__int,WNL SeaWorld__ele,int,ele,1,dev,2
+WNL SeaWorld,int-adv,WNL SeaWorld__int,WNL SeaWorld__adv,int,adv,0,dev,2
+WNL SeaWorld,int-adv,WNL SeaWorld__adv,WNL SeaWorld__int,adv,int,1,dev,2
+WNL SeaWorld,ele-adv,WNL SeaWorld__ele,WNL SeaWorld__adv,ele,adv,0,dev,2
+WNL SeaWorld,ele-adv,WNL SeaWorld__adv,WNL SeaWorld__ele,adv,ele,1,dev,2
+WNL Shakespeare,ele-int,WNL Shakespeare__ele,WNL Shakespeare__int,ele,int,0,test,-1
+WNL Shakespeare,ele-int,WNL Shakespeare__int,WNL Shakespeare__ele,int,ele,1,test,-1
+WNL Shakespeare,int-adv,WNL Shakespeare__int,WNL Shakespeare__adv,int,adv,0,test,-1
+WNL Shakespeare,int-adv,WNL Shakespeare__adv,WNL Shakespeare__int,adv,int,1,test,-1
+WNL Shakespeare,ele-adv,WNL Shakespeare__ele,WNL Shakespeare__adv,ele,adv,0,test,-1
+WNL Shakespeare,ele-adv,WNL Shakespeare__adv,WNL Shakespeare__ele,adv,ele,1,test,-1
+WNL Ships noise,ele-int,WNL Ships noise__ele,WNL Ships noise__int,ele,int,0,test,-1
+WNL Ships noise,ele-int,WNL Ships noise__int,WNL Ships noise__ele,int,ele,1,test,-1
+WNL Ships noise,int-adv,WNL Ships noise__int,WNL Ships noise__adv,int,adv,0,test,-1
+WNL Ships noise,int-adv,WNL Ships noise__adv,WNL Ships noise__int,adv,int,1,test,-1
+WNL Ships noise,ele-adv,WNL Ships noise__ele,WNL Ships noise__adv,ele,adv,0,test,-1
+WNL Ships noise,ele-adv,WNL Ships noise__adv,WNL Ships noise__ele,adv,ele,1,test,-1
+WNL Shocking,ele-int,WNL Shocking__ele,WNL Shocking__int,ele,int,0,dev,4
+WNL Shocking,ele-int,WNL Shocking__int,WNL Shocking__ele,int,ele,1,dev,4
+WNL Shocking,int-adv,WNL Shocking__int,WNL Shocking__adv,int,adv,0,dev,4
+WNL Shocking,int-adv,WNL Shocking__adv,WNL Shocking__int,adv,int,1,dev,4
+WNL Shocking,ele-adv,WNL Shocking__ele,WNL Shocking__adv,ele,adv,0,dev,4
+WNL Shocking,ele-adv,WNL Shocking__adv,WNL Shocking__ele,adv,ele,1,dev,4
+WNL Shops,ele-int,WNL Shops__ele,WNL Shops__int,ele,int,0,dev,3
+WNL Shops,ele-int,WNL Shops__int,WNL Shops__ele,int,ele,1,dev,3
+WNL Shops,int-adv,WNL Shops__int,WNL Shops__adv,int,adv,0,dev,3
+WNL Shops,int-adv,WNL Shops__adv,WNL Shops__int,adv,int,1,dev,3
+WNL Shops,ele-adv,WNL Shops__ele,WNL Shops__adv,ele,adv,0,dev,3
+WNL Shops,ele-adv,WNL Shops__adv,WNL Shops__ele,adv,ele,1,dev,3
+WNL Six year olds,ele-int,WNL Six year olds__ele,WNL Six year olds__int,ele,int,0,dev,3
+WNL Six year olds,ele-int,WNL Six year olds__int,WNL Six year olds__ele,int,ele,1,dev,3
+WNL Six year olds,int-adv,WNL Six year olds__int,WNL Six year olds__adv,int,adv,0,dev,3
+WNL Six year olds,int-adv,WNL Six year olds__adv,WNL Six year olds__int,adv,int,1,dev,3
+WNL Six year olds,ele-adv,WNL Six year olds__ele,WNL Six year olds__adv,ele,adv,0,dev,3
+WNL Six year olds,ele-adv,WNL Six year olds__adv,WNL Six year olds__ele,adv,ele,1,dev,3
+WNL Spain Robin Hood,ele-int,WNL Spain Robin Hood__ele,WNL Spain Robin Hood__int,ele,int,0,dev,0
+WNL Spain Robin Hood,ele-int,WNL Spain Robin Hood__int,WNL Spain Robin Hood__ele,int,ele,1,dev,0
+WNL Spain Robin Hood,int-adv,WNL Spain Robin Hood__int,WNL Spain Robin Hood__adv,int,adv,0,dev,0
+WNL Spain Robin Hood,int-adv,WNL Spain Robin Hood__adv,WNL Spain Robin Hood__int,adv,int,1,dev,0
+WNL Spain Robin Hood,ele-adv,WNL Spain Robin Hood__ele,WNL Spain Robin Hood__adv,ele,adv,0,dev,0
+WNL Spain Robin Hood,ele-adv,WNL Spain Robin Hood__adv,WNL Spain Robin Hood__ele,adv,ele,1,dev,0
+WNL Spain Wetlands,ele-int,WNL Spain Wetlands__ele,WNL Spain Wetlands__int,ele,int,0,dev,1
+WNL Spain Wetlands,ele-int,WNL Spain Wetlands__int,WNL Spain Wetlands__ele,int,ele,1,dev,1
+WNL Spain Wetlands,int-adv,WNL Spain Wetlands__int,WNL Spain Wetlands__adv,int,adv,0,dev,1
+WNL Spain Wetlands,int-adv,WNL Spain Wetlands__adv,WNL Spain Wetlands__int,adv,int,1,dev,1
+WNL Spain Wetlands,ele-adv,WNL Spain Wetlands__ele,WNL Spain Wetlands__adv,ele,adv,0,dev,1
+WNL Spain Wetlands,ele-adv,WNL Spain Wetlands__adv,WNL Spain Wetlands__ele,adv,ele,1,dev,1
+WNL Star Wars,ele-int,WNL Star Wars__ele,WNL Star Wars__int,ele,int,0,test,-1
+WNL Star Wars,ele-int,WNL Star Wars__int,WNL Star Wars__ele,int,ele,1,test,-1
+WNL Star Wars,int-adv,WNL Star Wars__int,WNL Star Wars__adv,int,adv,0,test,-1
+WNL Star Wars,int-adv,WNL Star Wars__adv,WNL Star Wars__int,adv,int,1,test,-1
+WNL Star Wars,ele-adv,WNL Star Wars__ele,WNL Star Wars__adv,ele,adv,0,test,-1
+WNL Star Wars,ele-adv,WNL Star Wars__adv,WNL Star Wars__ele,adv,ele,1,test,-1
+WNL Still no flying cars,ele-int,WNL Still no flying cars__ele,WNL Still no flying cars__int,ele,int,0,test,-1
+WNL Still no flying cars,ele-int,WNL Still no flying cars__int,WNL Still no flying cars__ele,int,ele,1,test,-1
+WNL Still no flying cars,int-adv,WNL Still no flying cars__int,WNL Still no flying cars__adv,int,adv,0,test,-1
+WNL Still no flying cars,int-adv,WNL Still no flying cars__adv,WNL Still no flying cars__int,adv,int,1,test,-1
+WNL Still no flying cars,ele-adv,WNL Still no flying cars__ele,WNL Still no flying cars__adv,ele,adv,0,test,-1
+WNL Still no flying cars,ele-adv,WNL Still no flying cars__adv,WNL Still no flying cars__ele,adv,ele,1,test,-1
+WNL Swarthy caveman,ele-int,WNL Swarthy caveman__ele,WNL Swarthy caveman__int,ele,int,0,dev,1
+WNL Swarthy caveman,ele-int,WNL Swarthy caveman__int,WNL Swarthy caveman__ele,int,ele,1,dev,1
+WNL Swarthy caveman,int-adv,WNL Swarthy caveman__int,WNL Swarthy caveman__adv,int,adv,0,dev,1
+WNL Swarthy caveman,int-adv,WNL Swarthy caveman__adv,WNL Swarthy caveman__int,adv,int,1,dev,1
+WNL Swarthy caveman,ele-adv,WNL Swarthy caveman__ele,WNL Swarthy caveman__adv,ele,adv,0,dev,1
+WNL Swarthy caveman,ele-adv,WNL Swarthy caveman__adv,WNL Swarthy caveman__ele,adv,ele,1,dev,1
+WNL Switched Babies,ele-int,WNL Switched Babies__ele,WNL Switched Babies__int,ele,int,0,dev,1
+WNL Switched Babies,ele-int,WNL Switched Babies__int,WNL Switched Babies__ele,int,ele,1,dev,1
+WNL Switched Babies,int-adv,WNL Switched Babies__int,WNL Switched Babies__adv,int,adv,0,dev,1
+WNL Switched Babies,int-adv,WNL Switched Babies__adv,WNL Switched Babies__int,adv,int,1,dev,1
+WNL Switched Babies,ele-adv,WNL Switched Babies__ele,WNL Switched Babies__adv,ele,adv,0,dev,1
+WNL Switched Babies,ele-adv,WNL Switched Babies__adv,WNL Switched Babies__ele,adv,ele,1,dev,1
+WNL Ten ideas,ele-int,WNL Ten ideas__ele,WNL Ten ideas__int,ele,int,0,dev,3
+WNL Ten ideas,ele-int,WNL Ten ideas__int,WNL Ten ideas__ele,int,ele,1,dev,3
+WNL Ten ideas,int-adv,WNL Ten ideas__int,WNL Ten ideas__adv,int,adv,0,dev,3
+WNL Ten ideas,int-adv,WNL Ten ideas__adv,WNL Ten ideas__int,adv,int,1,dev,3
+WNL Ten ideas,ele-adv,WNL Ten ideas__ele,WNL Ten ideas__adv,ele,adv,0,dev,3
+WNL Ten ideas,ele-adv,WNL Ten ideas__adv,WNL Ten ideas__ele,adv,ele,1,dev,3
+WNL The Greek island,ele-int,WNL The Greek island__ele,WNL The Greek island__int,ele,int,0,dev,4
+WNL The Greek island,ele-int,WNL The Greek island__int,WNL The Greek island__ele,int,ele,1,dev,4
+WNL The Greek island,int-adv,WNL The Greek island__int,WNL The Greek island__adv,int,adv,0,dev,4
+WNL The Greek island,int-adv,WNL The Greek island__adv,WNL The Greek island__int,adv,int,1,dev,4
+WNL The Greek island,ele-adv,WNL The Greek island__ele,WNL The Greek island__adv,ele,adv,0,dev,4
+WNL The Greek island,ele-adv,WNL The Greek island__adv,WNL The Greek island__ele,adv,ele,1,dev,4
+WNL The age of music,ele-int,WNL The age of music__ele,WNL The age of music__int,ele,int,0,dev,4
+WNL The age of music,ele-int,WNL The age of music__int,WNL The age of music__ele,int,ele,1,dev,4
+WNL The age of music,int-adv,WNL The age of music__int,WNL The age of music__adv,int,adv,0,dev,4
+WNL The age of music,int-adv,WNL The age of music__adv,WNL The age of music__int,adv,int,1,dev,4
+WNL The age of music,ele-adv,WNL The age of music__ele,WNL The age of music__adv,ele,adv,0,dev,4
+WNL The age of music,ele-adv,WNL The age of music__adv,WNL The age of music__ele,adv,ele,1,dev,4
+WNL The last,ele-int,WNL The last__ele,WNL The last__int,ele,int,0,dev,3
+WNL The last,ele-int,WNL The last__int,WNL The last__ele,int,ele,1,dev,3
+WNL The last,int-adv,WNL The last__int,WNL The last__adv,int,adv,0,dev,3
+WNL The last,int-adv,WNL The last__adv,WNL The last__int,adv,int,1,dev,3
+WNL The last,ele-adv,WNL The last__ele,WNL The last__adv,ele,adv,0,dev,3
+WNL The last,ele-adv,WNL The last__adv,WNL The last__ele,adv,ele,1,dev,3
+WNL The lightweight,ele-int,WNL The lightweight__ele,WNL The lightweight__int,ele,int,0,dev,0
+WNL The lightweight,ele-int,WNL The lightweight__int,WNL The lightweight__ele,int,ele,1,dev,0
+WNL The lightweight,int-adv,WNL The lightweight__int,WNL The lightweight__adv,int,adv,0,dev,0
+WNL The lightweight,int-adv,WNL The lightweight__adv,WNL The lightweight__int,adv,int,1,dev,0
+WNL The lightweight,ele-adv,WNL The lightweight__ele,WNL The lightweight__adv,ele,adv,0,dev,0
+WNL The lightweight,ele-adv,WNL The lightweight__adv,WNL The lightweight__ele,adv,ele,1,dev,0
+WNL The millenials,ele-int,WNL The millenials__ele,WNL The millenials__int,ele,int,0,dev,0
+WNL The millenials,ele-int,WNL The millenials__int,WNL The millenials__ele,int,ele,1,dev,0
+WNL The millenials,int-adv,WNL The millenials__int,WNL The millenials__adv,int,adv,0,dev,0
+WNL The millenials,int-adv,WNL The millenials__adv,WNL The millenials__int,adv,int,1,dev,0
+WNL The millenials,ele-adv,WNL The millenials__ele,WNL The millenials__adv,ele,adv,0,dev,0
+WNL The millenials,ele-adv,WNL The millenials__adv,WNL The millenials__ele,adv,ele,1,dev,0
+WNL Tributes,ele-int,WNL Tributes__ele,WNL Tributes__int,ele,int,0,test,-1
+WNL Tributes,ele-int,WNL Tributes__int,WNL Tributes__ele,int,ele,1,test,-1
+WNL Tributes,int-adv,WNL Tributes__int,WNL Tributes__adv,int,adv,0,test,-1
+WNL Tributes,int-adv,WNL Tributes__adv,WNL Tributes__int,adv,int,1,test,-1
+WNL Tributes,ele-adv,WNL Tributes__ele,WNL Tributes__adv,ele,adv,0,test,-1
+WNL Tributes,ele-adv,WNL Tributes__adv,WNL Tributes__ele,adv,ele,1,test,-1
+WNL Use of e-cig,ele-int,WNL Use of e-cig__ele,WNL Use of e-cig__int,ele,int,0,dev,2
+WNL Use of e-cig,ele-int,WNL Use of e-cig__int,WNL Use of e-cig__ele,int,ele,1,dev,2
+WNL Use of e-cig,int-adv,WNL Use of e-cig__int,WNL Use of e-cig__adv,int,adv,0,dev,2
+WNL Use of e-cig,int-adv,WNL Use of e-cig__adv,WNL Use of e-cig__int,adv,int,1,dev,2
+WNL Use of e-cig,ele-adv,WNL Use of e-cig__ele,WNL Use of e-cig__adv,ele,adv,0,dev,2
+WNL Use of e-cig,ele-adv,WNL Use of e-cig__adv,WNL Use of e-cig__ele,adv,ele,1,dev,2
+WNL Vienna,ele-int,WNL Vienna__ele,WNL Vienna__int,ele,int,0,dev,3
+WNL Vienna,ele-int,WNL Vienna__int,WNL Vienna__ele,int,ele,1,dev,3
+WNL Vienna,int-adv,WNL Vienna__int,WNL Vienna__adv,int,adv,0,dev,3
+WNL Vienna,int-adv,WNL Vienna__adv,WNL Vienna__int,adv,int,1,dev,3
+WNL Vienna,ele-adv,WNL Vienna__ele,WNL Vienna__adv,ele,adv,0,dev,3
+WNL Vienna,ele-adv,WNL Vienna__adv,WNL Vienna__ele,adv,ele,1,dev,3
+WNL Waiters,ele-int,WNL Waiters__ele,WNL Waiters__int,ele,int,0,dev,3
+WNL Waiters,ele-int,WNL Waiters__int,WNL Waiters__ele,int,ele,1,dev,3
+WNL Waiters,int-adv,WNL Waiters__int,WNL Waiters__adv,int,adv,0,dev,3
+WNL Waiters,int-adv,WNL Waiters__adv,WNL Waiters__int,adv,int,1,dev,3
+WNL Waiters,ele-adv,WNL Waiters__ele,WNL Waiters__adv,ele,adv,0,dev,3
+WNL Waiters,ele-adv,WNL Waiters__adv,WNL Waiters__ele,adv,ele,1,dev,3
+WNL Ways Facebook changed,ele-int,WNL Ways Facebook changed__ele,WNL Ways Facebook changed__int,ele,int,0,dev,0
+WNL Ways Facebook changed,ele-int,WNL Ways Facebook changed__int,WNL Ways Facebook changed__ele,int,ele,1,dev,0
+WNL Ways Facebook changed,int-adv,WNL Ways Facebook changed__int,WNL Ways Facebook changed__adv,int,adv,0,dev,0
+WNL Ways Facebook changed,int-adv,WNL Ways Facebook changed__adv,WNL Ways Facebook changed__int,adv,int,1,dev,0
+WNL Ways Facebook changed,ele-adv,WNL Ways Facebook changed__ele,WNL Ways Facebook changed__adv,ele,adv,0,dev,0
+WNL Ways Facebook changed,ele-adv,WNL Ways Facebook changed__adv,WNL Ways Facebook changed__ele,adv,ele,1,dev,0
+WNL We must,ele-int,WNL We must__ele,WNL We must__int,ele,int,0,test,-1
+WNL We must,ele-int,WNL We must__int,WNL We must__ele,int,ele,1,test,-1
+WNL We must,int-adv,WNL We must__int,WNL We must__adv,int,adv,0,test,-1
+WNL We must,int-adv,WNL We must__adv,WNL We must__int,adv,int,1,test,-1
+WNL We must,ele-adv,WNL We must__ele,WNL We must__adv,ele,adv,0,test,-1
+WNL We must,ele-adv,WNL We must__adv,WNL We must__ele,adv,ele,1,test,-1
+WNL Wealth therapy,ele-int,WNL Wealth therapy__ele,WNL Wealth therapy__int,ele,int,0,dev,2
+WNL Wealth therapy,ele-int,WNL Wealth therapy__int,WNL Wealth therapy__ele,int,ele,1,dev,2
+WNL Wealth therapy,int-adv,WNL Wealth therapy__int,WNL Wealth therapy__adv,int,adv,0,dev,2
+WNL Wealth therapy,int-adv,WNL Wealth therapy__adv,WNL Wealth therapy__int,adv,int,1,dev,2
+WNL Wealth therapy,ele-adv,WNL Wealth therapy__ele,WNL Wealth therapy__adv,ele,adv,0,dev,2
+WNL Wealth therapy,ele-adv,WNL Wealth therapy__adv,WNL Wealth therapy__ele,adv,ele,1,dev,2
+WNL What does Apple,ele-int,WNL What does Apple__ele,WNL What does Apple__int,ele,int,0,test,-1
+WNL What does Apple,ele-int,WNL What does Apple__int,WNL What does Apple__ele,int,ele,1,test,-1
+WNL What does Apple,int-adv,WNL What does Apple__int,WNL What does Apple__adv,int,adv,0,test,-1
+WNL What does Apple,int-adv,WNL What does Apple__adv,WNL What does Apple__int,adv,int,1,test,-1
+WNL What does Apple,ele-adv,WNL What does Apple__ele,WNL What does Apple__adv,ele,adv,0,test,-1
+WNL What does Apple,ele-adv,WNL What does Apple__adv,WNL What does Apple__ele,adv,ele,1,test,-1
+WNL What is world's,ele-int,WNL What is world's__ele,WNL What is world's__int,ele,int,0,dev,1
+WNL What is world's,ele-int,WNL What is world's__int,WNL What is world's__ele,int,ele,1,dev,1
+WNL What is world's,int-adv,WNL What is world's__int,WNL What is world's__adv,int,adv,0,dev,1
+WNL What is world's,int-adv,WNL What is world's__adv,WNL What is world's__int,adv,int,1,dev,1
+WNL What is world's,ele-adv,WNL What is world's__ele,WNL What is world's__adv,ele,adv,0,dev,1
+WNL What is world's,ele-adv,WNL What is world's__adv,WNL What is world's__ele,adv,ele,1,dev,1
+WNL What's the secret,ele-int,WNL What's the secret__ele,WNL What's the secret__int,ele,int,0,dev,2
+WNL What's the secret,ele-int,WNL What's the secret__int,WNL What's the secret__ele,int,ele,1,dev,2
+WNL What's the secret,int-adv,WNL What's the secret__int,WNL What's the secret__adv,int,adv,0,dev,2
+WNL What's the secret,int-adv,WNL What's the secret__adv,WNL What's the secret__int,adv,int,1,dev,2
+WNL What's the secret,ele-adv,WNL What's the secret__ele,WNL What's the secret__adv,ele,adv,0,dev,2
+WNL What's the secret,ele-adv,WNL What's the secret__adv,WNL What's the secret__ele,adv,ele,1,dev,2
+WNL Who can stop Trump,ele-int,WNL Who can stop Trump__ele,WNL Who can stop Trump__int,ele,int,0,dev,4
+WNL Who can stop Trump,ele-int,WNL Who can stop Trump__int,WNL Who can stop Trump__ele,int,ele,1,dev,4
+WNL Who can stop Trump,int-adv,WNL Who can stop Trump__int,WNL Who can stop Trump__adv,int,adv,0,dev,4
+WNL Who can stop Trump,int-adv,WNL Who can stop Trump__adv,WNL Who can stop Trump__int,adv,int,1,dev,4
+WNL Who can stop Trump,ele-adv,WNL Who can stop Trump__ele,WNL Who can stop Trump__adv,ele,adv,0,dev,4
+WNL Who can stop Trump,ele-adv,WNL Who can stop Trump__adv,WNL Who can stop Trump__ele,adv,ele,1,dev,4
+WNL Who invented,ele-int,WNL Who invented__ele,WNL Who invented__int,ele,int,0,dev,0
+WNL Who invented,ele-int,WNL Who invented__int,WNL Who invented__ele,int,ele,1,dev,0
+WNL Who invented,int-adv,WNL Who invented__int,WNL Who invented__adv,int,adv,0,dev,0
+WNL Who invented,int-adv,WNL Who invented__adv,WNL Who invented__int,adv,int,1,dev,0
+WNL Who invented,ele-adv,WNL Who invented__ele,WNL Who invented__adv,ele,adv,0,dev,0
+WNL Who invented,ele-adv,WNL Who invented__adv,WNL Who invented__ele,adv,ele,1,dev,0
+WNL Why are people so wrong,ele-int,WNL Why are people so wrong__ele,WNL Why are people so wrong__int,ele,int,0,dev,0
+WNL Why are people so wrong,ele-int,WNL Why are people so wrong__int,WNL Why are people so wrong__ele,int,ele,1,dev,0
+WNL Why are people so wrong,int-adv,WNL Why are people so wrong__int,WNL Why are people so wrong__adv,int,adv,0,dev,0
+WNL Why are people so wrong,int-adv,WNL Why are people so wrong__adv,WNL Why are people so wrong__int,adv,int,1,dev,0
+WNL Why are people so wrong,ele-adv,WNL Why are people so wrong__ele,WNL Why are people so wrong__adv,ele,adv,0,dev,0
+WNL Why are people so wrong,ele-adv,WNL Why are people so wrong__adv,WNL Why are people so wrong__ele,adv,ele,1,dev,0
+WNL Why we should,ele-int,WNL Why we should__ele,WNL Why we should__int,ele,int,0,dev,1
+WNL Why we should,ele-int,WNL Why we should__int,WNL Why we should__ele,int,ele,1,dev,1
+WNL Why we should,int-adv,WNL Why we should__int,WNL Why we should__adv,int,adv,0,dev,1
+WNL Why we should,int-adv,WNL Why we should__adv,WNL Why we should__int,adv,int,1,dev,1
+WNL Why we should,ele-adv,WNL Why we should__ele,WNL Why we should__adv,ele,adv,0,dev,1
+WNL Why we should,ele-adv,WNL Why we should__adv,WNL Why we should__ele,adv,ele,1,dev,1
+WNL Why you should start work at 10,ele-int,WNL Why you should start work at 10__ele,WNL Why you should start work at 10__int,ele,int,0,test,-1
+WNL Why you should start work at 10,ele-int,WNL Why you should start work at 10__int,WNL Why you should start work at 10__ele,int,ele,1,test,-1
+WNL Why you should start work at 10,int-adv,WNL Why you should start work at 10__int,WNL Why you should start work at 10__adv,int,adv,0,test,-1
+WNL Why you should start work at 10,int-adv,WNL Why you should start work at 10__adv,WNL Why you should start work at 10__int,adv,int,1,test,-1
+WNL Why you should start work at 10,ele-adv,WNL Why you should start work at 10__ele,WNL Why you should start work at 10__adv,ele,adv,0,test,-1
+WNL Why you should start work at 10,ele-adv,WNL Why you should start work at 10__adv,WNL Why you should start work at 10__ele,adv,ele,1,test,-1
+WNL Will drones,ele-int,WNL Will drones__ele,WNL Will drones__int,ele,int,0,dev,4
+WNL Will drones,ele-int,WNL Will drones__int,WNL Will drones__ele,int,ele,1,dev,4
+WNL Will drones,int-adv,WNL Will drones__int,WNL Will drones__adv,int,adv,0,dev,4
+WNL Will drones,int-adv,WNL Will drones__adv,WNL Will drones__int,adv,int,1,dev,4
+WNL Will drones,ele-adv,WNL Will drones__ele,WNL Will drones__adv,ele,adv,0,dev,4
+WNL Will drones,ele-adv,WNL Will drones__adv,WNL Will drones__ele,adv,ele,1,dev,4
+WNL Winter,ele-int,WNL Winter__ele,WNL Winter__int,ele,int,0,dev,0
+WNL Winter,ele-int,WNL Winter__int,WNL Winter__ele,int,ele,1,dev,0
+WNL Winter,int-adv,WNL Winter__int,WNL Winter__adv,int,adv,0,dev,0
+WNL Winter,int-adv,WNL Winter__adv,WNL Winter__int,adv,int,1,dev,0
+WNL Winter,ele-adv,WNL Winter__ele,WNL Winter__adv,ele,adv,0,dev,0
+WNL Winter,ele-adv,WNL Winter__adv,WNL Winter__ele,adv,ele,1,dev,0
+WNL World Cup,ele-int,WNL World Cup__ele,WNL World Cup__int,ele,int,0,test,-1
+WNL World Cup,ele-int,WNL World Cup__int,WNL World Cup__ele,int,ele,1,test,-1
+WNL World Cup,int-adv,WNL World Cup__int,WNL World Cup__adv,int,adv,0,test,-1
+WNL World Cup,int-adv,WNL World Cup__adv,WNL World Cup__int,adv,int,1,test,-1
+WNL World Cup,ele-adv,WNL World Cup__ele,WNL World Cup__adv,ele,adv,0,test,-1
+WNL World Cup,ele-adv,WNL World Cup__adv,WNL World Cup__ele,adv,ele,1,test,-1
+WNL Young Americans,ele-int,WNL Young Americans__ele,WNL Young Americans__int,ele,int,0,dev,2
+WNL Young Americans,ele-int,WNL Young Americans__int,WNL Young Americans__ele,int,ele,1,dev,2
+WNL Young Americans,int-adv,WNL Young Americans__int,WNL Young Americans__adv,int,adv,0,dev,2
+WNL Young Americans,int-adv,WNL Young Americans__adv,WNL Young Americans__int,adv,int,1,dev,2
+WNL Young Americans,ele-adv,WNL Young Americans__ele,WNL Young Americans__adv,ele,adv,0,dev,2
+WNL Young Americans,ele-adv,WNL Young Americans__adv,WNL Young Americans__ele,adv,ele,1,dev,2
+WNL are you a bad boyfriend,ele-int,WNL are you a bad boyfriend__ele,WNL are you a bad boyfriend__int,ele,int,0,dev,3
+WNL are you a bad boyfriend,ele-int,WNL are you a bad boyfriend__int,WNL are you a bad boyfriend__ele,int,ele,1,dev,3
+WNL are you a bad boyfriend,int-adv,WNL are you a bad boyfriend__int,WNL are you a bad boyfriend__adv,int,adv,0,dev,3
+WNL are you a bad boyfriend,int-adv,WNL are you a bad boyfriend__adv,WNL are you a bad boyfriend__int,adv,int,1,dev,3
+WNL are you a bad boyfriend,ele-adv,WNL are you a bad boyfriend__ele,WNL are you a bad boyfriend__adv,ele,adv,0,dev,3
+WNL are you a bad boyfriend,ele-adv,WNL are you a bad boyfriend__adv,WNL are you a bad boyfriend__ele,adv,ele,1,dev,3
+WNL shark,ele-int,WNL shark__ele,WNL shark__int,ele,int,0,dev,1
+WNL shark,ele-int,WNL shark__int,WNL shark__ele,int,ele,1,dev,1
+WNL shark,int-adv,WNL shark__int,WNL shark__adv,int,adv,0,dev,1
+WNL shark,int-adv,WNL shark__adv,WNL shark__int,adv,int,1,dev,1
+WNL shark,ele-adv,WNL shark__ele,WNL shark__adv,ele,adv,0,dev,1
+WNL shark,ele-adv,WNL shark__adv,WNL shark__ele,adv,ele,1,dev,1
+WNL six well paid jobs,ele-int,WNL six well paid jobs__ele,WNL six well paid jobs__int,ele,int,0,test,-1
+WNL six well paid jobs,ele-int,WNL six well paid jobs__int,WNL six well paid jobs__ele,int,ele,1,test,-1
+WNL six well paid jobs,int-adv,WNL six well paid jobs__int,WNL six well paid jobs__adv,int,adv,0,test,-1
+WNL six well paid jobs,int-adv,WNL six well paid jobs__adv,WNL six well paid jobs__int,adv,int,1,test,-1
+WNL six well paid jobs,ele-adv,WNL six well paid jobs__ele,WNL six well paid jobs__adv,ele,adv,0,test,-1
+WNL six well paid jobs,ele-adv,WNL six well paid jobs__adv,WNL six well paid jobs__ele,adv,ele,1,test,-1
+Zero Hours,ele-int,Zero Hours__ele,Zero Hours__int,ele,int,0,test,-1
+Zero Hours,ele-int,Zero Hours__int,Zero Hours__ele,int,ele,1,test,-1
+Zero Hours,int-adv,Zero Hours__int,Zero Hours__adv,int,adv,0,test,-1
+Zero Hours,int-adv,Zero Hours__adv,Zero Hours__int,adv,int,1,test,-1
+Zero Hours,ele-adv,Zero Hours__ele,Zero Hours__adv,ele,adv,0,test,-1
+Zero Hours,ele-adv,Zero Hours__adv,Zero Hours__ele,adv,ele,1,test,-1
+climate change,ele-int,climate change__ele,climate change__int,ele,int,0,dev,4
+climate change,ele-int,climate change__int,climate change__ele,int,ele,1,dev,4
+climate change,int-adv,climate change__int,climate change__adv,int,adv,0,dev,4
+climate change,int-adv,climate change__adv,climate change__int,adv,int,1,dev,4
+climate change,ele-adv,climate change__ele,climate change__adv,ele,adv,0,dev,4
+climate change,ele-adv,climate change__adv,climate change__ele,adv,ele,1,dev,4
