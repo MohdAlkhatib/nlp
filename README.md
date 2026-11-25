@@ -3,7 +3,7 @@
 Group 23 NLP project: classifying news texts as elementary, intermediate or advanced with
 27 hand-built linguistic features, evaluated on article-grouped splits.
 
-**Paper:** [`paper/paper.pdf`](paper/paper.pdf) · **All results:** [`results/summary.md`](results/summary.md)
+**Paper:** [`paper/paper.pdf`](paper/paper.pdf) · **Slides:** [`slides/slides.pdf`](slides/slides.pdf) · **All results:** [`results/summary.md`](results/summary.md)
 
 ## Main results
 
