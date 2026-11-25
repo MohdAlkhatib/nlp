@@ -1,0 +1,229 @@
+article_id,pair_type,text_id_a,text_id_b,level_a,level_b,label,split,fold_grouped,pred_pairwise_lr,pred_length,pred_flesch_kincaid,pred_classifier
+Arctic mapping,ele-int,Arctic mapping__ele,Arctic mapping__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Arctic mapping,ele-int,Arctic mapping__int,Arctic mapping__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Arctic mapping,int-adv,Arctic mapping__int,Arctic mapping__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Arctic mapping,int-adv,Arctic mapping__adv,Arctic mapping__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Arctic mapping,ele-adv,Arctic mapping__ele,Arctic mapping__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Arctic mapping,ele-adv,Arctic mapping__adv,Arctic mapping__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Bolivia,ele-int,Bolivia__ele,Bolivia__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Bolivia,ele-int,Bolivia__int,Bolivia__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Bolivia,int-adv,Bolivia__int,Bolivia__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Bolivia,int-adv,Bolivia__adv,Bolivia__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Bolivia,ele-adv,Bolivia__ele,Bolivia__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Bolivia,ele-adv,Bolivia__adv,Bolivia__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Bonus pay,ele-int,Bonus pay__ele,Bonus pay__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Bonus pay,ele-int,Bonus pay__int,Bonus pay__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Bonus pay,int-adv,Bonus pay__int,Bonus pay__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Bonus pay,int-adv,Bonus pay__adv,Bonus pay__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Bonus pay,ele-adv,Bonus pay__ele,Bonus pay__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Bonus pay,ele-adv,Bonus pay__adv,Bonus pay__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Brazil,ele-int,Brazil__ele,Brazil__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Brazil,ele-int,Brazil__int,Brazil__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Brazil,int-adv,Brazil__int,Brazil__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Brazil,int-adv,Brazil__adv,Brazil__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Brazil,ele-adv,Brazil__ele,Brazil__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Brazil,ele-adv,Brazil__adv,Brazil__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Fitness,ele-int,Fitness__ele,Fitness__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Fitness,ele-int,Fitness__int,Fitness__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Fitness,int-adv,Fitness__int,Fitness__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Fitness,int-adv,Fitness__adv,Fitness__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Fitness,ele-adv,Fitness__ele,Fitness__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Fitness,ele-adv,Fitness__adv,Fitness__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Greeks and drugs,ele-int,Greeks and drugs__ele,Greeks and drugs__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Greeks and drugs,ele-int,Greeks and drugs__int,Greeks and drugs__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Greeks and drugs,int-adv,Greeks and drugs__int,Greeks and drugs__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Greeks and drugs,int-adv,Greeks and drugs__adv,Greeks and drugs__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Greeks and drugs,ele-adv,Greeks and drugs__ele,Greeks and drugs__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Greeks and drugs,ele-adv,Greeks and drugs__adv,Greeks and drugs__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Hillsborough,ele-int,Hillsborough__ele,Hillsborough__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Hillsborough,ele-int,Hillsborough__int,Hillsborough__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Hillsborough,int-adv,Hillsborough__int,Hillsborough__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Hillsborough,int-adv,Hillsborough__adv,Hillsborough__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Hillsborough,ele-adv,Hillsborough__ele,Hillsborough__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Hillsborough,ele-adv,Hillsborough__adv,Hillsborough__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Kashmir,ele-int,Kashmir__ele,Kashmir__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Kashmir,ele-int,Kashmir__int,Kashmir__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Kashmir,int-adv,Kashmir__int,Kashmir__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Kashmir,int-adv,Kashmir__adv,Kashmir__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Kashmir,ele-adv,Kashmir__ele,Kashmir__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Kashmir,ele-adv,Kashmir__adv,Kashmir__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Lie detector,ele-int,Lie detector__ele,Lie detector__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Lie detector,ele-int,Lie detector__int,Lie detector__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Lie detector,int-adv,Lie detector__int,Lie detector__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Lie detector,int-adv,Lie detector__adv,Lie detector__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Lie detector,ele-adv,Lie detector__ele,Lie detector__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Lie detector,ele-adv,Lie detector__adv,Lie detector__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Malala,ele-int,Malala__ele,Malala__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Malala,ele-int,Malala__int,Malala__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Malala,int-adv,Malala__int,Malala__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Malala,int-adv,Malala__adv,Malala__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Malala,ele-adv,Malala__ele,Malala__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Malala,ele-adv,Malala__adv,Malala__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Meteorite,ele-int,Meteorite__ele,Meteorite__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Meteorite,ele-int,Meteorite__int,Meteorite__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Meteorite,int-adv,Meteorite__int,Meteorite__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Meteorite,int-adv,Meteorite__adv,Meteorite__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Meteorite,ele-adv,Meteorite__ele,Meteorite__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Meteorite,ele-adv,Meteorite__adv,Meteorite__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Obama,ele-int,Obama__ele,Obama__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Obama,ele-int,Obama__int,Obama__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Obama,int-adv,Obama__int,Obama__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Obama,int-adv,Obama__adv,Obama__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Obama,ele-adv,Obama__ele,Obama__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Obama,ele-adv,Obama__adv,Obama__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Spain,ele-int,Spain__ele,Spain__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Spain,ele-int,Spain__int,Spain__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Spain,int-adv,Spain__int,Spain__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Spain,int-adv,Spain__adv,Spain__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Spain,ele-adv,Spain__ele,Spain__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Spain,ele-adv,Spain__adv,Spain__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Apple,ele-int,WNL Apple__ele,WNL Apple__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Apple,ele-int,WNL Apple__int,WNL Apple__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Apple,int-adv,WNL Apple__int,WNL Apple__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Apple,int-adv,WNL Apple__adv,WNL Apple__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Apple,ele-adv,WNL Apple__ele,WNL Apple__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Apple,ele-adv,WNL Apple__adv,WNL Apple__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Bangladeshi organization,ele-int,WNL Bangladeshi organization__ele,WNL Bangladeshi organization__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Bangladeshi organization,ele-int,WNL Bangladeshi organization__int,WNL Bangladeshi organization__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Bangladeshi organization,int-adv,WNL Bangladeshi organization__int,WNL Bangladeshi organization__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Bangladeshi organization,int-adv,WNL Bangladeshi organization__adv,WNL Bangladeshi organization__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Bangladeshi organization,ele-adv,WNL Bangladeshi organization__ele,WNL Bangladeshi organization__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Bangladeshi organization,ele-adv,WNL Bangladeshi organization__adv,WNL Bangladeshi organization__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Castaway,ele-int,WNL Castaway__ele,WNL Castaway__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Castaway,ele-int,WNL Castaway__int,WNL Castaway__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Castaway,int-adv,WNL Castaway__int,WNL Castaway__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Castaway,int-adv,WNL Castaway__adv,WNL Castaway__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Castaway,ele-adv,WNL Castaway__ele,WNL Castaway__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Castaway,ele-adv,WNL Castaway__adv,WNL Castaway__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Cuba,ele-int,WNL Cuba__ele,WNL Cuba__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Cuba,ele-int,WNL Cuba__int,WNL Cuba__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Cuba,int-adv,WNL Cuba__int,WNL Cuba__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Cuba,int-adv,WNL Cuba__adv,WNL Cuba__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Cuba,ele-adv,WNL Cuba__ele,WNL Cuba__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Cuba,ele-adv,WNL Cuba__adv,WNL Cuba__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL David Bowie,ele-int,WNL David Bowie__ele,WNL David Bowie__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL David Bowie,ele-int,WNL David Bowie__int,WNL David Bowie__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL David Bowie,int-adv,WNL David Bowie__int,WNL David Bowie__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL David Bowie,int-adv,WNL David Bowie__adv,WNL David Bowie__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL David Bowie,ele-adv,WNL David Bowie__ele,WNL David Bowie__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL David Bowie,ele-adv,WNL David Bowie__adv,WNL David Bowie__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Google boss,ele-int,WNL Google boss__ele,WNL Google boss__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Google boss,ele-int,WNL Google boss__int,WNL Google boss__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Google boss,int-adv,WNL Google boss__int,WNL Google boss__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Google boss,int-adv,WNL Google boss__adv,WNL Google boss__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Google boss,ele-adv,WNL Google boss__ele,WNL Google boss__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Google boss,ele-adv,WNL Google boss__adv,WNL Google boss__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Icelandic names,ele-int,WNL Icelandic names__ele,WNL Icelandic names__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Icelandic names,ele-int,WNL Icelandic names__int,WNL Icelandic names__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Icelandic names,int-adv,WNL Icelandic names__int,WNL Icelandic names__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Icelandic names,int-adv,WNL Icelandic names__adv,WNL Icelandic names__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Icelandic names,ele-adv,WNL Icelandic names__ele,WNL Icelandic names__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Icelandic names,ele-adv,WNL Icelandic names__adv,WNL Icelandic names__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Making a killing,ele-int,WNL Making a killing__ele,WNL Making a killing__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Making a killing,ele-int,WNL Making a killing__int,WNL Making a killing__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Making a killing,int-adv,WNL Making a killing__int,WNL Making a killing__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Making a killing,int-adv,WNL Making a killing__adv,WNL Making a killing__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Making a killing,ele-adv,WNL Making a killing__ele,WNL Making a killing__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Making a killing,ele-adv,WNL Making a killing__adv,WNL Making a killing__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Man falls,ele-int,WNL Man falls__ele,WNL Man falls__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Man falls,ele-int,WNL Man falls__int,WNL Man falls__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Man falls,int-adv,WNL Man falls__int,WNL Man falls__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Man falls,int-adv,WNL Man falls__adv,WNL Man falls__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Man falls,ele-adv,WNL Man falls__ele,WNL Man falls__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Man falls,ele-adv,WNL Man falls__adv,WNL Man falls__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Mirrors,ele-int,WNL Mirrors__ele,WNL Mirrors__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Mirrors,ele-int,WNL Mirrors__int,WNL Mirrors__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Mirrors,int-adv,WNL Mirrors__int,WNL Mirrors__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Mirrors,int-adv,WNL Mirrors__adv,WNL Mirrors__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Mirrors,ele-adv,WNL Mirrors__ele,WNL Mirrors__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Mirrors,ele-adv,WNL Mirrors__adv,WNL Mirrors__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Mystery Shopper,ele-int,WNL Mystery Shopper__ele,WNL Mystery Shopper__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Mystery Shopper,ele-int,WNL Mystery Shopper__int,WNL Mystery Shopper__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Mystery Shopper,int-adv,WNL Mystery Shopper__int,WNL Mystery Shopper__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Mystery Shopper,int-adv,WNL Mystery Shopper__adv,WNL Mystery Shopper__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Mystery Shopper,ele-adv,WNL Mystery Shopper__ele,WNL Mystery Shopper__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Mystery Shopper,ele-adv,WNL Mystery Shopper__adv,WNL Mystery Shopper__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL NASA Astronaut,ele-int,WNL NASA Astronaut__ele,WNL NASA Astronaut__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL NASA Astronaut,ele-int,WNL NASA Astronaut__int,WNL NASA Astronaut__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL NASA Astronaut,int-adv,WNL NASA Astronaut__int,WNL NASA Astronaut__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL NASA Astronaut,int-adv,WNL NASA Astronaut__adv,WNL NASA Astronaut__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL NASA Astronaut,ele-adv,WNL NASA Astronaut__ele,WNL NASA Astronaut__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL NASA Astronaut,ele-adv,WNL NASA Astronaut__adv,WNL NASA Astronaut__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Nigerian low tech,ele-int,WNL Nigerian low tech__ele,WNL Nigerian low tech__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Nigerian low tech,ele-int,WNL Nigerian low tech__int,WNL Nigerian low tech__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Nigerian low tech,int-adv,WNL Nigerian low tech__int,WNL Nigerian low tech__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Nigerian low tech,int-adv,WNL Nigerian low tech__adv,WNL Nigerian low tech__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Nigerian low tech,ele-adv,WNL Nigerian low tech__ele,WNL Nigerian low tech__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Nigerian low tech,ele-adv,WNL Nigerian low tech__adv,WNL Nigerian low tech__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL School Sports,ele-int,WNL School Sports__ele,WNL School Sports__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL School Sports,ele-int,WNL School Sports__int,WNL School Sports__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL School Sports,int-adv,WNL School Sports__int,WNL School Sports__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL School Sports,int-adv,WNL School Sports__adv,WNL School Sports__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL School Sports,ele-adv,WNL School Sports__ele,WNL School Sports__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL School Sports,ele-adv,WNL School Sports__adv,WNL School Sports__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Shakespeare,ele-int,WNL Shakespeare__ele,WNL Shakespeare__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Shakespeare,ele-int,WNL Shakespeare__int,WNL Shakespeare__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Shakespeare,int-adv,WNL Shakespeare__int,WNL Shakespeare__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Shakespeare,int-adv,WNL Shakespeare__adv,WNL Shakespeare__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Shakespeare,ele-adv,WNL Shakespeare__ele,WNL Shakespeare__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Shakespeare,ele-adv,WNL Shakespeare__adv,WNL Shakespeare__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Ships noise,ele-int,WNL Ships noise__ele,WNL Ships noise__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Ships noise,ele-int,WNL Ships noise__int,WNL Ships noise__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Ships noise,int-adv,WNL Ships noise__int,WNL Ships noise__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Ships noise,int-adv,WNL Ships noise__adv,WNL Ships noise__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Ships noise,ele-adv,WNL Ships noise__ele,WNL Ships noise__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Ships noise,ele-adv,WNL Ships noise__adv,WNL Ships noise__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Star Wars,ele-int,WNL Star Wars__ele,WNL Star Wars__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Star Wars,ele-int,WNL Star Wars__int,WNL Star Wars__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Star Wars,int-adv,WNL Star Wars__int,WNL Star Wars__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Star Wars,int-adv,WNL Star Wars__adv,WNL Star Wars__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Star Wars,ele-adv,WNL Star Wars__ele,WNL Star Wars__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Star Wars,ele-adv,WNL Star Wars__adv,WNL Star Wars__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Still no flying cars,ele-int,WNL Still no flying cars__ele,WNL Still no flying cars__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Still no flying cars,ele-int,WNL Still no flying cars__int,WNL Still no flying cars__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Still no flying cars,int-adv,WNL Still no flying cars__int,WNL Still no flying cars__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Still no flying cars,int-adv,WNL Still no flying cars__adv,WNL Still no flying cars__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Still no flying cars,ele-adv,WNL Still no flying cars__ele,WNL Still no flying cars__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Still no flying cars,ele-adv,WNL Still no flying cars__adv,WNL Still no flying cars__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Tributes,ele-int,WNL Tributes__ele,WNL Tributes__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Tributes,ele-int,WNL Tributes__int,WNL Tributes__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Tributes,int-adv,WNL Tributes__int,WNL Tributes__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Tributes,int-adv,WNL Tributes__adv,WNL Tributes__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Tributes,ele-adv,WNL Tributes__ele,WNL Tributes__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Tributes,ele-adv,WNL Tributes__adv,WNL Tributes__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL We must,ele-int,WNL We must__ele,WNL We must__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL We must,ele-int,WNL We must__int,WNL We must__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL We must,int-adv,WNL We must__int,WNL We must__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL We must,int-adv,WNL We must__adv,WNL We must__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL We must,ele-adv,WNL We must__ele,WNL We must__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL We must,ele-adv,WNL We must__adv,WNL We must__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL What does Apple,ele-int,WNL What does Apple__ele,WNL What does Apple__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL What does Apple,ele-int,WNL What does Apple__int,WNL What does Apple__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL What does Apple,int-adv,WNL What does Apple__int,WNL What does Apple__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL What does Apple,int-adv,WNL What does Apple__adv,WNL What does Apple__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL What does Apple,ele-adv,WNL What does Apple__ele,WNL What does Apple__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL What does Apple,ele-adv,WNL What does Apple__adv,WNL What does Apple__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Why you should start work at 10,ele-int,WNL Why you should start work at 10__ele,WNL Why you should start work at 10__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL Why you should start work at 10,ele-int,WNL Why you should start work at 10__int,WNL Why you should start work at 10__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL Why you should start work at 10,int-adv,WNL Why you should start work at 10__int,WNL Why you should start work at 10__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Why you should start work at 10,int-adv,WNL Why you should start work at 10__adv,WNL Why you should start work at 10__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL Why you should start work at 10,ele-adv,WNL Why you should start work at 10__ele,WNL Why you should start work at 10__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL Why you should start work at 10,ele-adv,WNL Why you should start work at 10__adv,WNL Why you should start work at 10__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL World Cup,ele-int,WNL World Cup__ele,WNL World Cup__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL World Cup,ele-int,WNL World Cup__int,WNL World Cup__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL World Cup,int-adv,WNL World Cup__int,WNL World Cup__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL World Cup,int-adv,WNL World Cup__adv,WNL World Cup__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL World Cup,ele-adv,WNL World Cup__ele,WNL World Cup__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL World Cup,ele-adv,WNL World Cup__adv,WNL World Cup__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL six well paid jobs,ele-int,WNL six well paid jobs__ele,WNL six well paid jobs__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+WNL six well paid jobs,ele-int,WNL six well paid jobs__int,WNL six well paid jobs__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+WNL six well paid jobs,int-adv,WNL six well paid jobs__int,WNL six well paid jobs__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL six well paid jobs,int-adv,WNL six well paid jobs__adv,WNL six well paid jobs__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+WNL six well paid jobs,ele-adv,WNL six well paid jobs__ele,WNL six well paid jobs__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+WNL six well paid jobs,ele-adv,WNL six well paid jobs__adv,WNL six well paid jobs__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0
+Zero Hours,ele-int,Zero Hours__ele,Zero Hours__int,ele,int,0,test,-1,0.0,0.0,0.0,0.0
+Zero Hours,ele-int,Zero Hours__int,Zero Hours__ele,int,ele,1,test,-1,1.0,1.0,1.0,1.0
+Zero Hours,int-adv,Zero Hours__int,Zero Hours__adv,int,adv,0,test,-1,0.0,0.0,0.0,0.0
+Zero Hours,int-adv,Zero Hours__adv,Zero Hours__int,adv,int,1,test,-1,1.0,1.0,1.0,1.0
+Zero Hours,ele-adv,Zero Hours__ele,Zero Hours__adv,ele,adv,0,test,-1,0.0,0.0,0.0,0.0
+Zero Hours,ele-adv,Zero Hours__adv,Zero Hours__ele,adv,ele,1,test,-1,1.0,1.0,1.0,1.0

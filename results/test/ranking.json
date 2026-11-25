@@ -1,0 +1,26 @@
+{
+ "pairwise_lr": {
+  "overall": 1.0,
+  "ele-int": 1.0,
+  "int-adv": 1.0,
+  "ele-adv": 1.0
+ },
+ "length": {
+  "overall": 1.0,
+  "ele-int": 1.0,
+  "int-adv": 1.0,
+  "ele-adv": 1.0
+ },
+ "flesch_kincaid": {
+  "overall": 1.0,
+  "ele-int": 1.0,
+  "int-adv": 1.0,
+  "ele-adv": 1.0
+ },
+ "classifier": {
+  "overall": 1.0,
+  "ele-int": 1.0,
+  "int-adv": 1.0,
+  "ele-adv": 1.0
+ }
+}
