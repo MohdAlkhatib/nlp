@@ -16,3 +16,5 @@ slides/*.out
 slides/*.snm
 slides/*.toc
 slides/*.vrb
+overleaf/
+overleaf.zip
