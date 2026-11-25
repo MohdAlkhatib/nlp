@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .DS_Store
 data/raw/
+*.log
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.log

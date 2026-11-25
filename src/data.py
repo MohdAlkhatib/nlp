@@ -26,6 +26,16 @@ def load_corpus(path: Path | str = PROCESSED / "corpus.csv") -> pd.DataFrame:
     return pd.read_csv(path, keep_default_na=False)
 
 
+def load_dataset() -> pd.DataFrame:
+    """Corpus merged with features.csv (run src/features.py first).
+
+    `n_words` comes from features.csv (word tokens, punctuation excluded), not the whitespace
+    count in corpus.csv.
+    """
+    corpus = load_corpus().drop(columns=["n_words"])
+    return corpus.merge(pd.read_csv(PROCESSED / "features.csv"), on="text_id", validate="1:1")
+
+
 def load_pairs(path: Path | str = PROCESSED / "pairs.csv") -> pd.DataFrame:
     return pd.read_csv(path, keep_default_na=False)
 
