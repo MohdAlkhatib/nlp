@@ -1,0 +1,20 @@
+\section{Introduction}
+
+Choosing reading material at the right level is a daily task for language teachers, and automatic readability assessment promises to help. Classic formulas such as Flesch-Kincaid \citep{kincaid1975derivation} use two surface counts---sentence length and syllables per word---while machine-learned systems combine many linguistic features \citep{schwarm2005reading,feng2010comparison} or learn representations from the text directly \citep{martinc2021supervised,lee2021pushing}.
+
+OneStopEnglish \citep{vajjala2018onestop} is a standard benchmark for this task: 189 news articles, each rewritten by teachers at elementary, intermediate and advanced level. Because the three versions of an article share topic, names and much of their vocabulary, the way the corpus is split matters. If one version is in training and another in testing, a model might recognise the article instead of judging its level. Published results use 5-fold splits stratified by level \citep{martinc2021supervised,lee2021pushing} or do not describe their folds \citep{vajjala2018onestop}, and none report keeping an article's versions together.
+
+We ask whether interpretable features that we implement ourselves can classify a text's level better than a readability formula, and which features carry the signal, under evaluation that keeps every article on one side of every split. Our contributions are:
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item We document two problems in the public release of OneStopEnglish---intermediate files with all non-ASCII characters stripped, which leaks the label through punctuation, and a duplicated text---and release a cleaned version with fixed article-grouped splits.
+\item We compare 27 hand-built features in six groups with length, Flesch-Kincaid and character n-gram baselines, with ablations and article-level bootstrap confidence intervals.
+\item We show that, on this corpus, shared articles across folds do not inflate scores as we expected: they \emph{deflate} them, catastrophically so for a character n-gram model, because an article's other versions always carry a different label.
+\item We show that ordering the versions of one article is close to trivial (about 99\% for every method), whereas absolute three-way classification is limited by how much difficulty varies between articles.
+\end{itemize}
+
+\section{Related Work}
+
+Feature-based readability assessment has a long history. \citet{schwarm2005reading} combined traditional, syntactic and language-model features in SVMs; \citet{feng2010comparison} systematically compared discourse, language-model, parse-based, POS and shallow features on graded texts for children. \citet{vajjala2018onestop} introduced OneStopEnglish and reported 58.5\% accuracy for 10 traditional formula scores, 67.2\% for word-based features, 72.5\% for lexical variation and POS ratios, 73.9\% for syntactic features, 77.3\% for character n-grams and 78.1\% for all 155 features in an SVM. Neural models vary: \citet{martinc2021supervised} report 67.4\% for fine-tuned BERT and 78.7\% for a hierarchical attention network, and \citet{lee2021pushing} reach 77.8\% with logistic regression over 255 handcrafted features and 99.0\% by combining RoBERTa predictions with features in a random forest. These numbers come from different protocols and feature sets, so we treat them as reference points rather than directly comparable benchmarks.
+
+\citet{vajjala2018onestop} suggested pairwise ranking as future work, and \citet{lee2022neural} developed a neural pairwise ranking model for readability. We study a much simpler, interpretable feature-difference ranker and ask how hard the pairwise task on OneStopEnglish actually is.

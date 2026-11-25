@@ -50,6 +50,8 @@ def systems(df):
         "flesch_kincaid": (M.flesch_kincaid(), None),
         "features_lr": (M.feature_lr(allf), M.LR_GRID),
         "char_ngram_svm": (M.char_ngram_svm(), M.SVM_GRID),
+        # secondary system, added after the dev ablation showed word count adds signal
+        "features_lr_plus_length": (M.feature_lr(allf + ["n_words"]), M.LR_GRID),
     }
 
 
@@ -101,6 +103,18 @@ def ranking_summary(scored: pd.DataFrame) -> dict:
         res[m] = {"overall": float(correct.mean()),
                   **{pt: float(correct[scored.pair_type == pt].mean()) for pt in ["ele-int", "int-adv", "ele-adv"]}}
     return res
+
+
+def cross_article_pairs(texts: pd.DataFrame) -> pd.DataFrame:
+    """All pairs of texts from DIFFERENT articles and different levels, harder text first.
+
+    Within-article pairs are near ceiling; across articles, length and topic are not held fixed.
+    """
+    t = texts[["text_id", "article_id", "label", "level"]]
+    m = t.merge(t, how="cross", suffixes=("_a", "_b"))
+    m = m[(m.article_id_a != m.article_id_b) & (m.label_a > m.label_b)]
+    return pd.DataFrame({"text_id_a": m.text_id_a.values, "text_id_b": m.text_id_b.values,
+                         "pair_type": (m.level_b + "-" + m.level_a).values, "label": 1})
 
 
 def expected_level(proba: dict) -> pd.Series:
@@ -177,16 +191,21 @@ def run_cv(df: pd.DataFrame) -> None:
     log("ranking")
     pairs = load_pairs()
     dev_pairs = pairs[pairs.split == "dev"].reset_index(drop=True)
-    scored = []
+    scored, cross = [], []
     for k in sorted(dev.fold_grouped.unique()):
         tr_t = dev[dev.fold_grouped != k]
         tr_p, va_p = dev_pairs[dev_pairs.fold_grouped != k], dev_pairs[dev_pairs.fold_grouped == k].copy()
         ranker, Z = fit_ranker(tr_t, tr_p, allf, df)
         va_p["pred_pairwise_lr"] = ranker.predict(pair_matrix(va_p, Z)).astype(float)
         scored.append(va_p)
-    scored = score_rankers(pd.concat(scored), df, expected_level(res["features_lr"]["proba"]))
+        cx = cross_article_pairs(dev[dev.fold_grouped == k])
+        cx["pred_pairwise_lr"] = ranker.predict(pair_matrix(cx, Z)).astype(float)
+        cross.append(cx)
+    level = expected_level(res["features_lr"]["proba"])
+    scored = score_rankers(pd.concat(scored), df, level)
     scored.to_csv(out / "ranking_predictions.csv", index=False)
     save(ranking_summary(scored), out / "ranking.json")
+    save(ranking_summary(score_rankers(pd.concat(cross), df, level)), out / "ranking_cross_article.json")
 
     # error analysis + coefficients of the main model
     log("error analysis + coefficients")
@@ -235,9 +254,13 @@ def run_test(df: pd.DataFrame) -> None:
     test_pairs = pairs[pairs.split == "test"].reset_index(drop=True)
     ranker, Z = fit_ranker(dev, dev_pairs, allf, df)
     test_pairs["pred_pairwise_lr"] = ranker.predict(pair_matrix(test_pairs, Z)).astype(float)
-    scored = score_rankers(test_pairs, df, expected_level(probas["features_lr"]))
+    level = expected_level(probas["features_lr"])
+    scored = score_rankers(test_pairs, df, level)
     scored.to_csv(out / "ranking_predictions.csv", index=False)
     save(ranking_summary(scored), out / "ranking.json")
+    cx = cross_article_pairs(test)
+    cx["pred_pairwise_lr"] = ranker.predict(pair_matrix(cx, Z)).astype(float)
+    save(ranking_summary(score_rankers(cx, df, level)), out / "ranking_cross_article.json")
     log("test done")
 
 

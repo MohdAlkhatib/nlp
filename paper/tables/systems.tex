@@ -1,0 +1,14 @@
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{2}{c}{Dev, 5-fold grouped CV} & \multicolumn{2}{c}{Held-out test} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+System & Acc. & F1 & Acc. [95\% CI] & F1 \\
+\midrule
+Majority class & 33.3 $\pm$ 0.0 & 16.7 & -- & -- \\
+Length only & 62.3 $\pm$ 3.3 & 62.0 & -- & -- \\
+Flesch-Kincaid & 51.7 $\pm$ 2.0 & 52.3 & -- & -- \\
+\textbf{Feature LR (ours)} & 71.3 $\pm$ 5.0 & 70.9 & -- & -- \\
+Feature LR + word count & 77.7 $\pm$ 4.0 & 77.6 & -- & -- \\
+Char n-gram SVM & 73.3 $\pm$ 2.1 & 68.9 & -- & -- \\
+\bottomrule
+\end{tabular}

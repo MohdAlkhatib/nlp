@@ -1,0 +1,2793 @@
+{
+ "scheme": "stratified",
+ "accuracy": 0.6821192052980133,
+ "macro_f1": 0.6761740648837423,
+ "fold_accuracy": [
+  0.6703296703296703,
+  0.7032967032967034,
+  0.6263736263736264,
+  0.6888888888888889,
+  0.7222222222222222
+ ],
+ "fold_macro_f1": [
+  0.6615948792769606,
+  0.7097225355289871,
+  0.6149691358024691,
+  0.6846929592622487,
+  0.7030221924835508
+ ],
+ "chosen_params": [
+  {
+   "clf__C": 0.1
+  },
+  {
+   "clf__C": 10
+  },
+  {
+   "clf__C": 0.03
+  },
+  {
+   "clf__C": 0.03
+  },
+  {
+   "clf__C": 0.03
+  }
+ ],
+ "predictions": {
+  "Amazon__ele": 1,
+  "Amazon__int": 1,
+  "Amazon__adv": 2,
+  "Amsterdam__ele": 1,
+  "Amsterdam__int": 2,
+  "Amsterdam__adv": 2,
+  "Anita__ele": 0,
+  "Anita__int": 1,
+  "Anita__adv": 2,
+  "Banksy__ele": 0,
+  "Banksy__int": 2,
+  "Banksy__adv": 2,
+  "Billionaires__ele": 0,
+  "Billionaires__int": 1,
+  "Billionaires__adv": 2,
+  "Blackberry__ele": 0,
+  "Blackberry__int": 2,
+  "Blackberry__adv": 2,
+  "Cigarettes__ele": 1,
+  "Cigarettes__int": 2,
+  "Cigarettes__adv": 2,
+  "Coal to challenge oil__ele": 0,
+  "Coal to challenge oil__int": 1,
+  "Coal to challenge oil__adv": 1,
+  "Copyright__ele": 2,
+  "Copyright__int": 2,
+  "Copyright__adv": 2,
+  "Crowdfunding__ele": 1,
+  "Crowdfunding__int": 1,
+  "Crowdfunding__adv": 2,
+  "Denmark__ele": 1,
+  "Denmark__int": 1,
+  "Denmark__adv": 1,
+  "Everest__ele": 0,
+  "Everest__int": 2,
+  "Everest__adv": 2,
+  "Exercise__ele": 0,
+  "Exercise__int": 1,
+  "Exercise__adv": 2,
+  "Facebook deserted by millions of users__ele": 0,
+  "Facebook deserted by millions of users__int": 0,
+  "Facebook deserted by millions of users__adv": 1,
+  "False memory__ele": 0,
+  "False memory__int": 2,
+  "False memory__adv": 2,
+  "Ferguson__ele": 0,
+  "Ferguson__int": 1,
+  "Ferguson__adv": 1,
+  "Food shortages__ele": 1,
+  "Food shortages__int": 1,
+  "Food shortages__adv": 2,
+  "Gangs__ele": 0,
+  "Gangs__int": 0,
+  "Gangs__adv": 1,
+  "Gorillas and oil__ele": 0,
+  "Gorillas and oil__int": 1,
+  "Gorillas and oil__adv": 2,
+  "Insects__ele": 0,
+  "Insects__int": 1,
+  "Insects__adv": 2,
+  "Japan__ele": 0,
+  "Japan__int": 0,
+  "Japan__adv": 1,
+  "Japan menu__ele": 2,
+  "Japan menu__int": 2,
+  "Japan menu__adv": 2,
+  "Kate and William__ele": 0,
+  "Kate and William__int": 1,
+  "Kate and William__adv": 2,
+  "Kenya__ele": 0,
+  "Kenya__int": 1,
+  "Kenya__adv": 2,
+  "Liberia__ele": 0,
+  "Liberia__int": 0,
+  "Liberia__adv": 1,
+  "Life expectancy__ele": 0,
+  "Life expectancy__int": 1,
+  "Life expectancy__adv": 2,
+  "Life on Mars__ele": 0,
+  "Life on Mars__int": 2,
+  "Life on Mars__adv": 2,
+  "Loterry__ele": 0,
+  "Loterry__int": 0,
+  "Loterry__adv": 0,
+  "Midlife crisis__ele": 0,
+  "Midlife crisis__int": 1,
+  "Midlife crisis__adv": 2,
+  "Murderers beware__ele": 1,
+  "Murderers beware__int": 2,
+  "Murderers beware__adv": 2,
+  "NSA 2__ele": 0,
+  "NSA 2__int": 1,
+  "NSA 2__adv": 2,
+  "NSA scandal__ele": 1,
+  "NSA scandal__int": 1,
+  "NSA scandal__adv": 1,
+  "Nelson Mandela__ele": 0,
+  "Nelson Mandela__int": 0,
+  "Nelson Mandela__adv": 2,
+  "Nepal__ele": 0,
+  "Nepal__int": 1,
+  "Nepal__adv": 1,
+  "Norwegian sun__ele": 0,
+  "Norwegian sun__int": 2,
+  "Norwegian sun__adv": 2,
+  "Old age__ele": 0,
+  "Old age__int": 1,
+  "Old age__adv": 1,
+  "Organs__ele": 0,
+  "Organs__int": 1,
+  "Organs__adv": 2,
+  "Pope__ele": 0,
+  "Pope__int": 2,
+  "Pope__adv": 2,
+  "Prince Harry__ele": 0,
+  "Prince Harry__int": 1,
+  "Prince Harry__adv": 2,
+  "Rats__ele": 0,
+  "Rats__int": 1,
+  "Rats__adv": 2,
+  "Richard III__ele": 1,
+  "Richard III__int": 2,
+  "Richard III__adv": 2,
+  "Royal Baby__ele": 1,
+  "Royal Baby__int": 0,
+  "Royal Baby__adv": 2,
+  "Skydiver__ele": 0,
+  "Skydiver__int": 2,
+  "Skydiver__adv": 2,
+  "Starbucks__ele": 0,
+  "Starbucks__int": 1,
+  "Starbucks__adv": 2,
+  "Superbugs__ele": 0,
+  "Superbugs__int": 1,
+  "Superbugs__adv": 1,
+  "Swedish prisons__ele": 1,
+  "Swedish prisons__int": 1,
+  "Swedish prisons__adv": 2,
+  "Syria__ele": 1,
+  "Syria__int": 1,
+  "Syria__adv": 2,
+  "Teff__ele": 0,
+  "Teff__int": 2,
+  "Teff__adv": 2,
+  "Thatcher__ele": 0,
+  "Thatcher__int": 2,
+  "Thatcher__adv": 2,
+  "US shutdown__ele": 0,
+  "US shutdown__int": 1,
+  "US shutdown__adv": 2,
+  "Violence__ele": 0,
+  "Violence__int": 2,
+  "Violence__adv": 2,
+  "WNL 101 year old bottle message__ele": 0,
+  "WNL 101 year old bottle message__int": 0,
+  "WNL 101 year old bottle message__adv": 1,
+  "WNL A good night sleep__ele": 0,
+  "WNL A good night sleep__int": 0,
+  "WNL A good night sleep__adv": 0,
+  "WNL Arctic Ramadan__ele": 0,
+  "WNL Arctic Ramadan__int": 1,
+  "WNL Arctic Ramadan__adv": 2,
+  "WNL Are MOOCs the future__ele": 1,
+  "WNL Are MOOCs the future__int": 2,
+  "WNL Are MOOCs the future__adv": 2,
+  "WNL Bangladesh factory owners__ele": 0,
+  "WNL Bangladesh factory owners__int": 2,
+  "WNL Bangladesh factory owners__adv": 2,
+  "WNL Barack Obama__ele": 0,
+  "WNL Barack Obama__int": 1,
+  "WNL Barack Obama__adv": 1,
+  "WNL Basic phone logs__ele": 0,
+  "WNL Basic phone logs__int": 0,
+  "WNL Basic phone logs__adv": 2,
+  "WNL Billionaires__ele": 1,
+  "WNL Billionaires__int": 2,
+  "WNL Billionaires__adv": 2,
+  "WNL Black Friday__ele": 0,
+  "WNL Black Friday__int": 0,
+  "WNL Black Friday__adv": 0,
+  "WNL Bogus Allergy__ele": 0,
+  "WNL Bogus Allergy__int": 2,
+  "WNL Bogus Allergy__adv": 2,
+  "WNL Bright Future__ele": 0,
+  "WNL Bright Future__int": 0,
+  "WNL Bright Future__adv": 1,
+  "WNL Brown bears__ele": 0,
+  "WNL Brown bears__int": 2,
+  "WNL Brown bears__adv": 2,
+  "WNL Calais Migrants__ele": 0,
+  "WNL Calais Migrants__int": 1,
+  "WNL Calais Migrants__adv": 2,
+  "WNL Can the US__ele": 0,
+  "WNL Can the US__int": 1,
+  "WNL Can the US__adv": 2,
+  "WNL Canadian Pair__ele": 0,
+  "WNL Canadian Pair__int": 0,
+  "WNL Canadian Pair__adv": 2,
+  "WNL Changing India__ele": 0,
+  "WNL Changing India__int": 1,
+  "WNL Changing India__adv": 2,
+  "WNL Coloring Books__ele": 0,
+  "WNL Coloring Books__int": 2,
+  "WNL Coloring Books__adv": 2,
+  "WNL Criminal Links__ele": 0,
+  "WNL Criminal Links__int": 1,
+  "WNL Criminal Links__adv": 2,
+  "WNL David Mitchell__ele": 0,
+  "WNL David Mitchell__int": 2,
+  "WNL David Mitchell__adv": 2,
+  "WNL Drowning in rubbish__ele": 0,
+  "WNL Drowning in rubbish__int": 0,
+  "WNL Drowning in rubbish__adv": 2,
+  "WNL EU Pollution__ele": 1,
+  "WNL EU Pollution__int": 2,
+  "WNL EU Pollution__adv": 2,
+  "WNL Experience__ele": 0,
+  "WNL Experience__int": 0,
+  "WNL Experience__adv": 0,
+  "WNL Extinction__ele": 0,
+  "WNL Extinction__int": 2,
+  "WNL Extinction__adv": 2,
+  "WNL Extreme heat__ele": 0,
+  "WNL Extreme heat__int": 1,
+  "WNL Extreme heat__adv": 1,
+  "WNL FIFA__ele": 1,
+  "WNL FIFA__int": 2,
+  "WNL FIFA__adv": 2,
+  "WNL Fifth of young adults__ele": 0,
+  "WNL Fifth of young adults__int": 1,
+  "WNL Fifth of young adults__adv": 1,
+  "WNL First female coach__ele": 0,
+  "WNL First female coach__int": 1,
+  "WNL First female coach__adv": 1,
+  "WNL First high resolution images__ele": 0,
+  "WNL First high resolution images__int": 1,
+  "WNL First high resolution images__adv": 2,
+  "WNL Five jobs__ele": 0,
+  "WNL Five jobs__int": 1,
+  "WNL Five jobs__adv": 2,
+  "WNL Four new elements__ele": 0,
+  "WNL Four new elements__int": 2,
+  "WNL Four new elements__adv": 2,
+  "WNL Glastonbury__ele": 0,
+  "WNL Glastonbury__int": 1,
+  "WNL Glastonbury__adv": 2,
+  "WNL Goodbye fish and chips__ele": 0,
+  "WNL Goodbye fish and chips__int": 1,
+  "WNL Goodbye fish and chips__adv": 2,
+  "WNL Google car__ele": 0,
+  "WNL Google car__int": 2,
+  "WNL Google car__adv": 2,
+  "WNL How downtown Abbey__ele": 0,
+  "WNL How downtown Abbey__int": 1,
+  "WNL How downtown Abbey__adv": 2,
+  "WNL I confused my numbers__ele": 1,
+  "WNL I confused my numbers__int": 2,
+  "WNL I confused my numbers__adv": 2,
+  "WNL Icebucket challenge__ele": 0,
+  "WNL Icebucket challenge__int": 1,
+  "WNL Icebucket challenge__adv": 2,
+  "WNL In flight__ele": 0,
+  "WNL In flight__int": 2,
+  "WNL In flight__adv": 1,
+  "WNL India's rich__ele": 0,
+  "WNL India's rich__int": 1,
+  "WNL India's rich__adv": 1,
+  "WNL Inky the octopus__ele": 0,
+  "WNL Inky the octopus__int": 0,
+  "WNL Inky the octopus__adv": 2,
+  "WNL Inventions__ele": 2,
+  "WNL Inventions__int": 2,
+  "WNL Inventions__adv": 2,
+  "WNL JMW Turner__ele": 0,
+  "WNL JMW Turner__int": 1,
+  "WNL JMW Turner__adv": 2,
+  "WNL Japan__ele": 0,
+  "WNL Japan__int": 1,
+  "WNL Japan__adv": 2,
+  "WNL John Lewis__ele": 0,
+  "WNL John Lewis__int": 2,
+  "WNL John Lewis__adv": 2,
+  "WNL Kate Bush__ele": 0,
+  "WNL Kate Bush__int": 2,
+  "WNL Kate Bush__adv": 2,
+  "WNL Kiruna__ele": 0,
+  "WNL Kiruna__int": 1,
+  "WNL Kiruna__adv": 2,
+  "WNL Lego movie__ele": 0,
+  "WNL Lego movie__int": 0,
+  "WNL Lego movie__adv": 2,
+  "WNL Loneliness__ele": 0,
+  "WNL Loneliness__int": 1,
+  "WNL Loneliness__adv": 1,
+  "WNL Love hormonw__ele": 0,
+  "WNL Love hormonw__int": 1,
+  "WNL Love hormonw__adv": 2,
+  "WNL Mars__ele": 0,
+  "WNL Mars__int": 1,
+  "WNL Mars__adv": 2,
+  "WNL Men in black__ele": 0,
+  "WNL Men in black__int": 2,
+  "WNL Men in black__adv": 2,
+  "WNL Morocco__ele": 0,
+  "WNL Morocco__int": 2,
+  "WNL Morocco__adv": 2,
+  "WNL Music__ele": 0,
+  "WNL Music__int": 0,
+  "WNL Music__adv": 1,
+  "WNL Neuroscientists__ele": 0,
+  "WNL Neuroscientists__int": 0,
+  "WNL Neuroscientists__adv": 1,
+  "WNL New Orleans__ele": 0,
+  "WNL New Orleans__int": 1,
+  "WNL New Orleans__adv": 2,
+  "WNL Noise pollution__ele": 0,
+  "WNL Noise pollution__int": 2,
+  "WNL Noise pollution__adv": 2,
+  "WNL Novel way__ele": 0,
+  "WNL Novel way__int": 1,
+  "WNL Novel way__adv": 2,
+  "WNL On the trail__ele": 0,
+  "WNL On the trail__int": 1,
+  "WNL On the trail__adv": 1,
+  "WNL Organic Food__ele": 0,
+  "WNL Organic Food__int": 1,
+  "WNL Organic Food__adv": 2,
+  "WNL Pacific Islanders__ele": 0,
+  "WNL Pacific Islanders__int": 0,
+  "WNL Pacific Islanders__adv": 2,
+  "WNL Pizza chain__ele": 0,
+  "WNL Pizza chain__int": 1,
+  "WNL Pizza chain__adv": 2,
+  "WNL Planet__ele": 1,
+  "WNL Planet__int": 2,
+  "WNL Planet__adv": 2,
+  "WNL Poverty__ele": 1,
+  "WNL Poverty__int": 1,
+  "WNL Poverty__adv": 2,
+  "WNL Revolution__ele": 0,
+  "WNL Revolution__int": 0,
+  "WNL Revolution__adv": 1,
+  "WNL Rwanda__ele": 0,
+  "WNL Rwanda__int": 1,
+  "WNL Rwanda__adv": 1,
+  "WNL Satnav__ele": 0,
+  "WNL Satnav__int": 2,
+  "WNL Satnav__adv": 2,
+  "WNL Scarlett__ele": 0,
+  "WNL Scarlett__int": 1,
+  "WNL Scarlett__adv": 1,
+  "WNL School__ele": 0,
+  "WNL School__int": 2,
+  "WNL School__adv": 2,
+  "WNL Scientist__ele": 0,
+  "WNL Scientist__int": 2,
+  "WNL Scientist__adv": 2,
+  "WNL Scottish referendum__ele": 0,
+  "WNL Scottish referendum__int": 0,
+  "WNL Scottish referendum__adv": 2,
+  "WNL SeaWorld__ele": 0,
+  "WNL SeaWorld__int": 0,
+  "WNL SeaWorld__adv": 2,
+  "WNL Shocking__ele": 0,
+  "WNL Shocking__int": 2,
+  "WNL Shocking__adv": 2,
+  "WNL Shops__ele": 1,
+  "WNL Shops__int": 1,
+  "WNL Shops__adv": 2,
+  "WNL Six year olds__ele": 0,
+  "WNL Six year olds__int": 1,
+  "WNL Six year olds__adv": 2,
+  "WNL Spain Robin Hood__ele": 0,
+  "WNL Spain Robin Hood__int": 0,
+  "WNL Spain Robin Hood__adv": 1,
+  "WNL Spain Wetlands__ele": 0,
+  "WNL Spain Wetlands__int": 1,
+  "WNL Spain Wetlands__adv": 2,
+  "WNL Swarthy caveman__ele": 1,
+  "WNL Swarthy caveman__int": 1,
+  "WNL Swarthy caveman__adv": 2,
+  "WNL Switched Babies__ele": 0,
+  "WNL Switched Babies__int": 1,
+  "WNL Switched Babies__adv": 1,
+  "WNL Ten ideas__ele": 0,
+  "WNL Ten ideas__int": 0,
+  "WNL Ten ideas__adv": 1,
+  "WNL The Greek island__ele": 0,
+  "WNL The Greek island__int": 2,
+  "WNL The Greek island__adv": 2,
+  "WNL The age of music__ele": 0,
+  "WNL The age of music__int": 1,
+  "WNL The age of music__adv": 2,
+  "WNL The last__ele": 0,
+  "WNL The last__int": 0,
+  "WNL The last__adv": 2,
+  "WNL The lightweight__ele": 0,
+  "WNL The lightweight__int": 0,
+  "WNL The lightweight__adv": 2,
+  "WNL The millenials__ele": 0,
+  "WNL The millenials__int": 2,
+  "WNL The millenials__adv": 2,
+  "WNL Use of e-cig__ele": 0,
+  "WNL Use of e-cig__int": 1,
+  "WNL Use of e-cig__adv": 2,
+  "WNL Vienna__ele": 0,
+  "WNL Vienna__int": 1,
+  "WNL Vienna__adv": 1,
+  "WNL Waiters__ele": 0,
+  "WNL Waiters__int": 0,
+  "WNL Waiters__adv": 1,
+  "WNL Ways Facebook changed__ele": 0,
+  "WNL Ways Facebook changed__int": 1,
+  "WNL Ways Facebook changed__adv": 2,
+  "WNL Wealth therapy__ele": 0,
+  "WNL Wealth therapy__int": 0,
+  "WNL Wealth therapy__adv": 0,
+  "WNL What is world's__ele": 0,
+  "WNL What is world's__int": 2,
+  "WNL What is world's__adv": 2,
+  "WNL What's the secret__ele": 0,
+  "WNL What's the secret__int": 0,
+  "WNL What's the secret__adv": 1,
+  "WNL Who can stop Trump__ele": 1,
+  "WNL Who can stop Trump__int": 1,
+  "WNL Who can stop Trump__adv": 2,
+  "WNL Who invented__ele": 0,
+  "WNL Who invented__int": 2,
+  "WNL Who invented__adv": 2,
+  "WNL Why are people so wrong__ele": 0,
+  "WNL Why are people so wrong__int": 1,
+  "WNL Why are people so wrong__adv": 1,
+  "WNL Why we should__ele": 0,
+  "WNL Why we should__int": 2,
+  "WNL Why we should__adv": 2,
+  "WNL Will drones__ele": 0,
+  "WNL Will drones__int": 1,
+  "WNL Will drones__adv": 2,
+  "WNL Winter__ele": 0,
+  "WNL Winter__int": 0,
+  "WNL Winter__adv": 2,
+  "WNL Young Americans__ele": 0,
+  "WNL Young Americans__int": 1,
+  "WNL Young Americans__adv": 2,
+  "WNL are you a bad boyfriend__ele": 0,
+  "WNL are you a bad boyfriend__int": 1,
+  "WNL are you a bad boyfriend__adv": 2,
+  "WNL shark__ele": 2,
+  "WNL shark__int": 1,
+  "WNL shark__adv": 1,
+  "climate change__ele": 0,
+  "climate change__int": 2,
+  "climate change__adv": 2
+ },
+ "proba": {
+  "Amazon__ele": [
+   0.23408,
+   0.59828,
+   0.16765
+  ],
+  "Amazon__int": [
+   0.03121,
+   0.65838,
+   0.31041
+  ],
+  "Amazon__adv": [
+   0.00072,
+   0.32654,
+   0.67275
+  ],
+  "Amsterdam__ele": [
+   0.11863,
+   0.58678,
+   0.29459
+  ],
+  "Amsterdam__int": [
+   0.00109,
+   0.2026,
+   0.79631
+  ],
+  "Amsterdam__adv": [
+   0.0,
+   0.01918,
+   0.98082
+  ],
+  "Anita__ele": [
+   0.68945,
+   0.28025,
+   0.0303
+  ],
+  "Anita__int": [
+   0.18053,
+   0.69886,
+   0.12062
+  ],
+  "Anita__adv": [
+   0.00461,
+   0.29241,
+   0.70299
+  ],
+  "Banksy__ele": [
+   0.60488,
+   0.27225,
+   0.12288
+  ],
+  "Banksy__int": [
+   1e-05,
+   0.02708,
+   0.97291
+  ],
+  "Banksy__adv": [
+   0.00017,
+   0.06718,
+   0.93265
+  ],
+  "Billionaires__ele": [
+   0.85422,
+   0.12582,
+   0.01996
+  ],
+  "Billionaires__int": [
+   0.35717,
+   0.43369,
+   0.20914
+  ],
+  "Billionaires__adv": [
+   0.04849,
+   0.40663,
+   0.54488
+  ],
+  "Blackberry__ele": [
+   0.50104,
+   0.4259,
+   0.07306
+  ],
+  "Blackberry__int": [
+   0.02326,
+   0.25836,
+   0.71837
+  ],
+  "Blackberry__adv": [
+   0.01165,
+   0.2598,
+   0.72856
+  ],
+  "Cigarettes__ele": [
+   0.22634,
+   0.56464,
+   0.20902
+  ],
+  "Cigarettes__int": [
+   0.01483,
+   0.29092,
+   0.69425
+  ],
+  "Cigarettes__adv": [
+   0.00258,
+   0.24744,
+   0.74999
+  ],
+  "Coal to challenge oil__ele": [
+   0.83761,
+   0.14563,
+   0.01676
+  ],
+  "Coal to challenge oil__int": [
+   0.25969,
+   0.58831,
+   0.15201
+  ],
+  "Coal to challenge oil__adv": [
+   0.14864,
+   0.59182,
+   0.25954
+  ],
+  "Copyright__ele": [
+   0.00011,
+   0.3535,
+   0.64639
+  ],
+  "Copyright__int": [
+   0.00026,
+   0.11396,
+   0.88578
+  ],
+  "Copyright__adv": [
+   0.00154,
+   0.15854,
+   0.83992
+  ],
+  "Crowdfunding__ele": [
+   0.38067,
+   0.44312,
+   0.17621
+  ],
+  "Crowdfunding__int": [
+   0.14467,
+   0.56503,
+   0.2903
+  ],
+  "Crowdfunding__adv": [
+   0.00017,
+   0.23001,
+   0.76983
+  ],
+  "Denmark__ele": [
+   0.16643,
+   0.75231,
+   0.08126
+  ],
+  "Denmark__int": [
+   0.11992,
+   0.46505,
+   0.41504
+  ],
+  "Denmark__adv": [
+   0.03804,
+   0.56276,
+   0.3992
+  ],
+  "Everest__ele": [
+   0.87962,
+   0.10137,
+   0.019
+  ],
+  "Everest__int": [
+   0.07501,
+   0.31231,
+   0.61268
+  ],
+  "Everest__adv": [
+   0.11186,
+   0.36533,
+   0.52281
+  ],
+  "Exercise__ele": [
+   0.96009,
+   0.03921,
+   0.0007
+  ],
+  "Exercise__int": [
+   0.28355,
+   0.5675,
+   0.14895
+  ],
+  "Exercise__adv": [
+   0.01804,
+   0.33972,
+   0.64224
+  ],
+  "Facebook deserted by millions of users__ele": [
+   0.98031,
+   0.01957,
+   0.00012
+  ],
+  "Facebook deserted by millions of users__int": [
+   0.87606,
+   0.10786,
+   0.01609
+  ],
+  "Facebook deserted by millions of users__adv": [
+   0.23385,
+   0.56787,
+   0.19828
+  ],
+  "False memory__ele": [
+   0.7259,
+   0.22101,
+   0.05308
+  ],
+  "False memory__int": [
+   0.01755,
+   0.34238,
+   0.64008
+  ],
+  "False memory__adv": [
+   0.00578,
+   0.26161,
+   0.73261
+  ],
+  "Ferguson__ele": [
+   0.87721,
+   0.11459,
+   0.0082
+  ],
+  "Ferguson__int": [
+   0.27324,
+   0.5539,
+   0.17286
+  ],
+  "Ferguson__adv": [
+   0.01336,
+   0.77486,
+   0.21178
+  ],
+  "Food shortages__ele": [
+   0.26781,
+   0.60042,
+   0.13177
+  ],
+  "Food shortages__int": [
+   0.00651,
+   0.66806,
+   0.32543
+  ],
+  "Food shortages__adv": [
+   0.01436,
+   0.32916,
+   0.65647
+  ],
+  "Gangs__ele": [
+   0.76936,
+   0.21768,
+   0.01296
+  ],
+  "Gangs__int": [
+   0.68273,
+   0.27688,
+   0.04039
+  ],
+  "Gangs__adv": [
+   0.30027,
+   0.4952,
+   0.20453
+  ],
+  "Gorillas and oil__ele": [
+   0.99804,
+   0.00195,
+   1e-05
+  ],
+  "Gorillas and oil__int": [
+   0.38632,
+   0.43824,
+   0.17544
+  ],
+  "Gorillas and oil__adv": [
+   0.0845,
+   0.37566,
+   0.53984
+  ],
+  "Insects__ele": [
+   0.82621,
+   0.14523,
+   0.02856
+  ],
+  "Insects__int": [
+   0.08955,
+   0.47461,
+   0.43583
+  ],
+  "Insects__adv": [
+   0.02177,
+   0.32047,
+   0.65776
+  ],
+  "Japan__ele": [
+   0.92155,
+   0.07585,
+   0.0026
+  ],
+  "Japan__int": [
+   0.6623,
+   0.28088,
+   0.05682
+  ],
+  "Japan__adv": [
+   0.28951,
+   0.4183,
+   0.29219
+  ],
+  "Japan menu__ele": [
+   0.08293,
+   0.34905,
+   0.56802
+  ],
+  "Japan menu__int": [
+   0.00196,
+   0.14862,
+   0.84942
+  ],
+  "Japan menu__adv": [
+   0.00979,
+   0.25969,
+   0.73053
+  ],
+  "Kate and William__ele": [
+   0.9044,
+   0.09341,
+   0.00219
+  ],
+  "Kate and William__int": [
+   0.22108,
+   0.52558,
+   0.25334
+  ],
+  "Kate and William__adv": [
+   0.00387,
+   0.20743,
+   0.78871
+  ],
+  "Kenya__ele": [
+   0.62234,
+   0.33358,
+   0.04408
+  ],
+  "Kenya__int": [
+   0.16727,
+   0.5914,
+   0.24133
+  ],
+  "Kenya__adv": [
+   0.00661,
+   0.19896,
+   0.79443
+  ],
+  "Liberia__ele": [
+   0.81533,
+   0.162,
+   0.02267
+  ],
+  "Liberia__int": [
+   0.50516,
+   0.35603,
+   0.13882
+  ],
+  "Liberia__adv": [
+   0.07042,
+   0.67089,
+   0.25869
+  ],
+  "Life expectancy__ele": [
+   0.76049,
+   0.20789,
+   0.03162
+  ],
+  "Life expectancy__int": [
+   0.04749,
+   0.8129,
+   0.13961
+  ],
+  "Life expectancy__adv": [
+   0.02674,
+   0.34105,
+   0.63221
+  ],
+  "Life on Mars__ele": [
+   0.6629,
+   0.2611,
+   0.076
+  ],
+  "Life on Mars__int": [
+   0.09615,
+   0.44628,
+   0.45757
+  ],
+  "Life on Mars__adv": [
+   0.06085,
+   0.33371,
+   0.60544
+  ],
+  "Loterry__ele": [
+   0.82997,
+   0.1452,
+   0.02484
+  ],
+  "Loterry__int": [
+   0.51101,
+   0.39459,
+   0.0944
+  ],
+  "Loterry__adv": [
+   0.50062,
+   0.41538,
+   0.084
+  ],
+  "Midlife crisis__ele": [
+   0.68853,
+   0.22876,
+   0.08271
+  ],
+  "Midlife crisis__int": [
+   0.03672,
+   0.73133,
+   0.23195
+  ],
+  "Midlife crisis__adv": [
+   0.00662,
+   0.24829,
+   0.74508
+  ],
+  "Murderers beware__ele": [
+   0.01948,
+   0.62033,
+   0.3602
+  ],
+  "Murderers beware__int": [
+   0.03271,
+   0.40812,
+   0.55917
+  ],
+  "Murderers beware__adv": [
+   0.00198,
+   0.21012,
+   0.78791
+  ],
+  "NSA 2__ele": [
+   0.90439,
+   0.08958,
+   0.00603
+  ],
+  "NSA 2__int": [
+   0.22349,
+   0.63926,
+   0.13725
+  ],
+  "NSA 2__adv": [
+   2e-05,
+   0.00474,
+   0.99523
+  ],
+  "NSA scandal__ele": [
+   0.35672,
+   0.57149,
+   0.07179
+  ],
+  "NSA scandal__int": [
+   0.02912,
+   0.83157,
+   0.13931
+  ],
+  "NSA scandal__adv": [
+   0.1055,
+   0.60717,
+   0.28732
+  ],
+  "Nelson Mandela__ele": [
+   0.57461,
+   0.30623,
+   0.11917
+  ],
+  "Nelson Mandela__int": [
+   0.41349,
+   0.4127,
+   0.17381
+  ],
+  "Nelson Mandela__adv": [
+   0.0229,
+   0.40111,
+   0.57599
+  ],
+  "Nepal__ele": [
+   0.77645,
+   0.20698,
+   0.01657
+  ],
+  "Nepal__int": [
+   0.34081,
+   0.50509,
+   0.1541
+  ],
+  "Nepal__adv": [
+   0.17189,
+   0.51523,
+   0.31289
+  ],
+  "Norwegian sun__ele": [
+   0.50833,
+   0.23887,
+   0.2528
+  ],
+  "Norwegian sun__int": [
+   0.07221,
+   0.38265,
+   0.54514
+  ],
+  "Norwegian sun__adv": [
+   0.0609,
+   0.17198,
+   0.76712
+  ],
+  "Old age__ele": [
+   0.8766,
+   0.12248,
+   0.00092
+  ],
+  "Old age__int": [
+   0.24523,
+   0.65925,
+   0.09552
+  ],
+  "Old age__adv": [
+   0.02116,
+   0.56276,
+   0.41608
+  ],
+  "Organs__ele": [
+   0.74985,
+   0.19622,
+   0.05393
+  ],
+  "Organs__int": [
+   0.20612,
+   0.50427,
+   0.2896
+  ],
+  "Organs__adv": [
+   0.11953,
+   0.4075,
+   0.47297
+  ],
+  "Pope__ele": [
+   0.79823,
+   0.18021,
+   0.02156
+  ],
+  "Pope__int": [
+   0.19702,
+   0.36136,
+   0.44162
+  ],
+  "Pope__adv": [
+   0.00027,
+   0.04036,
+   0.95938
+  ],
+  "Prince Harry__ele": [
+   0.66165,
+   0.2906,
+   0.04775
+  ],
+  "Prince Harry__int": [
+   0.22191,
+   0.49854,
+   0.27955
+  ],
+  "Prince Harry__adv": [
+   0.0428,
+   0.44619,
+   0.51101
+  ],
+  "Rats__ele": [
+   0.85456,
+   0.13112,
+   0.01432
+  ],
+  "Rats__int": [
+   0.25014,
+   0.47932,
+   0.27054
+  ],
+  "Rats__adv": [
+   0.09466,
+   0.3432,
+   0.56214
+  ],
+  "Richard III__ele": [
+   0.27813,
+   0.65319,
+   0.06868
+  ],
+  "Richard III__int": [
+   0.02066,
+   0.2831,
+   0.69623
+  ],
+  "Richard III__adv": [
+   5e-05,
+   0.01915,
+   0.9808
+  ],
+  "Royal Baby__ele": [
+   0.42092,
+   0.49815,
+   0.08093
+  ],
+  "Royal Baby__int": [
+   0.50754,
+   0.31915,
+   0.17331
+  ],
+  "Royal Baby__adv": [
+   0.15954,
+   0.40901,
+   0.43145
+  ],
+  "Skydiver__ele": [
+   0.47259,
+   0.33205,
+   0.19536
+  ],
+  "Skydiver__int": [
+   0.00323,
+   0.27635,
+   0.72042
+  ],
+  "Skydiver__adv": [
+   0.02664,
+   0.28761,
+   0.68575
+  ],
+  "Starbucks__ele": [
+   0.70975,
+   0.24862,
+   0.04163
+  ],
+  "Starbucks__int": [
+   0.013,
+   0.88931,
+   0.09768
+  ],
+  "Starbucks__adv": [
+   0.03366,
+   0.46136,
+   0.50498
+  ],
+  "Superbugs__ele": [
+   0.91076,
+   0.08451,
+   0.00473
+  ],
+  "Superbugs__int": [
+   0.43032,
+   0.43276,
+   0.13693
+  ],
+  "Superbugs__adv": [
+   0.1029,
+   0.50173,
+   0.39538
+  ],
+  "Swedish prisons__ele": [
+   0.42515,
+   0.4626,
+   0.11225
+  ],
+  "Swedish prisons__int": [
+   0.03843,
+   0.70167,
+   0.25989
+  ],
+  "Swedish prisons__adv": [
+   0.013,
+   0.24579,
+   0.74121
+  ],
+  "Syria__ele": [
+   0.39624,
+   0.5033,
+   0.10046
+  ],
+  "Syria__int": [
+   0.02395,
+   0.56833,
+   0.40772
+  ],
+  "Syria__adv": [
+   0.00132,
+   0.1489,
+   0.84978
+  ],
+  "Teff__ele": [
+   0.75455,
+   0.19612,
+   0.04932
+  ],
+  "Teff__int": [
+   0.05271,
+   0.36879,
+   0.5785
+  ],
+  "Teff__adv": [
+   0.03406,
+   0.24981,
+   0.71613
+  ],
+  "Thatcher__ele": [
+   0.6684,
+   0.30923,
+   0.02237
+  ],
+  "Thatcher__int": [
+   0.14959,
+   0.38511,
+   0.46529
+  ],
+  "Thatcher__adv": [
+   3e-05,
+   0.02819,
+   0.97178
+  ],
+  "US shutdown__ele": [
+   0.68946,
+   0.28119,
+   0.02935
+  ],
+  "US shutdown__int": [
+   0.338,
+   0.50594,
+   0.15606
+  ],
+  "US shutdown__adv": [
+   0.02449,
+   0.30165,
+   0.67385
+  ],
+  "Violence__ele": [
+   0.90026,
+   0.08784,
+   0.0119
+  ],
+  "Violence__int": [
+   0.06007,
+   0.28904,
+   0.65089
+  ],
+  "Violence__adv": [
+   0.01966,
+   0.29117,
+   0.68917
+  ],
+  "WNL 101 year old bottle message__ele": [
+   0.76511,
+   0.21738,
+   0.01751
+  ],
+  "WNL 101 year old bottle message__int": [
+   0.42875,
+   0.39532,
+   0.17593
+  ],
+  "WNL 101 year old bottle message__adv": [
+   0.16856,
+   0.77379,
+   0.05765
+  ],
+  "WNL A good night sleep__ele": [
+   0.90461,
+   0.08485,
+   0.01053
+  ],
+  "WNL A good night sleep__int": [
+   0.80683,
+   0.17602,
+   0.01715
+  ],
+  "WNL A good night sleep__adv": [
+   0.51421,
+   0.3989,
+   0.08688
+  ],
+  "WNL Arctic Ramadan__ele": [
+   0.48902,
+   0.41773,
+   0.09325
+  ],
+  "WNL Arctic Ramadan__int": [
+   0.30564,
+   0.37191,
+   0.32245
+  ],
+  "WNL Arctic Ramadan__adv": [
+   0.00275,
+   0.0483,
+   0.94895
+  ],
+  "WNL Are MOOCs the future__ele": [
+   0.41492,
+   0.49186,
+   0.09322
+  ],
+  "WNL Are MOOCs the future__int": [
+   0.00093,
+   0.2058,
+   0.79327
+  ],
+  "WNL Are MOOCs the future__adv": [
+   0.0005,
+   0.09677,
+   0.90274
+  ],
+  "WNL Bangladesh factory owners__ele": [
+   0.86895,
+   0.12917,
+   0.00188
+  ],
+  "WNL Bangladesh factory owners__int": [
+   0.00153,
+   0.29621,
+   0.70227
+  ],
+  "WNL Bangladesh factory owners__adv": [
+   0.00213,
+   0.18371,
+   0.81416
+  ],
+  "WNL Barack Obama__ele": [
+   0.55299,
+   0.38234,
+   0.06467
+  ],
+  "WNL Barack Obama__int": [
+   0.03209,
+   0.57779,
+   0.39012
+  ],
+  "WNL Barack Obama__adv": [
+   0.03164,
+   0.53815,
+   0.43022
+  ],
+  "WNL Basic phone logs__ele": [
+   0.9229,
+   0.07377,
+   0.00333
+  ],
+  "WNL Basic phone logs__int": [
+   0.65244,
+   0.28555,
+   0.06201
+  ],
+  "WNL Basic phone logs__adv": [
+   0.00207,
+   0.23376,
+   0.76417
+  ],
+  "WNL Billionaires__ele": [
+   0.17627,
+   0.77009,
+   0.05363
+  ],
+  "WNL Billionaires__int": [
+   0.00573,
+   0.25184,
+   0.74243
+  ],
+  "WNL Billionaires__adv": [
+   0.00083,
+   0.07451,
+   0.92466
+  ],
+  "WNL Black Friday__ele": [
+   0.92507,
+   0.07414,
+   0.00079
+  ],
+  "WNL Black Friday__int": [
+   0.78356,
+   0.17465,
+   0.04179
+  ],
+  "WNL Black Friday__adv": [
+   0.53559,
+   0.27908,
+   0.18534
+  ],
+  "WNL Bogus Allergy__ele": [
+   0.78386,
+   0.16108,
+   0.05506
+  ],
+  "WNL Bogus Allergy__int": [
+   0.06106,
+   0.32324,
+   0.6157
+  ],
+  "WNL Bogus Allergy__adv": [
+   0.01412,
+   0.33226,
+   0.65362
+  ],
+  "WNL Bright Future__ele": [
+   0.84955,
+   0.13527,
+   0.01518
+  ],
+  "WNL Bright Future__int": [
+   0.47751,
+   0.42558,
+   0.09691
+  ],
+  "WNL Bright Future__adv": [
+   0.14754,
+   0.49042,
+   0.36203
+  ],
+  "WNL Brown bears__ele": [
+   0.73442,
+   0.19368,
+   0.0719
+  ],
+  "WNL Brown bears__int": [
+   0.1541,
+   0.33229,
+   0.51361
+  ],
+  "WNL Brown bears__adv": [
+   0.00191,
+   0.11239,
+   0.8857
+  ],
+  "WNL Calais Migrants__ele": [
+   0.87608,
+   0.11679,
+   0.00713
+  ],
+  "WNL Calais Migrants__int": [
+   0.18325,
+   0.52018,
+   0.29657
+  ],
+  "WNL Calais Migrants__adv": [
+   0.00064,
+   0.33413,
+   0.66524
+  ],
+  "WNL Can the US__ele": [
+   0.75961,
+   0.1911,
+   0.04929
+  ],
+  "WNL Can the US__int": [
+   0.22311,
+   0.40561,
+   0.37129
+  ],
+  "WNL Can the US__adv": [
+   0.0138,
+   0.33241,
+   0.65378
+  ],
+  "WNL Canadian Pair__ele": [
+   0.93286,
+   0.06433,
+   0.00281
+  ],
+  "WNL Canadian Pair__int": [
+   0.59766,
+   0.31306,
+   0.08928
+  ],
+  "WNL Canadian Pair__adv": [
+   0.00645,
+   0.26459,
+   0.72896
+  ],
+  "WNL Changing India__ele": [
+   0.78062,
+   0.1949,
+   0.02448
+  ],
+  "WNL Changing India__int": [
+   0.2279,
+   0.57912,
+   0.19298
+  ],
+  "WNL Changing India__adv": [
+   0.01265,
+   0.43453,
+   0.55283
+  ],
+  "WNL Coloring Books__ele": [
+   0.97836,
+   0.02118,
+   0.00046
+  ],
+  "WNL Coloring Books__int": [
+   0.1223,
+   0.40954,
+   0.46816
+  ],
+  "WNL Coloring Books__adv": [
+   0.00233,
+   0.08904,
+   0.90863
+  ],
+  "WNL Criminal Links__ele": [
+   0.82223,
+   0.16459,
+   0.01319
+  ],
+  "WNL Criminal Links__int": [
+   0.0587,
+   0.53593,
+   0.40537
+  ],
+  "WNL Criminal Links__adv": [
+   0.01838,
+   0.32495,
+   0.65667
+  ],
+  "WNL David Mitchell__ele": [
+   0.48345,
+   0.33123,
+   0.18532
+  ],
+  "WNL David Mitchell__int": [
+   0.00368,
+   0.18767,
+   0.80865
+  ],
+  "WNL David Mitchell__adv": [
+   0.00024,
+   0.0624,
+   0.93736
+  ],
+  "WNL Drowning in rubbish__ele": [
+   0.8731,
+   0.12363,
+   0.00328
+  ],
+  "WNL Drowning in rubbish__int": [
+   0.48202,
+   0.36217,
+   0.1558
+  ],
+  "WNL Drowning in rubbish__adv": [
+   0.04942,
+   0.35914,
+   0.59143
+  ],
+  "WNL EU Pollution__ele": [
+   0.3916,
+   0.45638,
+   0.15202
+  ],
+  "WNL EU Pollution__int": [
+   0.01538,
+   0.33904,
+   0.64558
+  ],
+  "WNL EU Pollution__adv": [
+   0.00037,
+   0.26019,
+   0.73944
+  ],
+  "WNL Experience__ele": [
+   0.88383,
+   0.10417,
+   0.012
+  ],
+  "WNL Experience__int": [
+   0.7549,
+   0.1951,
+   0.05
+  ],
+  "WNL Experience__adv": [
+   0.57301,
+   0.32489,
+   0.1021
+  ],
+  "WNL Extinction__ele": [
+   0.62501,
+   0.28612,
+   0.08888
+  ],
+  "WNL Extinction__int": [
+   0.03126,
+   0.27503,
+   0.69371
+  ],
+  "WNL Extinction__adv": [
+   0.00011,
+   0.11226,
+   0.88762
+  ],
+  "WNL Extreme heat__ele": [
+   0.79057,
+   0.19706,
+   0.01238
+  ],
+  "WNL Extreme heat__int": [
+   0.36115,
+   0.36671,
+   0.27215
+  ],
+  "WNL Extreme heat__adv": [
+   0.14037,
+   0.68016,
+   0.17947
+  ],
+  "WNL FIFA__ele": [
+   0.09927,
+   0.59132,
+   0.30941
+  ],
+  "WNL FIFA__int": [
+   6e-05,
+   0.07155,
+   0.92838
+  ],
+  "WNL FIFA__adv": [
+   0.00193,
+   0.16238,
+   0.83569
+  ],
+  "WNL Fifth of young adults__ele": [
+   0.77855,
+   0.19061,
+   0.03084
+  ],
+  "WNL Fifth of young adults__int": [
+   0.31435,
+   0.56759,
+   0.11806
+  ],
+  "WNL Fifth of young adults__adv": [
+   0.01099,
+   0.88153,
+   0.10748
+  ],
+  "WNL First female coach__ele": [
+   0.6523,
+   0.29526,
+   0.05244
+  ],
+  "WNL First female coach__int": [
+   0.17266,
+   0.48955,
+   0.33778
+  ],
+  "WNL First female coach__adv": [
+   0.08352,
+   0.52887,
+   0.3876
+  ],
+  "WNL First high resolution images__ele": [
+   0.48618,
+   0.4371,
+   0.07673
+  ],
+  "WNL First high resolution images__int": [
+   0.2659,
+   0.50968,
+   0.22442
+  ],
+  "WNL First high resolution images__adv": [
+   0.03204,
+   0.2616,
+   0.70636
+  ],
+  "WNL Five jobs__ele": [
+   0.83103,
+   0.1388,
+   0.03017
+  ],
+  "WNL Five jobs__int": [
+   0.08916,
+   0.5478,
+   0.36304
+  ],
+  "WNL Five jobs__adv": [
+   0.06479,
+   0.33477,
+   0.60044
+  ],
+  "WNL Four new elements__ele": [
+   0.95699,
+   0.04063,
+   0.00238
+  ],
+  "WNL Four new elements__int": [
+   0.07881,
+   0.4566,
+   0.46459
+  ],
+  "WNL Four new elements__adv": [
+   0.00066,
+   0.26163,
+   0.73771
+  ],
+  "WNL Glastonbury__ele": [
+   0.77496,
+   0.19507,
+   0.02997
+  ],
+  "WNL Glastonbury__int": [
+   0.28255,
+   0.54129,
+   0.17616
+  ],
+  "WNL Glastonbury__adv": [
+   0.02282,
+   0.39615,
+   0.58103
+  ],
+  "WNL Goodbye fish and chips__ele": [
+   0.85364,
+   0.13601,
+   0.01036
+  ],
+  "WNL Goodbye fish and chips__int": [
+   0.14417,
+   0.60812,
+   0.24771
+  ],
+  "WNL Goodbye fish and chips__adv": [
+   0.01335,
+   0.39016,
+   0.59649
+  ],
+  "WNL Google car__ele": [
+   0.63517,
+   0.31149,
+   0.05334
+  ],
+  "WNL Google car__int": [
+   0.06898,
+   0.4576,
+   0.47342
+  ],
+  "WNL Google car__adv": [
+   0.0267,
+   0.45836,
+   0.51494
+  ],
+  "WNL How downtown Abbey__ele": [
+   0.71574,
+   0.25439,
+   0.02987
+  ],
+  "WNL How downtown Abbey__int": [
+   0.20226,
+   0.44359,
+   0.35415
+  ],
+  "WNL How downtown Abbey__adv": [
+   0.00315,
+   0.28202,
+   0.71484
+  ],
+  "WNL I confused my numbers__ele": [
+   0.14269,
+   0.83397,
+   0.02334
+  ],
+  "WNL I confused my numbers__int": [
+   0.00179,
+   0.41033,
+   0.58788
+  ],
+  "WNL I confused my numbers__adv": [
+   0.00357,
+   0.24462,
+   0.75181
+  ],
+  "WNL Icebucket challenge__ele": [
+   0.72389,
+   0.24203,
+   0.03409
+  ],
+  "WNL Icebucket challenge__int": [
+   0.20565,
+   0.45463,
+   0.33972
+  ],
+  "WNL Icebucket challenge__adv": [
+   0.02939,
+   0.37639,
+   0.59422
+  ],
+  "WNL In flight__ele": [
+   0.86989,
+   0.11449,
+   0.01562
+  ],
+  "WNL In flight__int": [
+   0.03141,
+   0.32778,
+   0.64081
+  ],
+  "WNL In flight__adv": [
+   0.10069,
+   0.5132,
+   0.38611
+  ],
+  "WNL India's rich__ele": [
+   0.9843,
+   0.01557,
+   0.00013
+  ],
+  "WNL India's rich__int": [
+   0.19652,
+   0.61121,
+   0.19227
+  ],
+  "WNL India's rich__adv": [
+   0.12482,
+   0.54245,
+   0.33273
+  ],
+  "WNL Inky the octopus__ele": [
+   0.46383,
+   0.34864,
+   0.18754
+  ],
+  "WNL Inky the octopus__int": [
+   0.59456,
+   0.24911,
+   0.15633
+  ],
+  "WNL Inky the octopus__adv": [
+   0.00234,
+   0.2077,
+   0.78996
+  ],
+  "WNL Inventions__ele": [
+   0.1262,
+   0.35934,
+   0.51446
+  ],
+  "WNL Inventions__int": [
+   0.01779,
+   0.39727,
+   0.58494
+  ],
+  "WNL Inventions__adv": [
+   0.0004,
+   0.116,
+   0.8836
+  ],
+  "WNL JMW Turner__ele": [
+   0.90332,
+   0.09363,
+   0.00305
+  ],
+  "WNL JMW Turner__int": [
+   0.15956,
+   0.47906,
+   0.36138
+  ],
+  "WNL JMW Turner__adv": [
+   0.00312,
+   0.37247,
+   0.62441
+  ],
+  "WNL Japan__ele": [
+   0.75747,
+   0.2182,
+   0.02433
+  ],
+  "WNL Japan__int": [
+   0.33404,
+   0.51882,
+   0.14713
+  ],
+  "WNL Japan__adv": [
+   0.00201,
+   0.15334,
+   0.84466
+  ],
+  "WNL John Lewis__ele": [
+   0.65291,
+   0.25833,
+   0.08876
+  ],
+  "WNL John Lewis__int": [
+   0.12167,
+   0.34647,
+   0.53186
+  ],
+  "WNL John Lewis__adv": [
+   0.04436,
+   0.34897,
+   0.60668
+  ],
+  "WNL Kate Bush__ele": [
+   0.71196,
+   0.2495,
+   0.03855
+  ],
+  "WNL Kate Bush__int": [
+   0.13995,
+   0.35767,
+   0.50239
+  ],
+  "WNL Kate Bush__adv": [
+   0.08284,
+   0.42711,
+   0.49005
+  ],
+  "WNL Kiruna__ele": [
+   0.75112,
+   0.21845,
+   0.03043
+  ],
+  "WNL Kiruna__int": [
+   0.06348,
+   0.72895,
+   0.20757
+  ],
+  "WNL Kiruna__adv": [
+   0.00388,
+   0.18933,
+   0.8068
+  ],
+  "WNL Lego movie__ele": [
+   0.89903,
+   0.07995,
+   0.02102
+  ],
+  "WNL Lego movie__int": [
+   0.69382,
+   0.24521,
+   0.06097
+  ],
+  "WNL Lego movie__adv": [
+   0.00206,
+   0.3284,
+   0.66955
+  ],
+  "WNL Loneliness__ele": [
+   0.71516,
+   0.24516,
+   0.03967
+  ],
+  "WNL Loneliness__int": [
+   0.17646,
+   0.57667,
+   0.24687
+  ],
+  "WNL Loneliness__adv": [
+   0.05309,
+   0.5207,
+   0.42621
+  ],
+  "WNL Love hormonw__ele": [
+   0.6476,
+   0.21961,
+   0.13279
+  ],
+  "WNL Love hormonw__int": [
+   0.14456,
+   0.58682,
+   0.26862
+  ],
+  "WNL Love hormonw__adv": [
+   0.0224,
+   0.31397,
+   0.66362
+  ],
+  "WNL Mars__ele": [
+   0.94012,
+   0.05703,
+   0.00284
+  ],
+  "WNL Mars__int": [
+   0.37746,
+   0.5096,
+   0.11294
+  ],
+  "WNL Mars__adv": [
+   0.00648,
+   0.15228,
+   0.84125
+  ],
+  "WNL Men in black__ele": [
+   0.79021,
+   0.20031,
+   0.00948
+  ],
+  "WNL Men in black__int": [
+   0.12517,
+   0.3593,
+   0.51553
+  ],
+  "WNL Men in black__adv": [
+   0.00062,
+   0.16553,
+   0.83385
+  ],
+  "WNL Morocco__ele": [
+   0.46292,
+   0.39723,
+   0.13985
+  ],
+  "WNL Morocco__int": [
+   0.01204,
+   0.40487,
+   0.58309
+  ],
+  "WNL Morocco__adv": [
+   0.01365,
+   0.32275,
+   0.6636
+  ],
+  "WNL Music__ele": [
+   0.87435,
+   0.11071,
+   0.01494
+  ],
+  "WNL Music__int": [
+   0.34226,
+   0.33249,
+   0.32525
+  ],
+  "WNL Music__adv": [
+   0.09983,
+   0.4974,
+   0.40277
+  ],
+  "WNL Neuroscientists__ele": [
+   0.97763,
+   0.02175,
+   0.00062
+  ],
+  "WNL Neuroscientists__int": [
+   0.91253,
+   0.08707,
+   0.0004
+  ],
+  "WNL Neuroscientists__adv": [
+   0.12197,
+   0.80091,
+   0.07712
+  ],
+  "WNL New Orleans__ele": [
+   0.96262,
+   0.03588,
+   0.0015
+  ],
+  "WNL New Orleans__int": [
+   0.35287,
+   0.3955,
+   0.25163
+  ],
+  "WNL New Orleans__adv": [
+   0.03436,
+   0.28846,
+   0.67718
+  ],
+  "WNL Noise pollution__ele": [
+   0.96094,
+   0.03898,
+   8e-05
+  ],
+  "WNL Noise pollution__int": [
+   0.04725,
+   0.44139,
+   0.51136
+  ],
+  "WNL Noise pollution__adv": [
+   0.00466,
+   0.19645,
+   0.7989
+  ],
+  "WNL Novel way__ele": [
+   0.81543,
+   0.16005,
+   0.02452
+  ],
+  "WNL Novel way__int": [
+   0.139,
+   0.73082,
+   0.13017
+  ],
+  "WNL Novel way__adv": [
+   0.05779,
+   0.44763,
+   0.49457
+  ],
+  "WNL On the trail__ele": [
+   0.78656,
+   0.179,
+   0.03443
+  ],
+  "WNL On the trail__int": [
+   0.3599,
+   0.60939,
+   0.03071
+  ],
+  "WNL On the trail__adv": [
+   0.08242,
+   0.73677,
+   0.18081
+  ],
+  "WNL Organic Food__ele": [
+   0.94836,
+   0.04587,
+   0.00577
+  ],
+  "WNL Organic Food__int": [
+   0.09253,
+   0.52059,
+   0.38688
+  ],
+  "WNL Organic Food__adv": [
+   0.00908,
+   0.23747,
+   0.75345
+  ],
+  "WNL Pacific Islanders__ele": [
+   0.92281,
+   0.07025,
+   0.00694
+  ],
+  "WNL Pacific Islanders__int": [
+   0.79467,
+   0.18186,
+   0.02348
+  ],
+  "WNL Pacific Islanders__adv": [
+   0.12744,
+   0.33092,
+   0.54164
+  ],
+  "WNL Pizza chain__ele": [
+   0.79447,
+   0.17567,
+   0.02986
+  ],
+  "WNL Pizza chain__int": [
+   0.34742,
+   0.50709,
+   0.14549
+  ],
+  "WNL Pizza chain__adv": [
+   0.00965,
+   0.27799,
+   0.71236
+  ],
+  "WNL Planet__ele": [
+   0.36679,
+   0.50637,
+   0.12684
+  ],
+  "WNL Planet__int": [
+   0.04366,
+   0.47624,
+   0.4801
+  ],
+  "WNL Planet__adv": [
+   0.00015,
+   0.33492,
+   0.66494
+  ],
+  "WNL Poverty__ele": [
+   0.41398,
+   0.47851,
+   0.10751
+  ],
+  "WNL Poverty__int": [
+   0.00182,
+   0.61711,
+   0.38106
+  ],
+  "WNL Poverty__adv": [
+   0.00631,
+   0.20041,
+   0.79328
+  ],
+  "WNL Revolution__ele": [
+   0.98096,
+   0.01893,
+   0.00011
+  ],
+  "WNL Revolution__int": [
+   0.40284,
+   0.35151,
+   0.24565
+  ],
+  "WNL Revolution__adv": [
+   0.26974,
+   0.40918,
+   0.32107
+  ],
+  "WNL Rwanda__ele": [
+   0.7863,
+   0.17201,
+   0.04169
+  ],
+  "WNL Rwanda__int": [
+   0.42006,
+   0.51707,
+   0.06287
+  ],
+  "WNL Rwanda__adv": [
+   0.17247,
+   0.49637,
+   0.33117
+  ],
+  "WNL Satnav__ele": [
+   0.92124,
+   0.07662,
+   0.00215
+  ],
+  "WNL Satnav__int": [
+   0.06577,
+   0.44523,
+   0.489
+  ],
+  "WNL Satnav__adv": [
+   0.0,
+   0.01322,
+   0.98677
+  ],
+  "WNL Scarlett__ele": [
+   0.57167,
+   0.34932,
+   0.07901
+  ],
+  "WNL Scarlett__int": [
+   0.13513,
+   0.70643,
+   0.15844
+  ],
+  "WNL Scarlett__adv": [
+   0.06913,
+   0.67796,
+   0.25291
+  ],
+  "WNL School__ele": [
+   0.89118,
+   0.10834,
+   0.00048
+  ],
+  "WNL School__int": [
+   0.18502,
+   0.40658,
+   0.40839
+  ],
+  "WNL School__adv": [
+   0.0012,
+   0.31065,
+   0.68815
+  ],
+  "WNL Scientist__ele": [
+   0.91871,
+   0.06593,
+   0.01536
+  ],
+  "WNL Scientist__int": [
+   0.29326,
+   0.30058,
+   0.40616
+  ],
+  "WNL Scientist__adv": [
+   0.05737,
+   0.19816,
+   0.74447
+  ],
+  "WNL Scottish referendum__ele": [
+   0.90285,
+   0.08862,
+   0.00853
+  ],
+  "WNL Scottish referendum__int": [
+   0.4728,
+   0.44951,
+   0.07768
+  ],
+  "WNL Scottish referendum__adv": [
+   0.00106,
+   0.41012,
+   0.58882
+  ],
+  "WNL SeaWorld__ele": [
+   0.86369,
+   0.12484,
+   0.01147
+  ],
+  "WNL SeaWorld__int": [
+   0.46553,
+   0.33617,
+   0.1983
+  ],
+  "WNL SeaWorld__adv": [
+   0.00091,
+   0.08447,
+   0.91463
+  ],
+  "WNL Shocking__ele": [
+   0.65816,
+   0.24895,
+   0.09289
+  ],
+  "WNL Shocking__int": [
+   0.05758,
+   0.44885,
+   0.49356
+  ],
+  "WNL Shocking__adv": [
+   0.00475,
+   0.19712,
+   0.79813
+  ],
+  "WNL Shops__ele": [
+   0.3762,
+   0.60314,
+   0.02066
+  ],
+  "WNL Shops__int": [
+   0.31243,
+   0.47566,
+   0.21191
+  ],
+  "WNL Shops__adv": [
+   0.07934,
+   0.44213,
+   0.47853
+  ],
+  "WNL Six year olds__ele": [
+   0.67785,
+   0.28565,
+   0.03651
+  ],
+  "WNL Six year olds__int": [
+   0.07307,
+   0.56566,
+   0.36127
+  ],
+  "WNL Six year olds__adv": [
+   0.0175,
+   0.39215,
+   0.59034
+  ],
+  "WNL Spain Robin Hood__ele": [
+   0.95823,
+   0.04134,
+   0.00043
+  ],
+  "WNL Spain Robin Hood__int": [
+   0.45891,
+   0.43282,
+   0.10826
+  ],
+  "WNL Spain Robin Hood__adv": [
+   0.32091,
+   0.52551,
+   0.15358
+  ],
+  "WNL Spain Wetlands__ele": [
+   0.94269,
+   0.05719,
+   0.00012
+  ],
+  "WNL Spain Wetlands__int": [
+   0.43899,
+   0.44431,
+   0.1167
+  ],
+  "WNL Spain Wetlands__adv": [
+   0.03717,
+   0.44682,
+   0.51601
+  ],
+  "WNL Swarthy caveman__ele": [
+   0.24856,
+   0.53386,
+   0.21758
+  ],
+  "WNL Swarthy caveman__int": [
+   0.166,
+   0.51913,
+   0.31486
+  ],
+  "WNL Swarthy caveman__adv": [
+   0.06517,
+   0.4497,
+   0.48513
+  ],
+  "WNL Switched Babies__ele": [
+   0.9266,
+   0.07155,
+   0.00184
+  ],
+  "WNL Switched Babies__int": [
+   0.32974,
+   0.48268,
+   0.18758
+  ],
+  "WNL Switched Babies__adv": [
+   0.14792,
+   0.52313,
+   0.32895
+  ],
+  "WNL Ten ideas__ele": [
+   0.902,
+   0.08642,
+   0.01158
+  ],
+  "WNL Ten ideas__int": [
+   0.44058,
+   0.42211,
+   0.13732
+  ],
+  "WNL Ten ideas__adv": [
+   0.18115,
+   0.48263,
+   0.33622
+  ],
+  "WNL The Greek island__ele": [
+   0.55369,
+   0.33613,
+   0.11019
+  ],
+  "WNL The Greek island__int": [
+   0.00985,
+   0.24045,
+   0.7497
+  ],
+  "WNL The Greek island__adv": [
+   0.00024,
+   0.13096,
+   0.8688
+  ],
+  "WNL The age of music__ele": [
+   0.99184,
+   0.00814,
+   1e-05
+  ],
+  "WNL The age of music__int": [
+   0.34885,
+   0.49197,
+   0.15918
+  ],
+  "WNL The age of music__adv": [
+   0.00883,
+   0.19013,
+   0.80104
+  ],
+  "WNL The last__ele": [
+   0.92771,
+   0.06237,
+   0.00992
+  ],
+  "WNL The last__int": [
+   0.62703,
+   0.28008,
+   0.0929
+  ],
+  "WNL The last__adv": [
+   0.01538,
+   0.15661,
+   0.828
+  ],
+  "WNL The lightweight__ele": [
+   0.80228,
+   0.18151,
+   0.01621
+  ],
+  "WNL The lightweight__int": [
+   0.51093,
+   0.30835,
+   0.18072
+  ],
+  "WNL The lightweight__adv": [
+   0.06385,
+   0.40289,
+   0.53327
+  ],
+  "WNL The millenials__ele": [
+   0.79947,
+   0.19915,
+   0.00138
+  ],
+  "WNL The millenials__int": [
+   0.21075,
+   0.38961,
+   0.39964
+  ],
+  "WNL The millenials__adv": [
+   0.07638,
+   0.42212,
+   0.5015
+  ],
+  "WNL Use of e-cig__ele": [
+   0.6348,
+   0.26201,
+   0.1032
+  ],
+  "WNL Use of e-cig__int": [
+   0.18071,
+   0.4727,
+   0.34659
+  ],
+  "WNL Use of e-cig__adv": [
+   0.00097,
+   0.09209,
+   0.90694
+  ],
+  "WNL Vienna__ele": [
+   0.96547,
+   0.03415,
+   0.00037
+  ],
+  "WNL Vienna__int": [
+   0.38994,
+   0.5908,
+   0.01926
+  ],
+  "WNL Vienna__adv": [
+   0.13917,
+   0.70671,
+   0.15412
+  ],
+  "WNL Waiters__ele": [
+   0.94687,
+   0.05292,
+   0.0002
+  ],
+  "WNL Waiters__int": [
+   0.58308,
+   0.33258,
+   0.08434
+  ],
+  "WNL Waiters__adv": [
+   0.0038,
+   0.83675,
+   0.15945
+  ],
+  "WNL Ways Facebook changed__ele": [
+   0.68107,
+   0.25866,
+   0.06027
+  ],
+  "WNL Ways Facebook changed__int": [
+   0.34077,
+   0.46751,
+   0.19172
+  ],
+  "WNL Ways Facebook changed__adv": [
+   0.07671,
+   0.39273,
+   0.53056
+  ],
+  "WNL Wealth therapy__ele": [
+   0.94455,
+   0.05167,
+   0.00378
+  ],
+  "WNL Wealth therapy__int": [
+   0.81638,
+   0.14825,
+   0.03537
+  ],
+  "WNL Wealth therapy__adv": [
+   0.52754,
+   0.4227,
+   0.04976
+  ],
+  "WNL What is world's__ele": [
+   0.75729,
+   0.21894,
+   0.02378
+  ],
+  "WNL What is world's__int": [
+   0.04132,
+   0.45808,
+   0.5006
+  ],
+  "WNL What is world's__adv": [
+   0.00113,
+   0.21309,
+   0.78578
+  ],
+  "WNL What's the secret__ele": [
+   0.68044,
+   0.2503,
+   0.06926
+  ],
+  "WNL What's the secret__int": [
+   0.46496,
+   0.38752,
+   0.14751
+  ],
+  "WNL What's the secret__adv": [
+   0.07347,
+   0.49671,
+   0.42982
+  ],
+  "WNL Who can stop Trump__ele": [
+   0.23508,
+   0.63112,
+   0.1338
+  ],
+  "WNL Who can stop Trump__int": [
+   0.01596,
+   0.55965,
+   0.42439
+  ],
+  "WNL Who can stop Trump__adv": [
+   0.00639,
+   0.20307,
+   0.79054
+  ],
+  "WNL Who invented__ele": [
+   0.57755,
+   0.30425,
+   0.1182
+  ],
+  "WNL Who invented__int": [
+   0.05255,
+   0.30885,
+   0.6386
+  ],
+  "WNL Who invented__adv": [
+   0.01353,
+   0.23471,
+   0.75176
+  ],
+  "WNL Why are people so wrong__ele": [
+   0.80786,
+   0.18012,
+   0.01203
+  ],
+  "WNL Why are people so wrong__int": [
+   0.38502,
+   0.56572,
+   0.04926
+  ],
+  "WNL Why are people so wrong__adv": [
+   0.06008,
+   0.51038,
+   0.42954
+  ],
+  "WNL Why we should__ele": [
+   0.56062,
+   0.30576,
+   0.13362
+  ],
+  "WNL Why we should__int": [
+   0.06235,
+   0.31651,
+   0.62115
+  ],
+  "WNL Why we should__adv": [
+   0.00115,
+   0.0986,
+   0.90025
+  ],
+  "WNL Will drones__ele": [
+   0.84361,
+   0.12015,
+   0.03625
+  ],
+  "WNL Will drones__int": [
+   0.08365,
+   0.54485,
+   0.3715
+  ],
+  "WNL Will drones__adv": [
+   0.00742,
+   0.15186,
+   0.84072
+  ],
+  "WNL Winter__ele": [
+   0.8423,
+   0.12996,
+   0.02774
+  ],
+  "WNL Winter__int": [
+   0.4051,
+   0.387,
+   0.2079
+  ],
+  "WNL Winter__adv": [
+   0.01387,
+   0.24852,
+   0.7376
+  ],
+  "WNL Young Americans__ele": [
+   0.59349,
+   0.35684,
+   0.04967
+  ],
+  "WNL Young Americans__int": [
+   0.00702,
+   0.75466,
+   0.23831
+  ],
+  "WNL Young Americans__adv": [
+   0.00025,
+   0.29227,
+   0.70748
+  ],
+  "WNL are you a bad boyfriend__ele": [
+   0.59176,
+   0.35456,
+   0.05368
+  ],
+  "WNL are you a bad boyfriend__int": [
+   0.19773,
+   0.52196,
+   0.28031
+  ],
+  "WNL are you a bad boyfriend__adv": [
+   0.04132,
+   0.38192,
+   0.57675
+  ],
+  "WNL shark__ele": [
+   0.06525,
+   0.28751,
+   0.64724
+  ],
+  "WNL shark__int": [
+   0.37903,
+   0.45951,
+   0.16146
+  ],
+  "WNL shark__adv": [
+   0.36393,
+   0.42802,
+   0.20805
+  ],
+  "climate change__ele": [
+   0.62823,
+   0.31983,
+   0.05194
+  ],
+  "climate change__int": [
+   0.08704,
+   0.35864,
+   0.55433
+  ],
+  "climate change__adv": [
+   0.00112,
+   0.15149,
+   0.84739
+  ]
+ },
+ "accuracy_ci": [
+  0.6446,
+  0.7196
+ ],
+ "macro_f1_ci": [
+  0.6364,
+  0.7159
+ ],
+ "diff_accuracy": -0.030905077262693093,
+ "diff_accuracy_ci": [
+  -0.0619,
+  0.0
+ ],
+ "diff_macro_f1_ci": [
+  -0.0666,
+  0.001
+ ],
+ "p_diff_le_0": 0.9782,
+ "confusion": [
+  [
+   125,
+   22,
+   4
+  ],
+  [
+   31,
+   72,
+   48
+  ],
+  [
+   5,
+   34,
+   112
+  ]
+ ]
+}

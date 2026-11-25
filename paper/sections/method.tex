@@ -1,0 +1,58 @@
+\section{Data}
+\label{sec:data}
+
+OneStopEnglish \citep{vajjala2018onestop} contains 189 news articles from \textit{The Guardian}, each rewritten by teachers at onestopenglish.com at three levels (elementary, intermediate, advanced) for adult learners of English: 567 texts, 189 per level. We use the \texttt{Texts-SeparatedByReadingLevel} release.
+
+\paragraph{Corpus problems.}
+Inspecting the release before any modelling, we found two problems that published work does not mention.
+\textbf{(1) The intermediate files are damaged.} Every non-ASCII character---curly quotes, apostrophes, \pounds, accented letters---has been deleted from the 189 top-level intermediate files (\textit{what's} $\rightarrow$ \textit{whats}), and each begins with a line reading ``Intermediate''. The elementary and advanced files are intact (about 8 non-ASCII characters per 1,000 against 0 for intermediate). A model can therefore identify the intermediate class from punctuation alone; a character n-gram model would find this immediately. The folder also contains an undamaged nested copy (\texttt{Int-Txt/Int-Txt/}) whose wording matches the authors' CSV export; we use it.
+\textbf{(2) One text is duplicated.} \texttt{Royal Baby-ele.txt} is byte-identical to \texttt{Skydiver-ele.txt}; we rebuild the real elementary Royal Baby text from the CSV export (a procedure that reproduces the \texttt{.txt} files of other articles with a median token similarity of 1.00).
+
+\paragraph{Cleaning.}
+All texts are decoded (UTF-8 with or without BOM, one cp1252 file), Unicode NFKC-normalised (removing PDF ligatures such as \textit{ﬁ} that occur only in elementary and advanced texts), curly quotes are mapped to ASCII, whitespace is collapsed and paragraph breaks kept. We do not lowercase or remove stop words or punctuation; those choices belong to the feature extractors. After cleaning, mean length is 520, 662 and 805 words for the three levels.
+
+\paragraph{Article-grouped splits.}
+The three versions of an article share topic, names and much vocabulary, so all three always go to the same side of every split, with the file name (minus its level suffix) as the group ID. We checked that no two \emph{different} article names are versions of the same story (maximum TF-IDF cosine between articles 0.35). We hold out 38 randomly chosen articles (114 texts) as a test set, used once at the end. The remaining 151 articles (453 texts) are split into 5 folds with scikit-learn's \texttt{GroupKFold} \citep{pedregosa2011scikit}; every model choice is made on these folds. For the split check (\S\ref{sec:split}) we also build ordinary \texttt{StratifiedKFold} folds over the same 453 texts: under these, 98\% of validation texts have another version of their article in the training data.
+
+\section{Method}
+\label{sec:method}
+
+\subsection{Systems}
+
+\paragraph{Baselines.}
+(1) \textbf{Majority class}, 33.3\% since the classes are balanced.
+(2) \textbf{Length only}: the number of words.
+(3) \textbf{Flesch-Kincaid}: we compute the grade level \citep{kincaid1975derivation} ourselves,
+\[ \textrm{FKGL} = 0.39\,\tfrac{\textrm{words}}{\textrm{sentences}} + 11.8\,\tfrac{\textrm{syllables}}{\textrm{words}} - 15.59, \]
+counting syllables with the CMU Pronouncing Dictionary in NLTK \citep{bird2009nltk} (97.3\% of word tokens covered) and a vowel-group rule for the rest. Both one-number baselines map the score to three levels with two cut-offs chosen to maximise training accuracy, searched exhaustively over all midpoints between observed values.
+
+\paragraph{Feature classifier (main system).}
+We implement 27 features in six groups (Table~\ref{tab:features}). Words are NLTK tokens containing letters; sentences come from the NLTK sentence splitter applied within paragraphs; POS tags and dependency parses from spaCy \texttt{en\_core\_web\_sm} 3.8 \citep{honnibal2020spacy}; word frequencies from \texttt{wordfreq} \citep{speer2022wordfreq}. Every feature is an average, rate or ratio, so none grows with text length except the longest-sentence feature. Following the proposal, type-token ratio is computed on a fixed window (the first 100 words), with the mean segmental TTR over consecutive 100-word windows as a more stable variant. Raw word count is deliberately \emph{not} a feature of the main system, so that it measures linguistic properties rather than how much the editors cut. The classifier is a multinomial logistic regression on standardised features, with the L2 penalty $C \in \{0.001, \dots, 10\}$ chosen by an inner 5-fold article-grouped CV on each training split.
+
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lp{5.6cm}@{}}
+\toprule
+Group & Features \\
+\midrule
+Word length (3) & mean syllables/word; \% words with 3+ syllables; mean characters/word \\
+Sentence length (3) & mean, maximum and SD of words/sentence \\
+Vocabulary (3) & \% words outside the 3,000 most frequent; mean Zipf frequency; \% words with Zipf $<3$ \\
+Lexical variation (8) & TTR of first 100 words; mean segmental TTR (100); noun, verb, adjective, adverb, proper-noun ratios; lexical density \\
+Syntax (5) & mean max dependency depth; clausal dependents (advcl, ccomp, csubj, acl, relcl) per sentence; passive-sentence rate; mean dependency distance; noun premodifiers per noun \\
+Discourse (5) & connectives per sentence, total and for contrast, cause, addition and time (47-item list we compiled) \\
+\bottomrule
+\end{tabular}
+\caption{The 27 features of the main system.}
+\label{tab:features}
+\end{table}
+
+\paragraph{Strong comparison.}
+A linear SVM over TF-IDF-weighted character 2- to 5-grams (sublinear term frequency, case preserved, minimum document frequency 2), the strongest single feature set of \citet{vajjala2018onestop}, with $C \in \{0.1, 1, 10, 100\}$ tuned as above.
+
+\subsection{Pairwise ranking}
+Each article gives three level pairs (E--I, I--A, E--A); presenting each in both orders gives 1,134 balanced examples. Following the feature-difference formulation, we standardise the 27 features on the training texts and train a logistic regression without intercept on the difference of the two vectors to predict whether the first text is harder ($C$ tuned by inner grouped CV over articles). Pairs inherit their article's split and fold. We compare it with three rankers that need no pair training: the longer text, the higher Flesch-Kincaid grade, and the higher expected level $\sum_k k\,p(k \mid x)$ under the three-class model. Because within-article pairs turn out to be near ceiling, we also score all pairs of texts from \emph{different} articles with different levels inside each validation fold (13,230 pairs over the 5 folds; 4,218 on the test set) and on the test set.
+
+\subsection{Evaluation}
+We report accuracy and macro-F1 from out-of-fold predictions on the 453 development texts, and accuracy on the test set after retraining on all development articles. Because the three versions of an article are not independent, 95\% confidence intervals come from an article-level bootstrap \citep{efron1993bootstrap}: 10,000 resamples of articles with replacement, keeping each article's texts together. Differences between systems use the paired version (both systems scored on the same resampled articles).

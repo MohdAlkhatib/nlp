@@ -26,7 +26,8 @@ CV, TEST = ROOT / "results" / "cv", ROOT / "results" / "test"
 FIG, TAB = ROOT / "paper" / "figures", ROOT / "paper" / "tables"
 LEVEL_NAMES = ["Elementary", "Intermediate", "Advanced"]
 SYSTEM_NAMES = {"majority": "Majority class", "length": "Length only", "flesch_kincaid": "Flesch-Kincaid",
-                "features_lr": "Feature LR (ours)", "char_ngram_svm": "Char n-gram SVM"}
+                "features_lr": "Feature LR (ours)", "features_lr_plus_length": "Feature LR + word count",
+                "char_ngram_svm": "Char n-gram SVM"}
 RANK_NAMES = {"length": "Longer text", "flesch_kincaid": "Higher FK grade",
               "classifier": "3-class LR (expected level)", "pairwise_lr": "Pairwise LR (ours)"}
 
@@ -50,8 +51,9 @@ def ci(c) -> str:
     return f"[{pct(c[0])}, {pct(c[1])}]"
 
 
-def signed(x: float) -> str:
-    return f"{100 * x:+.1f}".replace("-", "$-$")
+def signed(x: float, tex: bool = True) -> str:
+    s = f"{100 * x:+.1f}"
+    return s.replace("-", "$-$") if tex else s
 
 
 def savefig(fig, name: str) -> None:
@@ -91,7 +93,7 @@ def systems_table(md: list[str]) -> None:
         md += ["Paired article-level bootstrap on the test set (main system minus other):", ""]
         for key, t in test.items():
             if "diff_accuracy" in t:
-                md.append(f"- vs {SYSTEM_NAMES[key]}: {signed(t['diff_accuracy'])} points "
+                md.append(f"- vs {SYSTEM_NAMES[key]}: {signed(t['diff_accuracy'], tex=False)} points "
                           f"{ci(t['diff_accuracy_ci'])}, P(main not better) = {t['p_main_not_better']:.3f}")
         md.append("")
 
@@ -121,10 +123,10 @@ def ablation_table(md: list[str]) -> pd.DataFrame:
               + "\n".join(lines) + "\n\\bottomrule\n\\end{tabular}\n")
     md += ["## Ablation (grouped CV accuracy %)", "",
            "| Group | # feats | Alone | All but this | Δ vs all [95% CI] |", "|---|---|---|---|---|"]
-    md += [f"| {r.group} | {r.n} | {pct(r.alone)} | {pct(r.without)} | {signed(r.drop)} {ci(r.drop_ci)} |"
+    md += [f"| {r.group} | {r.n} | {pct(r.alone)} | {pct(r.without)} | {signed(r.drop, tex=False)} {ci(r.drop_ci)} |"
            for r in df.itertuples()]
     md += [f"| All groups | {len(feature_columns(data))} | {pct(full['accuracy'])} | – | – |",
-           f"| All + word count | | {pct(plus['accuracy'])} | – | {signed(plus['diff_accuracy'])} "
+           f"| All + word count | | {pct(plus['accuracy'])} | – | {signed(plus['diff_accuracy'], tex=False)} "
            f"{ci(plus['diff_accuracy_ci'])} |", ""]
     return df
 
@@ -143,30 +145,34 @@ def split_table(md: list[str]) -> pd.DataFrame:
                           for r in df.itertuples())
               + "\n\\bottomrule\n\\end{tabular}\n")
     md += ["## Split check (dev CV accuracy %)", "", "| System | Grouped | Stratified | Δ [95% CI] |", "|---|---|---|---|"]
-    md += [f"| {r.name} | {pct(r.grouped)} | {pct(r.stratified)} | {signed(r.diff)} {ci(r.diff_ci)} |"
+    md += [f"| {r.name} | {pct(r.grouped)} | {pct(r.stratified)} | {signed(r.diff, tex=False)} {ci(r.diff_ci)} |"
            for r in df.itertuples()]
     md.append("")
     return df
 
 
 def ranking_table(md: list[str]) -> None:
-    cv = load(CV / "ranking.json")
-    test = load(TEST / "ranking.json") if (TEST / "ranking.json").exists() else {}
     order = ["length", "flesch_kincaid", "classifier", "pairwise_lr"]
+    keys = ["ele-int", "int-adv", "ele-adv", "overall"]
+    within, cross = load(CV / "ranking.json"), load(CV / "ranking_cross_article.json")
+    t_within = load(TEST / "ranking.json") if (TEST / "ranking.json").exists() else {}
+    t_cross = load(TEST / "ranking_cross_article.json") if (TEST / "ranking_cross_article.json").exists() else {}
     lines, mlines = [], []
     for m in order:
-        c, t = cv[m], test.get(m)
         name = RANK_NAMES[m] if m != "pairwise_lr" else f"\\textbf{{{RANK_NAMES[m]}}}"
-        cells = " & ".join(pct(c[k]) for k in ["ele-int", "int-adv", "ele-adv", "overall"])
-        lines.append(f"{name} & {cells} & {pct(t['overall']) if t else '--'} \\\\")
-        mlines.append(f"| {RANK_NAMES[m]} | " + " | ".join(pct(c[k]) for k in ["ele-int", "int-adv", "ele-adv", "overall"])
-                      + f" | {pct(t['overall']) if t else '–'} |")
-    write_tex("ranking", "\\begin{tabular}{lccccc}\n\\toprule\n"
-              " & \\multicolumn{4}{c}{Dev, grouped CV} & Test \\\\\n\\cmidrule(lr){2-5}\\cmidrule(lr){6-6}\n"
-              "Ranker & E--I & I--A & E--A & All & All \\\\\n\\midrule\n"
+        test_cells = [pct(t[m]["overall"]) if t else "--" for t in (t_within, t_cross)]
+        cells = [pct(within[m][k]) for k in keys] + [pct(cross[m][k]) for k in keys] + test_cells
+        lines.append(f"{name} & " + " & ".join(cells) + " \\\\")
+        mlines.append(f"| {RANK_NAMES[m]} | " + " | ".join(c.replace("--", "–") for c in cells) + " |")
+    write_tex("ranking", "\\begin{tabular}{lcccccccccc}\n\\toprule\n"
+              " & \\multicolumn{4}{c}{Same article (dev CV)} & \\multicolumn{4}{c}{Different articles (dev CV)}"
+              " & \\multicolumn{2}{c}{Test, all pairs} \\\\\n"
+              "\\cmidrule(lr){2-5}\\cmidrule(lr){6-9}\\cmidrule(lr){10-11}\n"
+              "Ranker & E--I & I--A & E--A & All & E--I & I--A & E--A & All & Same & Diff. \\\\\n\\midrule\n"
               + "\n".join(lines) + "\n\\bottomrule\n\\end{tabular}\n")
-    md += ["## Pairwise ranking accuracy (%)", "", "| Ranker | E–I | I–A | E–A | All (CV) | All (test) |",
-           "|---|---|---|---|---|---|", *mlines, ""]
+    md += ["## Pairwise ranking accuracy (%)", "",
+           "| Ranker | Same art. E–I | I–A | E–A | All | Diff. art. E–I | I–A | E–A | All | Test same | Test diff. |",
+           "|---|---|---|---|---|---|---|---|---|---|---|", *mlines, ""]
 
 
 def coef_table(md: list[str]) -> None:
@@ -200,7 +206,7 @@ def fig_ablation(df: pd.DataFrame) -> None:
     axes[0].set_xlim(0, 85)
     axes[0].set_xlabel("Accuracy with this group alone (%)")
     err2 = np.array([[r.drop - r.drop_ci[0], r.drop_ci[1] - r.drop] for r in df.itertuples()]).T
-    axes[1].barh(y, 100 * df.drop, xerr=100 * err2, color=ORANGE, height=0.6, error_kw={"lw": 0.8})
+    axes[1].barh(y, 100 * df["drop"], xerr=100 * err2, color=ORANGE, height=0.6, error_kw={"lw": 0.8})
     axes[1].axvline(0, color="black", lw=0.6)
     axes[1].set_xlabel("Change when this group is removed (points)")
     axes[0].set_yticks(y, df.group)
@@ -246,19 +252,22 @@ def fig_confusion() -> None:
 
 
 def fig_ranking() -> None:
-    cv = load(CV / "ranking.json")
     order = ["length", "flesch_kincaid", "classifier", "pairwise_lr"]
     colors = [GREY, ORANGE, GREEN, BLUE]
     types = ["ele-int", "int-adv", "ele-adv"]
-    fig, ax = plt.subplots(figsize=(COL_W, 1.9))
-    x = np.arange(len(types))
-    w = 0.2
-    for i, (m, c) in enumerate(zip(order, colors)):
-        ax.bar(x + (i - 1.5) * w, [100 * cv[m][t] for t in types], w, color=c, label=RANK_NAMES[m])
-    ax.set_xticks(x, ["Ele vs Int", "Int vs Adv", "Ele vs Adv"])
-    ax.set_ylim(50, 100)
-    ax.set_ylabel("Pairs ordered correctly (%)")
-    ax.legend(fontsize=6.5, loc="upper left", ncol=2)
+    fig, axes = plt.subplots(1, 2, figsize=(COL_W * 2, 1.9), sharey=True)
+    for ax, (title, f) in zip(axes, [("Same article", "ranking.json"),
+                                     ("Different articles", "ranking_cross_article.json")]):
+        cv = load(CV / f)
+        x = np.arange(len(types))
+        w = 0.2
+        for i, (m, c) in enumerate(zip(order, colors)):
+            ax.bar(x + (i - 1.5) * w, [100 * cv[m][t] for t in types], w, color=c, label=RANK_NAMES[m])
+        ax.set_xticks(x, ["Ele vs Int", "Int vs Adv", "Ele vs Adv"])
+        ax.set_ylim(50, 100)
+        ax.set_title(title)
+    axes[0].set_ylabel("Pairs ordered correctly (%)")
+    axes[1].legend(fontsize=6.5, loc="lower right", ncol=2)
     savefig(fig, "ranking")
 
 
