@@ -221,10 +221,14 @@ def fig_splitcheck(df: pd.DataFrame) -> None:
                                            (w / 2, "stratified", "s_ci", ORANGE, "Ordinary stratified folds")]:
         err = np.array([[r[col] - r[ci_col][0], r[ci_col][1] - r[col]] for _, r in df.iterrows()]).T
         ax.bar(x + off, 100 * df[col], w, yerr=100 * err, color=color, label=label, error_kw={"lw": 0.8})
-    ax.set_xticks(x, [n.replace(" (ours)", "").replace("Char n-gram SVM", "Char SVM") for n in df.name])
+    short = {"length": "Length\nonly", "flesch_kincaid": "Flesch-\nKincaid", "features_lr": "Feature\nLR (ours)",
+             "char_ngram_svm": "Char\nSVM"}
+    ax.set_xticks(x, [short[k] for k in df.key])
+    ax.axhline(100 / 3, color=GREY, ls=":", lw=0.8)
+    ax.text(len(df) - 0.5, 100 / 3 + 1.5, "chance", color=GREY, fontsize=6.5, ha="right")
     ax.set_ylabel("Dev CV accuracy (%)")
     ax.set_ylim(0, 100)
-    ax.legend(loc="upper left", ncol=2, fontsize=7)
+    ax.legend(loc="upper left", ncol=2, fontsize=6.5)
     savefig(fig, "splitcheck")
 
 
@@ -267,7 +271,8 @@ def fig_ranking() -> None:
         ax.set_ylim(50, 100)
         ax.set_title(title)
     axes[0].set_ylabel("Pairs ordered correctly (%)")
-    axes[1].legend(fontsize=6.5, loc="lower right", ncol=2)
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", ncol=4, fontsize=7, bbox_to_anchor=(0.5, 1.12))
     savefig(fig, "ranking")
 
 

@@ -6,8 +6,11 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{microtype}
+% ACL recommends inconsolata; fall back to Latin Modern mono where it is not installed
+\IfFileExists{inconsolata.sty}{\usepackage{inconsolata}}{\renewcommand{\ttdefault}{lmtt}}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{array}
 \usepackage{amsmath}
 
 \title{How Far Do Hand-Built Linguistic Features Go?\\Reading-Level Classification on OneStopEnglish\\under Article-Grouped Evaluation}
@@ -19,9 +22,14 @@
 \begin{document}
 \maketitle
 
-%% ABSTRACT %%
+\begin{abstract}
+We ask whether interpretable linguistic features that we implement ourselves can classify news texts as elementary, intermediate or advanced better than a readability formula, and which features carry the signal. On OneStopEnglish, with all three versions of each article kept on the same side of every split, a logistic regression over 27 features in six groups reaches 71.3\% accuracy in cross-validation and 70.2\% on a held-out test set, 14--20 points above Flesch-Kincaid and on a par with a character n-gram SVM. Sentence length and syntax are the strongest groups alone; word frequency is the only group whose removal clearly hurts. Errors concentrate on the intermediate level and stem from difficulty varying more between articles than between levels. Contrary to our expectation, ordinary stratified folds, which put an article's other versions in training, do not inflate accuracy: they lower it, and push a character n-gram model below chance, because those versions always carry a different label. Ranking the versions of one article is near-trivial (98--100\% even for text length alone), while ranking texts across articles is not. We also find that the public release's intermediate files have their punctuation stripped, which leaks the label, and release a cleaned corpus with fixed splits.
+\end{abstract}
 
-%% BODY %%
+\input{sections/intro}
+\input{sections/method}
+\input{sections/results}
+\input{sections/discussion}
 
 \bibliography{references}
 

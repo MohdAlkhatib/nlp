@@ -30,9 +30,9 @@ counting syllables with the CMU Pronouncing Dictionary in NLTK \citep{bird2009nl
 We implement 27 features in six groups (Table~\ref{tab:features}). Words are NLTK tokens containing letters; sentences come from the NLTK sentence splitter applied within paragraphs; POS tags and dependency parses from spaCy \texttt{en\_core\_web\_sm} 3.8 \citep{honnibal2020spacy}; word frequencies from \texttt{wordfreq} \citep{speer2022wordfreq}. Every feature is an average, rate or ratio, so none grows with text length except the longest-sentence feature. Following the proposal, type-token ratio is computed on a fixed window (the first 100 words), with the mean segmental TTR over consecutive 100-word windows as a more stable variant. Raw word count is deliberately \emph{not} a feature of the main system, so that it measures linguistic properties rather than how much the editors cut. The classifier is a multinomial logistic regression on standardised features, with the L2 penalty $C \in \{0.001, \dots, 10\}$ chosen by an inner 5-fold article-grouped CV on each training split.
 
 \begin{table}[t]
-\centering\small
-\setlength{\tabcolsep}{4pt}
-\begin{tabular}{@{}lp{5.6cm}@{}}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{4.55cm}@{}}
 \toprule
 Group & Features \\
 \midrule

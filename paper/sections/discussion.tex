@@ -1,0 +1,22 @@
+\section{Discussion}
+
+\paragraph{Where our system sits.}
+With 27 features, our classifier (70--71\%) sits just below the feature sets of similar size reported by \citet{vajjala2018onestop}: 72.5\% for 29 lexical-variation and POS features and 73.9\% for 28 syntactic ones. Adding the word count (78--79\%) brings it level with their 155-feature SVM (78.1\%) and the 255-feature logistic regression of \citet{lee2021pushing} (77.8\%). These comparisons are approximate: the protocols, folds and feature definitions differ, and the published numbers do not use article-grouped splits.
+
+\paragraph{What reaching the top would take.}
+Three things separate us from the strongest published results. First, length: on OneStopEnglish the levels differ in how much content survives editing, and any system that sees text length directly or indirectly (character n-grams, neural models reading the whole text) can use it. Second, more features: the 155- and 255-feature systems cover many feature types beyond our six groups, and matching them would mean implementing a large share of those. Third, the hybrid RoBERTa system of \citet{lee2021pushing} reaches 99.0\%, far above everything else. We cannot explain that gap. Our split check suggests it is not caused by shared articles across folds. We note, without having tested it, that the damaged intermediate files we found (\S\ref{sec:data}) would let any model that sees raw characters identify the intermediate class from punctuation; it would be worth checking which files such systems were trained on.
+
+\paragraph{Classification versus ranking.}
+Ranking the versions of one article and classifying a text on its own are very different problems on this corpus. The first is close to solved by text length alone; the second is limited by how much difficulty varies between stories, which no level-independent feature can remove. For practical use---placing an unseen text on a scale---the cross-article results are the relevant ones, and there a model trained on absolute levels beat one trained on within-article pairs.
+
+\section{Conclusion}
+
+On OneStopEnglish under article-grouped evaluation, 27 interpretable features we implemented ourselves classify texts as elementary, intermediate or advanced with 70--71\% accuracy, 14--20 points better than Flesch-Kincaid and on a par with a character n-gram SVM. Sentence length and syntax carry the most signal on their own, and word frequency is the only group whose removal clearly hurts. Most errors involve the intermediate level and arise because difficulty varies more between articles than between levels. Contrary to our expectation, letting an article's other versions into training lowers accuracy, because those versions always carry a different label. Finally, the public corpus release has intermediate files with their punctuation stripped, which leaks the label; we release a cleaned version, fixed splits and all code.
+
+\section*{Limitations}
+
+We evaluate on a single corpus of 189 articles. The test set has 38 articles, so test intervals are wide (about $\pm$8 points) and differences of a few points between systems are not reliable; we planned a cross-corpus test on CLEAR \citep{crossley2023clear} but did not run it. Our syntactic features come from spaCy's small English model, whose parses of simplified news text we did not check by hand. The connective list is our own and covers only frequent single- and multi-word connectives. Hyper-parameter tuning was limited to the regularisation strength. Finally, our conclusion that shared articles deflate rather than inflate accuracy depends on a property specific to parallel corpora like OneStopEnglish (every sibling has a different label); on corpora where related texts can share a label, the effect may reverse.
+
+\section*{Team Contributions}
+
+\textbf{[TODO: describe who did what, and disclose any use of AI assistance as your course policy requires.]}
